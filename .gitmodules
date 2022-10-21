@@ -1,6 +1,3 @@
-[submodule "ExpansionHunterDenovo-LRDN"]
-	path = ExpansionHunterDenovo-LRDN
-	url = https://github.com/rashidalabri/ExpansionHunterDenovo-LRDN
 [submodule "ehdn-lrdn-tool"]
 	path = ehdn-lrdn-tool
 	url = https://github.com/rashidalabri/ExpansionHunterDenovo-LRDN
