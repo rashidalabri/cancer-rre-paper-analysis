@@ -1,0 +1,4 @@
+case_PCAWG.51265f7f-31de-4c0d-a28a-2e44c21b0f25.bam case /home/ubuntu/v094_results/Bone-Leiomyo/str-profiles/PCAWG.51265f7f-31de-4c0d-a28a-2e44c21b0f25.bam.str_profile.json
+case_PCAWG.c64f354a-28c8-4e92-b5e3-62e1bfaabe25.bam case /home/ubuntu/v094_results/Skin-Melanoma/str-profiles/PCAWG.c64f354a-28c8-4e92-b5e3-62e1bfaabe25.bam.str_profile.json
+control_PCAWG.8ccbd7dd-63b4-49a3-a7d4-6dcae0b522f4.bam control /home/ubuntu/v094_results/Lung-SCC/str-profiles/PCAWG.8ccbd7dd-63b4-49a3-a7d4-6dcae0b522f4.bam.str_profile.json
+control_PCAWG.df2657f0-92fd-4a7f-92c5-994453b5a52b.bam control /home/ubuntu/v094_results/Lung-AdenoCA/str-profiles/PCAWG.df2657f0-92fd-4a7f-92c5-994453b5a52b.bam.str_profile.json
