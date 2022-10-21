@@ -1,10 +1,10 @@
 # don't commit big input files to repo
-data/input/pcawg.rnaseq.transcript.expr.tpm.tsv
-data/input/pcawg.rnaseq.transcript.expr.counts.tsv
+analysis/data/input/pcawg.rnaseq.transcript.expr.tpm.tsv
+analysis/data/input/pcawg.rnaseq.transcript.expr.counts.tsv
 
 # don't commit output data and plots
-data/output/
-data/plot/
+analysis/data/output/
+analysis/data/plot/
 
 # jupyter
-.ipynb_checkpoints/
+.ipynb_checkpoints
