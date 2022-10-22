@@ -1,0 +1,24 @@
+name: cancer-rre
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - seaborn=0.11.2
+  - r-essentials
+  - r-base
+  - r-irkernel
+  - openpyxl
+  - statsmodels
+  - scikit-learn
+  - bioconductor-deseq2
+  - biopython
+  - pytables
+  - lifelines
+  - snakemake
+  - wgsim
+  - pysam
+  - pyliftover
+  - bedtools
