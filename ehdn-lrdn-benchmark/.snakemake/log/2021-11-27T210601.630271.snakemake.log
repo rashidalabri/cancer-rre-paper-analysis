@@ -1,5 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 113 of /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/Snakefile:
-Missing input files for rule simulate_base_reads_target:
-data/input/fastq/base.read2.fastq
-data/input/fastq/base.read1.fastq
