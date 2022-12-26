@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+ehdn_profile        1              1              1
+total               1              1              1
+
+Select jobs to execute...
+
+[Sat Nov 27 22:41:51 2021]
+rule ehdn_profile:
+    input: data/input/bam/4.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/4.str_profile.json
+    jobid: 0
+    wildcards: n=4
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28714892
+
+[Sat Nov 27 22:42:49 2021]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/log/2021-11-27T224149.359652.snakemake.log

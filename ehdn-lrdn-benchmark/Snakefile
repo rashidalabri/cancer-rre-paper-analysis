@@ -1,0 +1,175 @@
+import pandas as pd
+import Path from pathlib
+
+if Path.exists('data/input/repeats.csv'):
+    REPEATS = pd.read_csv('data/input/repeats.csv').set_index('index')
+else:
+    REPEATS = pd.DataFrame()
+
+COVERAGE = 30
+MAX_AMPLIFY = 10
+
+# Run this rule separately from the rest of the workflow to resample repeats
+rule sample_repeats:
+    input:
+        "data/input/variant_catalog.json"
+    output:
+        "data/input/repeats.csv"
+    script:
+        "scripts/sample_repeats.py"
+
+rule make_repeat_ref_target:
+    input:
+        expand("data/input/fasta/{repeat}.fasta", repeat=REPEATS.index)
+
+rule make_repeat_ref:
+    input:
+        ref="data/input/chr1.fa",
+        repeats="data/input/repeats.csv"
+    output:
+        "data/input/fasta/{repeat}.fasta"
+    script:
+        "scripts/make_repeat_fasta.py"
+
+rule simulate_repeat_reads_target:
+    input:
+        expand("data/input/fastq/{repeat}/{n}.read1.fastq", repeat=REPEATS.index, n=range(MAX_AMPLIFY + 1)),
+        expand("data/input/fastq/{repeat}/{n}.read2.fastq", repeat=REPEATS.index, n=range(MAX_AMPLIFY + 1))
+
+rule simulate_repeat_reads:
+    input:
+        "data/input/fasta/{repeat}.fasta"
+    params:
+        n_reads=lambda wildcards: int(wildcards['n']) * COVERAGE * 2350 // 100
+    output:
+        "data/input/fastq/{repeat}/{n}.read1.fastq",
+        "data/input/fastq/{repeat}/{n}.read2.fastq"
+    shell:
+        "wgsim -N {params.n_reads} -1 100 -2 100 {input} {output[0]} {output[1]}"
+
+rule make_chr_ref:
+    input:
+        ref="data/input/chr1.fa",
+        repeats="data/input/repeats.csv"
+    output:
+        "data/input/fasta/chr1_new.fasta"
+    script:
+        "scripts/make_chr_fasta.py"
+
+rule simulate_base_reads_target:
+    input:
+        "data/input/fastq/base.read1.fastq",
+        "data/input/fastq/base.read2.fastq"
+
+rule simulate_base_reads:
+    input:
+        "data/input/fasta/chr1_new.fasta"
+    params:
+        n_reads=lambda wildcards: COVERAGE * 970899753 // 100
+    output:
+        "data/input/fastq/base.read1.fastq",
+        "data/input/fastq/base.read2.fastq"
+    shell:
+        "wgsim -N {params.n_reads} -1 100 -2 100 {input} {output[0]} {output[1]} > /dev/null"
+
+rule amplify_base_target:
+    input:
+        expand("data/input/fastq_merged/{n}.read1.fastq", n=range(MAX_AMPLIFY + 1)),
+        expand("data/input/fastq_merged/{n}.read2.fastq", n=range(MAX_AMPLIFY + 1))
+
+rule amplify_base:
+    input:
+        base_1="data/input/fastq/base.read1.fastq",
+        base_2="data/input/fastq/base.read2.fastq",
+        amplify_1=expand("data/input/fastq/{repeat}/{{n}}.read1.fastq", repeat=REPEATS.index),
+        amplify_2=expand("data/input/fastq/{repeat}/{{n}}.read2.fastq", repeat=REPEATS.index)
+    output:
+        read1="data/input/fastq_merged/{n}.read1.fastq",
+        read2="data/input/fastq_merged/{n}.read2.fastq"
+    shell:
+        "cat {input.base_1} {input.amplify_1} > {output.read1} &&"
+        "cat {input.base_2} {input.amplify_2} > {output.read2}"
+
+rule align_target:
+    input:
+        expand("data/input/bam/{n}.bam", n=range(MAX_AMPLIFY + 1))
+
+rule index_ref:
+    input:
+        "data/input/chr1.fa"
+    output:
+        "data/input/chr1.fa.amb",
+        "data/input/chr1.fa.ann",
+        "data/input/chr1.fa.pac",
+        "data/input/chr1.fa.bwt",
+        "data/input/chr1.fa.sa"
+    envmodules: "bwa"
+    resources:
+        mem=16
+    shell:
+        "bwa index {input}"
+
+rule align:
+    input:
+        ref="data/input/chr1.fa",
+        ref_index=rules.index_ref.output,
+        read1="data/input/fastq_merged/{n}.read1.fastq",
+        read2="data/input/fastq_merged/{n}.read2.fastq"
+    output:
+        "data/input/bam/{n}.bam"
+    threads: 8
+    envmodules:
+        "bwa",
+        "samtools"
+    resources:
+        mem=16
+    shell:
+        "bwa mem -t {threads} {input.ref} {input.read1} {input.read2} | samtools view -b - > {output}"
+        
+rule ehdn_profile_target:
+    input:
+        expand("data/output/{n}.str_profile.json", n=range(MAX_AMPLIFY + 1))
+    
+rule ehdn_profile:
+    input:
+        bam="data/input/sorted/{n}.bam",
+        bai="data/input/sorted/{n}.bam.bai",
+        ref="data/input/chr1.fa"
+    params:
+        prefix=lambda wildcards: f"data/output/{wildcards['n']}"
+    output:
+        "data/output/{n}.str_profile.json"
+    envmodules: "expansionhunterdenovo/0.9.0"
+    resources:
+        mem=8
+    shell:
+        "ExpansionHunterDenovo profile "
+        "--reads {input.bam} "
+        "--reference {input.ref} "
+        "--output-prefix {params.prefix} "
+        "--min-anchor-mapq 50 "
+        "--max-irr-mapq 60"
+
+rule index_bam:
+    input:
+        "data/input/sorted/{n}.bam"
+    output:
+        "data/input/sorted/{n}.bam.bai"
+    threads: 8
+    envmodules: "samtools"
+    resources:
+        mem=8
+    shell:
+        "samtools index -@ {threads} {input} {output}"
+        
+rule sort_bam:
+    input:
+        "data/input/bam/{n}.bam"
+    output:
+        "data/input/sorted/{n}.bam"
+    threads: 4
+    envmodules: "samtools"
+    resources:
+        mem=8
+    shell:
+        "samtools sort -@ {threads} {input} > {output}"

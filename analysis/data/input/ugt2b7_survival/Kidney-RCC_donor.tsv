@@ -1,0 +1,1552 @@
+icgc_donor_id	project_code	study_donor_involved_in	submitted_donor_id	donor_sex	donor_vital_status	disease_status_last_followup	donor_relapse_type	donor_age_at_diagnosis	donor_age_at_enrollment	donor_age_at_last_followup	donor_relapse_interval	donor_diagnosis_icd10	donor_tumour_staging_system_at_diagnosis	donor_tumour_stage_at_diagnosis	donor_tumour_stage_at_diagnosis_supplemental	donor_survival_time	donor_interval_of_last_followup	prior_malignancy	cancer_type_prior_malignancy	cancer_history_first_degree_relative
+DO47068	RECA-EU	PCAWG	C0036	male	deceased			48	48			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	1685	1685	unknown		unknown
+DO47064	RECA-EU	PCAWG	C0034	female	alive	complete remission		49	49	51		C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	1432	1432	unknown		unknown
+DO47072	RECA-EU	PCAWG	C0038	male	deceased			64	64			C64	TNM 2010 (7th edition)	T2N0M0	T2bN0M0	789	789	unknown		unknown
+DO47056	RECA-EU	PCAWG	C0028	male	alive			54	54			C64	TNM 2010 (7th edition)	T3N0M0	T3aN0M0	2104	2104	unknown		unknown
+DO47060	RECA-EU	PCAWG	C0030	male	alive			68	68			C64	TNM 2010 (7th edition)	T1NXM0	T1bNXMX	1942	1942	unknown		unknown
+DO47048	RECA-EU	PCAWG	C0024	female	alive			59	59			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	1932	1932	unknown		unknown
+DO47044	RECA-EU		C0115	male	alive			64	64			C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	731	731	unknown		unknown
+DO47052	RECA-EU	PCAWG	C0026	female	alive			66	66			C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	1686	1686	unknown		unknown
+DO47036	RECA-EU		C0109	male	alive			47	47			C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	1959	1959	unknown		unknown
+DO47032	RECA-EU		C0107	male	deceased			75	75			C64	TNM 2010 (7th edition)	T1NXM0	T1bNXMX	1882	1882	unknown		unknown
+DO47040	RECA-EU		C0113	male	alive			52	52			C64	TNM 2010 (7th edition)	T3N0MX	T3bNXMX	2012	2012	unknown		unknown
+DO47028	RECA-EU		C0105	male	alive			67	67			C64	TNM 2010 (7th edition)	T1NXM0	T1aNXMX	2128	2128	unknown		unknown
+DO49688	KIRC-US		TCGA-A3-A8CQ	female	alive	complete remission		59		59		C64.9					3	unknown		unknown
+DO47024	RECA-EU		C0103	male	alive			44	44			C64	TNM 2010 (7th edition)	T1NXM0	T1bNXMX	2271	2271	unknown		unknown
+DO47020	RECA-EU		C0101	male	deceased			60	60			C64	TNM 2010 (7th edition)	T2N0M0	T2aNXMX	1923	1923	unknown		unknown
+DO49690	KIRC-US		TCGA-A3-A8OX	female	alive	complete remission		65		65		C64.9					0	unknown		unknown
+DO47016	RECA-EU	PCAWG	C0099	male	alive			51	51			C64	TNM 2010 (7th edition)	T1N0M0	T1bNXMX	1976	1976	unknown		unknown
+DO47012	RECA-EU	PCAWG	C0097	male	deceased			62	62			C64	TNM 2010 (7th edition)	T1NXM0	T1aNXMX	415	415	unknown		unknown
+DO47008	RECA-EU		C0093	female	alive			53	53			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	1638	1638	unknown		unknown
+DO47004	RECA-EU	PCAWG	C0091	male	deceased	complete remission		46	46	47		C64	TNM 2010 (7th edition)	T1N0M0	T1bNXMX	221	221	unknown		unknown
+DO47000	RECA-EU	PCAWG	C0085	female	alive			43	43			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	2121	2121	unknown		unknown
+DO50650	KIRC-US		TCGA-G6-A8L7	female	alive	complete remission		81		85		C64.9					1727	unknown		unknown
+DO50651	KIRC-US		TCGA-MM-A563	male	alive	complete remission		41		41		C64.9					268	unknown		unknown
+DO50652	KIRC-US		TCGA-MM-A564	male	alive	complete remission		68		68		C64.9					234	unknown		unknown
+DO50653	KIRC-US		TCGA-MM-A84U	female	alive	complete remission		58		58		C64.9					337	unknown		unknown
+DO50654	KIRC-US		TCGA-MW-A4EC	female	alive	complete remission		72		72		C64.9					330	unknown		unknown
+DO50649	KIRC-US		TCGA-G6-A8L6	male	alive	progression		55		55		C64.9					305	unknown		unknown
+DO219714	KIRP-US		TCGA-UZ-A9PZ	male	alive	complete remission		64		64		C64.1					0	unknown		unknown
+DO219712	KIRP-US		TCGA-UZ-A9PX	male	alive	complete remission		72		74		C64.1					833	unknown		unknown
+DO219711	KIRP-US		TCGA-UZ-A9PV	male	alive	complete remission		64		66		C64.1					781	unknown		unknown
+DO219717	KIRP-US		TCGA-V9-A7HT	male	alive	complete remission		67		69		C64.1					965	unknown		unknown
+DO219716	KIRP-US		TCGA-UZ-A9Q1	female	alive	complete remission		88		88		C64.1					0	unknown		unknown
+DO219715	KIRP-US		TCGA-UZ-A9Q0	male	alive			60		61		C64.1					395	unknown		unknown
+DO219710	KIRP-US		TCGA-UZ-A9PU	male	deceased			76		76		C64.1				933		unknown		unknown
+DO219709	KIRP-US		TCGA-UZ-A9PS	female	alive	complete remission		62		66		C64.1					1585	unknown		unknown
+DO219708	KIRP-US		TCGA-UZ-A9PR	male	alive	complete remission		84		87		C64.1					1182	unknown		unknown
+DO219703	KIRP-US		TCGA-UZ-A9PN	male	alive			54		55		C64.1					667	unknown		unknown
+DO219702	KIRP-US		TCGA-UZ-A9PM	male	alive			62		63		C64.1					451	unknown		unknown
+DO219701	KIRP-US		TCGA-UZ-A9PL	male	alive			59		59		C64.1					0	unknown		unknown
+DO219705	KIRP-US		TCGA-UZ-A9PP	male	alive	complete remission		60		60		C64.1					16	unknown		unknown
+DO219704	KIRP-US		TCGA-UZ-A9PO	male	alive	progression		80		80		C64.1					0	unknown		unknown
+DO220840	CCSK-US		TARGET-51-PAJLIV	male	deceased	relapse		1	1	1	229	C64	'National Wilms'' Tumor Study'	III/IV		229	229			
+DO220829	CCSK-US		TARGET-51-PAJLWU	male	alive			2	2			C64	'National Wilms'' Tumor Study'	III						
+DO220835	CCSK-US		TARGET-51-PALFEF	male	alive			2	2			C64	'National Wilms'' Tumor Study'	II						
+DO220834	CCSK-US		TARGET-51-PALEIR	male	alive	relapse		1	1		595	C64	'National Wilms'' Tumor Study'	II		595	595			
+DO220837	CCSK-US		TARGET-51-PALKEI	male	alive			3	3			C64	'National Wilms'' Tumor Study'	III						
+DO220836	CCSK-US		TARGET-51-PALFYG	male	deceased	relapse		1	1	2	490	C64	'National Wilms'' Tumor Study'	II		490	490			
+DO220831	CCSK-US		TARGET-51-PAJNCV	male	alive			3	3			C64	'National Wilms'' Tumor Study'	III						
+DO220830	CCSK-US		TARGET-51-PAJMFS	male	alive			3	3			C64	'National Wilms'' Tumor Study'	III						
+DO220833	CCSK-US		TARGET-51-PAKWMM	male	deceased	relapse		1	1	3	712	C64	'National Wilms'' Tumor Study'	III		712	712			
+DO220832	CCSK-US		TARGET-51-PAJPFB	male	alive			1	1			C64	'National Wilms'' Tumor Study'	III						
+DO220839	CCSK-US		TARGET-51-PAJMNM	male	alive	relapse		1	1		500	C64	'National Wilms'' Tumor Study'	II		500	500			
+DO220838	CCSK-US		TARGET-51-PALLXV	male	deceased	relapse		1	1	3	468	C64	'National Wilms'' Tumor Study'	III		468	468			
+DO47228	RECA-EU		C0140	female	deceased			71	71			C64	TNM 2010 (7th edition)	T3N0M0	T3aN0M0	1010	1010	unknown		unknown
+DO47222	RECA-EU		C0136	female	alive			58	58			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	1566	1566	unknown		unknown
+DO48556	KIRP-US		TCGA-A4-A6HP	male	alive	complete remission		66		66		C64.1					4	unknown		unknown
+DO47225	RECA-EU		C0138	male	alive			45	45			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0MX	1723	1723	unknown		unknown
+DO47219	RECA-EU		C0132	male	alive			37	37			C64	TNM 2010 (7th edition)	T3N0M0	T3bN0M0	1822	1822	unknown		unknown
+DO47216	RECA-EU		C0130	female	alive			63	63			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	1926	1926	unknown		unknown
+DO47213	RECA-EU		C0128	female	alive			49	49			C64	TNM 2010 (7th edition)	T3N0M0	T3aN0M0	1922	1922	unknown		unknown
+DO47210	RECA-EU		C0141	male	alive			67	67			C64	TNM 2010 (7th edition)	T2N0M0	T1bN0M0	1498	1498	unknown		unknown
+DO47204	RECA-EU		C0137	female	alive			60	60			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	1743	1743	unknown		unknown
+DO47207	RECA-EU		C0139	female	alive			54	54			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	1537	1537	unknown		unknown
+DO47201	RECA-EU		C0135	male	alive			54	54			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	1766	1766	unknown		unknown
+DO48533	KIRP-US		TCGA-P4-A5ED	male	alive	complete remission		51		58		C64.1					2816	unknown		unknown
+DO48521	KIRP-US		TCGA-F9-A7VF	female	alive	complete remission		75		75		C64.1					7	unknown		unknown
+DO48523	KIRP-US		TCGA-PJ-A8JU	female	alive	complete remission		81		81		C64.1					84	unknown		unknown
+DO48513	KIRP-US		TCGA-P4-A5E6	male	alive	complete remission		67		75		C64.1					3035	unknown		unknown
+DO48516	KIRP-US	PCAWG	TCGA-MH-A55W	male	alive	complete remission		50		51		C64.1					398	unknown		unknown
+DO48509	KIRP-US	PCAWG	TCGA-MH-A561	male	alive	complete remission		66		67		C64.1					438	unknown		unknown
+DO48502	KIRP-US		TCGA-Q2-A5QZ	female	alive			61		61		C64.1					57	unknown		unknown
+DO48500	KIRP-US		TCGA-O9-A75Z	male	alive			44		44		C64.1					148	unknown		unknown
+DO48582	KIRP-US		TCGA-P4-A5EA	female	deceased			54		54		C64.1				201		unknown		unknown
+DO48585	KIRP-US		TCGA-A4-8312	male	alive	complete remission		60		60		C64.1					0	unknown		unknown
+DO48584	KIRP-US		TCGA-A4-A5DU	female	alive	complete remission		45		45		C64.1					0	unknown		unknown
+DO47249	RECA-EU	PCAWG	C0022	female	deceased	complete remission		75	75	77		C64	TNM 2010 (7th edition)	T3N0M1	T3aNXMX	762	762	unknown		unknown
+DO47246	RECA-EU	PCAWG	C0032	male	alive			50	50			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	459	459	unknown		unknown
+DO48572	KIRP-US		TCGA-KV-A6GE	male	alive	complete remission		65		66		C64.1					506	unknown		unknown
+DO48571	KIRP-US		TCGA-A4-A5Y1	male	alive	complete remission		75		75		C64.1					87	unknown		unknown
+DO47240	RECA-EU	PCAWG	C0089	female	deceased			70	70			C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	840	840	unknown		unknown
+DO47243	RECA-EU	PCAWG	C0043	male	alive			57	57			C64	TNM 2010 (7th edition)	T4NXMX	T4NXMX	2260	2260	unknown		unknown
+DO48569	KIRP-US		TCGA-B9-A5W7	male	alive	complete remission		47		47		C64.1					278	unknown		unknown
+DO47237	RECA-EU	PCAWG	C0088	male	alive			53	53			C64	TNM 2010 (7th edition)	T2N0M0	T2aNXMX	1915	1915	unknown		unknown
+DO47234	RECA-EU	PCAWG	C0008	male	alive			47	47			C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	2054	2054	unknown		unknown
+DO47231	RECA-EU		C0142	male	alive			66	66			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	1619	1619	unknown		unknown
+DO220961	WT-US		TARGET-50-PAJMSE	female	deceased			5	5	6	169	C64.9	National Wilms Tumor Study Group	III		528	528			
+DO220967	WT-US		TARGET-50-PAJMVU	female	alive			4	4	10		C64.9	National Wilms Tumor Study Group	IV		2092	2092			
+DO220969	WT-US		TARGET-50-PAJMXF	male	deceased			5	5	10	1278	C64.9	National Wilms Tumor Study Group	I		2099	2099			
+DO220963	WT-US		TARGET-50-PAJMUF	male	alive			2	2	12	215	C64.9	National Wilms Tumor Study Group	III		3547	3547			
+DO220965	WT-US		TARGET-50-PAJMVC	male	alive			4	4	6		C64.9	National Wilms Tumor Study Group	III		727	727			
+DO220971	WT-US		TARGET-50-PAJNAA	female	alive			9	9	17		C64.9	National Wilms Tumor Study Group	II		2848	2848			
+DO220977	WT-US		TARGET-50-PAJNCC	male	alive			2	2	10	427	C64.9	National Wilms Tumor Study Group	II		2845	2845			
+DO220979	WT-US		TARGET-50-PAJNCJ	female	alive			5	5	15	1085	C64.9	National Wilms Tumor Study Group	II		3689	3689			
+DO220973	WT-US		TARGET-50-PAJNAV	male	deceased			4	4	6	350	C64.9	National Wilms Tumor Study Group	IV		905	905			
+DO220975	WT-US		TARGET-50-PAJNBN	male		relapse		4	4		192	C64	'Children''s Oncology Group'	III/IV			192			
+DO220981	WT-US		TARGET-50-PAJNCZ	male	alive			2	2	11	155	C64.9	National Wilms Tumor Study Group	I		3579	3579			
+DO220983	WT-US		TARGET-50-PAJNDU	male	alive			6	6	15	282	C64.9	National Wilms Tumor Study Group	III		2948	2948			
+DO220988	WT-US		TARGET-50-PAJNJJ	female	alive			16	16	24	615	C64.9	National Wilms Tumor Study Group	II		3085	3085			
+DO220984	WT-US		TARGET-50-PAJNEC	female	deceased			4	4	7	394	C64.9	National Wilms Tumor Study Group	III		1066	1066			
+DO220986	WT-US		TARGET-50-PAJNGH	male	deceased			2	2	6	357	C64.9	National Wilms Tumor Study Group	I		1229	1229			
+DO220992	WT-US		TARGET-50-PAJNNC	male	alive			1	1	6	228	C64.9	National Wilms Tumor Study Group	II		1732	1732			
+DO220994	WT-US		TARGET-50-PAJNNR	male	deceased			6	6	7		C64.9	National Wilms Tumor Study Group	III		217	217			
+DO220990	WT-US		TARGET-50-PAJNLT	female	deceased			4	4	5		C64.9	National Wilms Tumor Study Group	IV		440	440			
+DO220996	WT-US		TARGET-50-PAJNRH	female	alive			4	4	8		C64.9	National Wilms Tumor Study Group	I		1703	1703			
+DO220998	WT-US		TARGET-50-PAJNRL	male	deceased			4	4	5	204	C64.9	National Wilms Tumor Study Group	IV		256	256			
+DO47198	RECA-EU		C0133	female	alive			55	55			C64	TNM 2010 (7th edition)	T2N0M0	T2aN0M0	1580	1580	unknown		unknown
+DO49807	KIRP-US		TCGA-Y8-A8RZ	male	alive	complete remission		55		55		C64.1					205	unknown		unknown
+DO49804	KIRP-US		TCGA-Y8-A898	male	alive	complete remission		69		69		C64.1					181	unknown		unknown
+DO49803	KIRP-US		TCGA-Y8-A896	male	alive	complete remission		62		62		C64.1					186	unknown		unknown
+DO49801	KIRP-US		TCGA-Y8-A895	male	alive	complete remission		74		74		C64.1					2	unknown		unknown
+DO220919	WT-US		TARGET-50-CAAAAJ	female	alive	relapse		1	1		169	C64	'Children''s Oncology Group'	III/IV			169			
+DO220916	WT-US		TARGET-50-CAAAAB	female	deceased			5	5	7	635	C64.9	National Wilms Tumor Study Group	III		936	936			
+DO220915	WT-US		TARGET-50-CAAAAA	female		relapse		6	6		475	C64	'Children''s Oncology Group'	IIIB/IV			475			
+DO220918	WT-US		TARGET-50-CAAAAH	female	deceased			5	5	6	165	C64.9	National Wilms Tumor Study Group	III		311	311			
+DO220917	WT-US		TARGET-50-CAAAAC	female	deceased			6	6	13	1184	C64.9	National Wilms Tumor Study Group	III		2615	2615			
+DO220923	WT-US		TARGET-50-CAAAAP	male	alive			2	2	10		C64.9	National Wilms Tumor Study Group	II		2661	2661			
+DO220922	WT-US		TARGET-50-CAAAAO	female	deceased			4	4	5	330	C64.9	National Wilms Tumor Study Group	III		672	672			
+DO220925	WT-US		TARGET-50-CAAAAR	female	alive			1	1	11	146	C64.9	National Wilms Tumor Study Group	IV		3542	3542			
+DO220924	WT-US		TARGET-50-CAAAAQ	female	alive			4	4	10	1940	C64.9	National Wilms Tumor Study Group	IV/V		2501	2501			
+DO220921	WT-US		TARGET-50-CAAAAM	female	alive			8	8		3258	C64	'Children''s Oncology Group'	III						
+DO220920	WT-US		TARGET-50-CAAAAL	female	alive			4	4	13	221	C64.9	National Wilms Tumor Study Group	III		3289	3289			
+DO220927	WT-US		TARGET-50-PADXAY	male	alive			5	5	19		C64.9	National Wilms Tumor Study Group	II		4795	4795			
+DO220926	WT-US		TARGET-50-CAAAAS	female	alive			7	7	9	362	C64.9	National Wilms Tumor Study Group	III		639	639			
+DO220929	WT-US		TARGET-50-PAEAFB	male	deceased			1	1	7	174	C64.9	National Wilms Tumor Study Group	III		2145	2145			
+DO220928	WT-US		TARGET-50-PADZUB	female	deceased			15	15	19	197	C64.9	National Wilms Tumor Study Group	IV		1271	1271			
+DO220934	WT-US		TARGET-50-PAJLKR	female	alive			6	6	13	150	C64.9	National Wilms Tumor Study Group	IV		2589	2589			
+DO220933	WT-US		TARGET-50-PAJLKC	female	alive			7	7	15		C64.9	National Wilms Tumor Study Group	II		2930	2930			
+DO220936	WT-US		TARGET-50-PAJLNJ	female	deceased			1	1	3	250	C64.9	National Wilms Tumor Study Group	II		858	858			
+DO220935	WT-US		TARGET-50-PAJLLF	female	alive			7	7	14		C64.9	National Wilms Tumor Study Group	II		2536	2536			
+DO220930	WT-US		TARGET-50-PAEBXA	female	deceased			3	3	6	528	C64.9	National Wilms Tumor Study Group	III		1114	1114			
+DO220932	WT-US		TARGET-50-PAJLIP	female	alive			8	8		2731	C64	'Children''s Oncology Group'	III						
+DO220931	WT-US		TARGET-50-PAECJB	female	deceased			2	2	3	76	C64.9	National Wilms Tumor Study Group	III		282	282			
+DO220938	WT-US		TARGET-50-PAJLSP	male	alive			2	2	10	357	C64.9	National Wilms Tumor Study Group	II		2789	2789			
+DO220937	WT-US		TARGET-50-PAJLPX	male	alive			7	7	14		C64.9	National Wilms Tumor Study Group	IIIB/V		2572	2572			
+DO220939	WT-US		TARGET-50-PAJLTH	male	alive			8	8	16	258	C64.9	National Wilms Tumor Study Group	II		3059	3059			
+DO220945	WT-US		TARGET-50-PAJMEP	male	deceased			2	2	6	154	C64.9	National Wilms Tumor Study Group	I		1563	1563			
+DO220944	WT-US		TARGET-50-PAJMEN	female	deceased			4	4	9	509	C64.9	National Wilms Tumor Study Group	II		1732	1732			
+DO220947	WT-US		TARGET-50-PAJMFY	female	alive			5	5	7	258	C64.9	National Wilms Tumor Study Group	II		748	748			
+DO220946	WT-US		TARGET-50-PAJMFU	female	alive			4	4	12		C64.9	National Wilms Tumor Study Group	II		2894	2894			
+DO220941	WT-US		TARGET-50-PAJLUJ	female	alive			6	6	19	250	C64.9	National Wilms Tumor Study Group	IV		4449	4449			
+DO220940	WT-US		TARGET-50-PAJLTI	male	alive			3	3	12	180	C64.9	National Wilms Tumor Study Group	I		3295	3295			
+DO220943	WT-US		TARGET-50-PAJMEL	female	alive			4	4	15	373	C64.9	National Wilms Tumor Study Group	IV		4002	4002			
+DO220942	WT-US		TARGET-50-PAJLWT	male	deceased			3	3	6	253	C64.9	National Wilms Tumor Study Group	II		994	994			
+DO220949	WT-US		TARGET-50-PAJMJK	female	alive	relapse		1	1		423	C64	'Children''s Oncology Group'	I			423			
+DO220948	WT-US		TARGET-50-PAJMIZ	female	deceased			7	7	7		C64.9	National Wilms Tumor Study Group	IIIB		180	180			
+DO220950	WT-US		TARGET-50-PAJMJT	female	alive			5	5	16	115	C64.9	National Wilms Tumor Study Group	II		4042	4042			
+DO220955	WT-US		TARGET-50-PAJMLZ	male	deceased			4	4	5	203	C64.9	National Wilms Tumor Study Group	II		358	358			
+DO220957	WT-US		TARGET-50-PAJMMY	male	alive			5	5	17	801	C64.9	National Wilms Tumor Study Group	III		4163	4163			
+DO220952	WT-US		TARGET-50-PAJMKJ	female	alive			1	1	11	623	C64.9	National Wilms Tumor Study Group	II		3830	3830			
+DO220951	WT-US		TARGET-50-PAJMKI	male	deceased			6	6	8	268	C64.9	National Wilms Tumor Study Group	III		630	630			
+DO220954	WT-US		TARGET-50-PAJMLI	male	deceased			4	4	4	251	C64.9	National Wilms Tumor Study Group	I		265	265			
+DO220953	WT-US		TARGET-50-PAJMKN	female	alive			1	1	6		C64.9	National Wilms Tumor Study Group	I		1761	1761			
+DO220959	WT-US		TARGET-50-PAJMRL	male	deceased			5	5	6	334	C64.9	National Wilms Tumor Study Group	II		686	686			
+DO49767	KIRP-US	PCAWG	TCGA-HE-A5NI	male	alive	complete remission		73		73		C64.1					360	unknown		unknown
+DO47108	RECA-EU	PCAWG	C0056	female	deceased			65	65			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	1028	1028	unknown		unknown
+DO49768	KIRP-US	PCAWG	TCGA-HE-A5NJ	male	alive	complete remission		58		62		C64.1					1726	unknown		unknown
+DO47104	RECA-EU	PCAWG	C0054	male	alive			50	50			C64	TNM 2010 (7th edition)	T3N0M0	T3aN0M0	1581	1581	unknown		unknown
+DO49761	KIRP-US		TCGA-G7-A8LD	male	deceased			71		71		C64.1				514		unknown		unknown
+DO47100	RECA-EU	PCAWG	C0052	male	alive			67	67			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	1774	1774	unknown		unknown
+DO49749	KIRP-US		TCGA-F9-A97G	male	alive	complete remission		79		79		C64.1					13	unknown		unknown
+DO49747	KIRP-US		TCGA-F9-A7Q0	female	alive	complete remission		37		37		C64.1					10	unknown		unknown
+DO49743	KIRP-US		TCGA-B9-A8YH	male	alive	complete remission		52		52		C64.1					167	unknown		unknown
+DO49744	KIRP-US		TCGA-B9-A8YI	male	alive	complete remission		79		79		C64.1					52	unknown		unknown
+DO49741	KIRP-US		TCGA-B1-A656	male	alive	complete remission		64		64		C64.1					14	unknown		unknown
+DO49742	KIRP-US		TCGA-B3-A6W5	male	alive	complete remission		43		43		C64.1					85	unknown		unknown
+DO49740	KIRP-US		TCGA-B1-A655	female	alive	complete remission		77		78		C64.1					510	unknown		unknown
+DO49738	KIRP-US	PCAWG	TCGA-B1-A47N	male	alive	complete remission		62		62		C64.1					278	unknown		unknown
+DO49739	KIRP-US		TCGA-B1-A654	female	alive	complete remission		43		43		C64.1					108	unknown		unknown
+DO49736	KIRP-US	PCAWG	TCGA-B1-A47M	male	alive	complete remission		79		79		C64.1					132	unknown		unknown
+DO49737	KIRC-US		TCGA-B8-A8YJ	female	alive	complete remission		60		60		C64.9					24	unknown		unknown
+DO49735	KIRC-US		TCGA-B8-A7U6	female	alive	complete remission		54		54		C64.9					110	unknown		unknown
+DO49732	KIRC-US		TCGA-B8-A54G	male	alive	complete remission		50		50		C64.9					53	unknown		unknown
+DO49733	KIRC-US		TCGA-B8-A54H	female	alive	complete remission		69		69		C64.9					256	unknown		unknown
+DO49730	KIRC-US		TCGA-B8-A54D	male	alive	complete remission		69		70		C64.9					452	unknown		unknown
+DO49731	KIRC-US		TCGA-B8-A54F	female	alive	complete remission		49		49		C64.9					208	unknown		unknown
+DO49729	KIRP-US		TCGA-AT-A5NU	male	alive			77		77		C64.1					67	unknown		unknown
+DO49727	KIRP-US		TCGA-A4-A772	male	alive	complete remission		39		39		C64.1					0	unknown		unknown
+DO49728	KIRP-US	PCAWG	TCGA-AL-A5DJ	female	alive	complete remission		54		54		C64.1					26	unknown		unknown
+DO47189	RECA-EU		C0117	male	deceased	relapse	distant recurrence/metastasis	72	72	76	60	C64	TNM 2010 (7th edition)	T2N0M0	T3aNXMX	1482	1482	unknown		unknown
+DO47186	RECA-EU		C0118	female	deceased	complete remission		62	62	63		C64	TNM 2010 (7th edition)	T1N0M0	T3aNXMX	652	652	unknown		unknown
+DO47192	RECA-EU		C0129	female	deceased			75	75			C64	TNM 2010 (7th edition)	T3N0M0	T3bN0M0	1392	1392	unknown		unknown
+DO47195	RECA-EU		C0131	female	alive			63	63			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	1881	1881	unknown		unknown
+DO47174	RECA-EU	PCAWG	C0100	male	deceased			70	70			C64	TNM 2010 (7th edition)	T3NXM1	T3aNXMX	1508	1508	unknown		unknown
+DO47177	RECA-EU		C0108	male	alive			56	56			C64	TNM 2010 (7th edition)	T1NXM0	T1aNXMX	2021	2021	unknown		unknown
+DO47183	RECA-EU		C0116	male	deceased			72	72			C64	TNM 2010 (7th edition)	T1N0M0	T1bNXMX	174	174	unknown		unknown
+DO47180	RECA-EU		C0110	male	alive			35	35			C64	TNM 2010 (7th edition)	T2NXM0	T1bNXMX	51	51	unknown		unknown
+DO48499	KIRP-US		TCGA-J7-8537	female	alive	complete remission		37		37		C64.1					4	unknown		unknown
+DO47168	RECA-EU	PCAWG	C0096	male	alive	complete remission		69	69	71		C64	TNM 2010 (7th edition)	T1N0M0	T3aNXMX	1980	1980	unknown		unknown
+DO48495	KIRP-US	PCAWG	TCGA-MH-A562	male	alive	complete remission		57		57		C64.1					292	unknown		unknown
+DO47165	RECA-EU	PCAWG	C0094	female	alive	complete remission		51	51	55		C64	TNM 2010 (7th edition)	T2N0M0	T2bNXMX	2021	2021	unknown		unknown
+DO47171	RECA-EU	PCAWG	C0098	male	deceased			65	65			C64	TNM 2010 (7th edition)	T3NXM1	T3aNXMX	474	474	unknown		unknown
+DO47156	RECA-EU	PCAWG	C0084	female	alive			60	60			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	1932	1932	unknown		unknown
+DO47159	RECA-EU	PCAWG	C0086	female	deceased	complete remission		83	83	85		C64	TNM 2010 (7th edition)	T1N0M0	T1bNXMX	1402	1402	unknown		unknown
+DO48489	KIRP-US		TCGA-IZ-A6M8	male	alive	complete remission		69		69		C64.1					146	unknown		unknown
+DO48484	KIRP-US		TCGA-F9-A8NY	female	alive	complete remission		38		38		C64.1					36	unknown		unknown
+DO47153	RECA-EU	PCAWG	C0082	male	deceased			54	54			C64	TNM 2010 (7th edition)	T1NXM0	T1aNXMX	1029	1029	unknown		unknown
+DO47162	RECA-EU	PCAWG	C0092	male	alive	complete remission		52	52	54		C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	1489	1489	unknown		unknown
+DO48476	KIRP-US		TCGA-A4-7997	male	alive	complete remission		67		67		C64.1					2	unknown		unknown
+DO48479	KIRP-US		TCGA-P4-A5E7	female	alive	complete remission		74		81		C64.1					2649	unknown		unknown
+DO47147	RECA-EU	PCAWG	C0078	male	alive			58	58			C64	TNM 2010 (7th edition)	T1NXM0	T1aNXMX	1944	1944	unknown		unknown
+DO48472	KIRP-US		TCGA-F9-A4JJ	female	alive	progression		35		35		C64.1					97	unknown		unknown
+DO47144	RECA-EU	PCAWG	C0076	female	alive			69	69			C64	TNM 2010 (7th edition)	T2N0M0	T2aNXMX	2102	2102	unknown		unknown
+DO48474	KIRP-US	PCAWG	TCGA-MH-A560	male	alive	complete remission		62		63		C64.1					543	unknown		unknown
+DO48480	KIRP-US		TCGA-KV-A74V	male	alive	complete remission		40		40		C64.1					161	unknown		unknown
+DO48482	KIRP-US	PCAWG	TCGA-MH-A55Z	male	alive	complete remission		65		66		C64.1					391	unknown		unknown
+DO47150	RECA-EU	PCAWG	C0080	female	alive			59	59			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	1859	1859	unknown		unknown
+DO49798	KIRP-US		TCGA-Y8-A894	female	alive	complete remission		57		57		C64.1					224	unknown		unknown
+DO49796	KIRP-US		TCGA-SX-A7SU	male	alive	complete remission		47		49		C64.1					847	unknown		unknown
+DO47136	RECA-EU	PCAWG	C0072	female	alive			69	69			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	405	405	unknown		unknown
+DO49794	KIRP-US		TCGA-SX-A7SS	male	alive	complete remission		67		70		C64.1					1247	unknown		unknown
+DO49793	KIRP-US		TCGA-SX-A7SR	male	alive	complete remission		66		66		C64.1					335	unknown		unknown
+DO47132	RECA-EU	PCAWG	C0070	female	alive			61	61			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	2143	2143	unknown		unknown
+DO48471	KIRP-US		TCGA-P4-A5EB	male	alive	complete remission		83		90		C64.1					2584	unknown		unknown
+DO47140	RECA-EU	PCAWG	C0074	male	alive			70	70			C64	TNM 2010 (7th edition)	T1N0M0	T3aN0M0	1936	1936	unknown		unknown
+DO47128	RECA-EU	PCAWG	C0068	male	alive			66	66			C64	TNM 2010 (7th edition)	T3NXM0	T3aNXMX	2264	2264	unknown		unknown
+DO47124	RECA-EU	PCAWG	C0066	male	alive			57	57			C64	TNM 2010 (7th edition)	T1N0M0	T1bNXMX	1784	1784	unknown		unknown
+DO49788	KIRP-US		TCGA-SX-A7SO	male	alive	complete remission		64		66		C64.1					925	unknown		unknown
+DO49785	KIRP-US		TCGA-SX-A7SM	male	deceased			60		60		C64.1				363		unknown		unknown
+DO49786	KIRP-US		TCGA-SX-A7SN	male	alive	complete remission		52		52		C64.1					102	unknown		unknown
+DO49783	KIRP-US		TCGA-SX-A7SL	male	alive	complete remission		74		75		C64.1					423	unknown		unknown
+DO47120	RECA-EU	PCAWG	C0062	male	alive			60	60			C64	TNM 2010 (7th edition)	T2N0M0	T2bN0M0	1999	1999	unknown		unknown
+DO49782	KIRP-US		TCGA-SX-A71W	male	alive	complete remission		66		68		C64.1					760	unknown		unknown
+DO49790	KIRP-US		TCGA-SX-A7SP	female	deceased			66		66		C64.1				496		unknown		unknown
+DO49791	KIRP-US		TCGA-SX-A7SQ	male	alive	complete remission		48		49		C64.1					494	unknown		unknown
+DO47116	RECA-EU	PCAWG	C0060	male	deceased			56	56			C64	TNM 2010 (7th edition)	T3N0M0	T3cN0M0	477	477	unknown		unknown
+DO49778	KIRP-US		TCGA-SX-A71S	female	alive	complete remission		66		69		C64.1					1199	unknown		unknown
+DO49779	KIRP-US		TCGA-SX-A71U	male	alive	complete remission		57		59		C64.1					994	unknown		unknown
+DO49777	KIRP-US		TCGA-SX-A71R	male	alive	complete remission		51		53		C64.1					1079	unknown		unknown
+DO47112	RECA-EU	PCAWG	C0058	female	alive			70	70			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	1847	1847	unknown		unknown
+DO49774	KIRP-US		TCGA-MH-A856	male	alive	complete remission		54		55		C64.1					541	unknown		unknown
+DO49775	KIRP-US		TCGA-P4-A5E8	male	deceased			57		57		C64.1				1306		unknown		unknown
+DO49773	KIRP-US		TCGA-MH-A854	female	alive	complete remission		62		62		C64.1					11	unknown		unknown
+DO49780	KIRP-US		TCGA-SX-A71V	male	alive	complete remission		80		81		C64.1					508	unknown		unknown
+DO47088	RECA-EU	PCAWG	C0046	male	deceased			70	70			C64	TNM 2010 (7th edition)	T3N0M0	T3aN0M0	1246	1246	unknown		unknown
+DO47096	RECA-EU	PCAWG	C0050	female	alive			55	55			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	2060	2060	unknown		unknown
+DO47092	RECA-EU	PCAWG	C0048	male	alive	complete remission		67	67	70		C64	TNM 2010 (7th edition)	T2N0M0	T1bNXMX	1852	1852	unknown		unknown
+DO47076	RECA-EU	PCAWG	C0040	female	alive	complete remission		38	38	40		C64	TNM 2010 (7th edition)	T1N0M0	T1bNXMX	1866	1866	unknown		unknown
+DO47084	RECA-EU	PCAWG	C0044	female	deceased			57	57			C64	TNM 2010 (7th edition)	T3N1M1	M1	74	74	unknown		unknown
+DO47080	RECA-EU	PCAWG	C0042	female	alive			50	50			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	1864	1864	unknown		unknown
+DO51568	KIRP-US		TCGA-MH-A857	male	alive			63		64		C64.1					491	unknown		unknown
+DO51569	KIRP-US		TCGA-WN-A9G9	male	alive	complete remission		55		56		C64.1					579	unknown		unknown
+DO51560	KIRP-US		TCGA-GL-A9DE	male	alive	complete remission		74		74		C64.1					140	unknown		unknown
+DO51562	KIRP-US		TCGA-HE-A5NK	male	alive	complete remission		82		88		C64.1					2228	unknown		unknown
+DO51563	KIRP-US		TCGA-IA-A83S	male	deceased			81		81		C64.1				2609		unknown		unknown
+DO51564	KIRP-US		TCGA-IA-A83T	male	deceased			80		80		C64.1				2684		unknown		unknown
+DO51566	KIRP-US		TCGA-IA-A83W	male	deceased			70		70		C64.1				2043		unknown		unknown
+DO51567	KIRP-US		TCGA-MH-A855	female	alive			52		52		C64.1					0	unknown		unknown
+DO51558	KIRP-US		TCGA-GL-A9DD	male	alive	complete remission		69		69		C64.1					341	unknown		unknown
+DO51550	KIRP-US		TCGA-2K-A9WE	male	alive	complete remission		53		53		C64.1					207	unknown		unknown
+DO51551	KIRP-US	PCAWG	TCGA-B1-A47O	female	alive	complete remission		54		54		C64.1					147	unknown		unknown
+DO51552	KIRP-US		TCGA-B1-A657	male	alive	complete remission		54		54		C64.1					200	unknown		unknown
+DO51553	KIRP-US		TCGA-G7-A8LB	male	alive	progression		70		70		C64.1					197	unknown		unknown
+DO51554	KIRP-US		TCGA-G7-A8LC	male	alive	complete remission		61		61		C64.1					262	unknown		unknown
+DO51555	KIRP-US		TCGA-G7-A8LE	male	alive	complete remission		62		67		C64.1					2091	unknown		unknown
+DO51556	KIRP-US		TCGA-GL-A9DC	female	alive			66		66		C64.1					27	unknown		unknown
+DO50478	KIRC-US		TCGA-B8-A54E	female	alive	complete remission		62		63		C64.9					559	unknown		unknown
+DO50457	KIRC-US		TCGA-A3-A6NJ	female	alive	complete remission		57		57		C64.9					0	unknown		unknown
+DO50458	KIRC-US		TCGA-A3-A6NL	female	alive	complete remission		49		49		C64.9					0	unknown		unknown
+DO50455	KIRC-US		TCGA-6D-AA2E	female	alive	complete remission		68		68		C64.9					135	unknown		unknown
+DO51571	KIRP-US		TCGA-Y8-A897	female	alive	complete remission		68		68		C64.1					219	unknown		unknown
+DO51572	KIRP-US		TCGA-Y8-A8RY	male	alive	complete remission		63		64		C64.1					399	unknown		unknown
+DO51573	KIRP-US		TCGA-Y8-A8S0	male	alive	complete remission		58		58		C64.1					106	unknown		unknown
+DO51574	KIRP-US		TCGA-Y8-A8S1	male	alive	complete remission		61		61		C64.1					104	unknown		unknown
+DO51570	KIRP-US		TCGA-WN-AB4C	female	alive	complete remission		60		62		C64.1					882	unknown		unknown
+DO20180	KIRC-US		TCGA-A3-3373	female	alive	complete remission		54		54		C64.9					334	unknown		unknown
+DO20190	KIRC-US		TCGA-CZ-4860	male	deceased			60		60		C64.9				206		unknown		unknown
+DO20161	KIRC-US		TCGA-CJ-4887	male	deceased			48		48		C64.9				932		unknown		unknown
+DO19188	KIRC-US		TCGA-CW-5590	male	deceased			51		51		C64.9				1075		unknown		unknown
+DO20171	KIRC-US		TCGA-BP-4993	male	alive	complete remission		58		58		C64.9					177	unknown		unknown
+DO19198	KIRC-US		TCGA-BP-4962	male	alive	complete remission		58		62		C64.9					1785	unknown		unknown
+DO19158	KIRC-US		TCGA-CZ-5470	female	alive			72		72		C64.9					0	unknown		unknown
+DO20141	KIRC-US		TCGA-B0-4818	female	deceased			68		68		C64.9				510		unknown		unknown
+DO19168	KIRC-US		TCGA-B8-4148	female	alive	complete remission		63		64		C64.9					379	unknown		unknown
+DO20151	KIRC-US		TCGA-B0-4817	male	deceased			81		81		C64.9				1019		unknown		unknown
+DO19178	KIRC-US		TCGA-B0-4833	female	deceased			82		82		C64.9				2386		unknown		unknown
+DO19138	KIRC-US		TCGA-AK-3447	male	alive	complete remission		83		86		C64.9					1217	unknown		unknown
+DO20121	KIRC-US		TCGA-BP-4347	male	alive	complete remission		74		77		C64.9					1367	unknown		unknown
+DO19148	KIRC-US		TCGA-BP-5191	male	alive	complete remission		79		81		C64.9					967	unknown		unknown
+DO20131	KIRC-US		TCGA-B0-4821	female	deceased			68		68		C64.9				1230		unknown		unknown
+DO19118	KIRC-US		TCGA-CZ-5462	male	deceased			83		83		C64.9				311		unknown		unknown
+DO20102	KIRC-US		TCGA-CJ-6032	female	alive	complete remission		63		69		C64.9					2548	unknown		unknown
+DO20112	KIRC-US		TCGA-B0-5698	male	alive			77		82		C64.9					2181	unknown		unknown
+DO19128	KIRC-US		TCGA-BP-5198	male	alive	complete remission		72		73		C64.9					603	unknown		unknown
+DO19108	KIRC-US		TCGA-BP-4799	male	deceased			70		70		C64.9				1133		unknown		unknown
+DO20082	KIRC-US	PCAWG	TCGA-CW-6087	male	deceased			61		61		C64.9				41		unknown		unknown
+DO20092	KIRC-US		TCGA-B0-4691	male	deceased			55		55		C64.9				139		unknown		unknown
+DO20062	KIRC-US		TCGA-B4-5378	male	alive	complete remission		62		62		C64.9					175	unknown		unknown
+DO19088	KIRC-US		TCGA-BP-4987	female	alive	complete remission		41		44		C64.9					1124	unknown		unknown
+DO20072	KIRC-US		TCGA-B0-5706	male	alive	complete remission		45		51		C64.9					2414	unknown		unknown
+DO19098	KIRC-US		TCGA-A3-3329	male	alive	complete remission		75		76		C64.9					706	unknown		unknown
+DO19058	KIRC-US		TCGA-CJ-6030	male	deceased			65		65		C64.9				2299		unknown		unknown
+DO20042	KIRC-US		TCGA-AK-3450	female	alive	complete remission		85		89		C64.9					1499	unknown		unknown
+DO19068	KIRC-US		TCGA-B8-5551	female	alive	complete remission		65		65		C64.9					15	unknown		unknown
+DO20052	KIRC-US		TCGA-A3-3316	male	alive	complete remission		57		61		C64.9					1493	unknown		unknown
+DO19078	KIRC-US		TCGA-CZ-5455	male	deceased			63		63		C64.9				561		unknown		unknown
+DO19038	KIRC-US		TCGA-BP-4775	female	alive	progression		55		60		C64.9					1843	unknown		unknown
+DO20022	KIRC-US		TCGA-CJ-4638	female	deceased			46		46		C64.9				431		unknown		unknown
+DO19048	KIRC-US	PCAWG	TCGA-A3-3372	male	alive	complete remission		64		66		C64.9					735	unknown		unknown
+DO20032	KIRC-US		TCGA-BP-4986	male	alive	complete remission		75		77		C64.9					785	unknown		unknown
+DO20002	KIRC-US		TCGA-BP-4797	male	alive	complete remission		34		37		C64.9					1107	unknown		unknown
+DO19018	KIRC-US		TCGA-BP-5180	male	alive	complete remission		53		58		C64.9					1892	unknown		unknown
+DO19028	KIRC-US	PCAWG	TCGA-A3-3363	male	alive	complete remission		50		50		C64.9					319	unknown		unknown
+DO20012	KIRC-US		TCGA-BP-4798	male	deceased			74		74		C64.9				334		unknown		unknown
+DO19008	KIRC-US		TCGA-BP-4354	male	deceased			40		40		C64.9				1034		unknown		unknown
+DO48676	KIRC-US		TCGA-GK-A6C7	female	alive	complete remission		76		76		C64.9					61	unknown		unknown
+DO48629	KIRC-US		TCGA-G6-A5PC	female	deceased			54		54		C64.9				242		unknown		unknown
+DO20821	KIRP-US		TCGA-BQ-5894	male	alive	progression		42		42		C64.1					84	unknown		unknown
+DO19833	KIRC-US		TCGA-CJ-5675	male	alive	progression		70		76		C64.9					2430	unknown		unknown
+DO18502	KIRC-US		TCGA-B0-5081	female	deceased			79		79		C64.9				362		unknown		unknown
+DO20827	KIRP-US		TCGA-DW-5561	male	alive	progression		51		52		C64.1					414	unknown		unknown
+DO20829	KIRP-US	PCAWG	TCGA-B3-3926	female	alive	complete remission		59		59		C64.1					126	unknown		unknown
+DO20823	KIRP-US		TCGA-BQ-5878	female	alive	progression		79		84		C64.1					1938	unknown		unknown
+DO20825	KIRP-US		TCGA-A4-7287	female	alive	complete remission		75		75		C64.1					21	unknown		unknown
+DO20831	KIRP-US		TCGA-BQ-7060	male	alive	complete remission		53		53		C64.1					214	unknown		unknown
+DO20833	KIRP-US		TCGA-BQ-5879	female	deceased			32		32		C64.1				697		unknown		unknown
+DO18512	KIRC-US		TCGA-BP-5009	male	deceased			52		52		C64.9				1092		unknown		unknown
+DO19843	KIRC-US		TCGA-BP-4759	male	alive	complete remission		50		56		C64.9					2324	unknown		unknown
+DO20839	KIRP-US	PCAWG	TCGA-AL-3468	male	alive	complete remission		74		78		C64.1					1636	unknown		unknown
+DO20835	KIRP-US		TCGA-G7-6793	female	deceased			60		60		C64.1				336		unknown		unknown
+DO20837	KIRP-US		TCGA-BQ-7045	male	deceased			78		78		C64.1				1468		unknown		unknown
+DO20800	KIRP-US		TCGA-BQ-5889	male	deceased			63		63		C64.1				329		unknown		unknown
+DO19813	KIRC-US		TCGA-BP-5199	male	alive	complete remission		58		61		C64.9					1355	unknown		unknown
+DO20809	KIRP-US		TCGA-G7-6796	male	alive	complete remission		58		60		C64.1					1059	unknown		unknown
+DO20806	KIRP-US		TCGA-BQ-5875	female	alive	complete remission		66		73		C64.1					2639	unknown		unknown
+DO20808	KIRP-US		TCGA-GL-6846	male	alive	complete remission		52		67		C64.1					5559	unknown		unknown
+DO20802	KIRP-US		TCGA-EV-5901	female	alive	complete remission		47		48		C64.1					472	unknown		unknown
+DO20804	KIRP-US		TCGA-GL-7773	male	alive	complete remission		63		63		C64.1					0	unknown		unknown
+DO20811	KIRP-US		TCGA-B3-4104	male	alive	complete remission		75		75		C64.1					136	unknown		unknown
+DO19823	KIRC-US		TCGA-AK-3445	male	alive	complete remission		69		72		C64.9					1280	unknown		unknown
+DO20817	KIRP-US		TCGA-B9-7268	male	alive	complete remission		59		59		C64.1					36	unknown		unknown
+DO20819	KIRP-US		TCGA-G7-6792	male	alive			40		43		C64.1					1257	unknown		unknown
+DO20813	KIRP-US		TCGA-BQ-5884	female	alive	complete remission		59		61		C64.1					792	unknown		unknown
+DO20815	KIRP-US		TCGA-DW-7838	male	alive	progression		66		68		C64.1					744	unknown		unknown
+DO19803	KIRC-US		TCGA-B2-5639	male	alive	progression		46		46		C64.9					248	unknown		unknown
+DO20786	KIRP-US		TCGA-HE-7129	male	alive	complete remission						C64.1					0	unknown		unknown
+DO20788	KIRP-US		TCGA-BQ-7058	male	deceased			81		81		C64.1				343		unknown		unknown
+DO17134	KIRC-US		TCGA-BP-4166	male	alive	complete remission		69		69		C64.9					13	unknown		unknown
+DO20782	KIRP-US		TCGA-DW-5560	female	alive	complete remission		38		38		C64.1					353	unknown		unknown
+DO20784	KIRP-US		TCGA-BQ-7061	female	alive	complete remission		83		83		C64.1					218	unknown		unknown
+DO20780	KIRP-US	PCAWG	TCGA-B9-4113	male	deceased			64		64		C64.1				1536		unknown		unknown
+DO18472	KIRC-US		TCGA-BP-4769	male	alive	complete remission		63		68		C64.9					1876	unknown		unknown
+DO20798	KIRP-US		TCGA-B3-8121	female	alive	complete remission		48		48		C64.1					148	unknown		unknown
+DO17144	KIRC-US		TCGA-A3-3313	male	deceased			59		59		C64.9				735		unknown		unknown
+DO20794	KIRP-US		TCGA-DW-7834	male	alive	complete remission		53		63		C64.1					3950	unknown		unknown
+DO20796	KIRP-US		TCGA-HE-7128	male	alive	complete remission						C64.1					0	unknown		unknown
+DO20790	KIRP-US		TCGA-DW-7840	male	alive			60		60		C64.1					114	unknown		unknown
+DO20792	KIRP-US		TCGA-AL-3471	male	alive	complete remission		74		75		C64.1					412	unknown		unknown
+DO17154	KIRC-US		TCGA-BP-4344	female	alive	complete remission		75		79		C64.9					1666	unknown		unknown
+DO18482	KIRC-US		TCGA-CJ-5684	male	alive	complete remission		61		67		C64.9					2231	unknown		unknown
+DO20764	KIRP-US		TCGA-A4-7732	male	alive			55		55		C64.1					1	unknown		unknown
+DO17114	KIRC-US		TCGA-A3-3374	female	alive			51		54		C64.9					1314	unknown		unknown
+DO20766	KIRP-US		TCGA-BQ-5890	male	alive	complete remission		69		69		C64.1					233	unknown		unknown
+DO19773	KIRC-US		TCGA-BP-4777	male	alive	complete remission		46		50		C64.9					1731	unknown		unknown
+DO18442	KIRC-US		TCGA-BP-4337	female	deceased			76		76		C64.9				2		unknown		unknown
+DO20760	KIRP-US		TCGA-A4-7828	female	alive	complete remission		74		74		C64.1					0	unknown		unknown
+DO20762	KIRP-US		TCGA-DZ-6133	female	deceased			66		66		C64.1				1557		unknown		unknown
+DO19783	KIRC-US		TCGA-BP-4159	male	deceased			70		70		C64.9				2601		unknown		unknown
+DO18452	KIRC-US	PCAWG	TCGA-A3-3370	female	alive	complete remission		48		50		C64.9					776	unknown		unknown
+DO20768	KIRP-US	PCAWG	TCGA-B9-4115	male	alive	complete remission		53		53		C64.1					329	unknown		unknown
+DO20776	KIRP-US		TCGA-HE-7130	female	alive	complete remission						C64.1					0	unknown		unknown
+DO17124	KIRC-US		TCGA-DV-5575	female	alive	progression		52		54		C64.9					1006	unknown		unknown
+DO20778	KIRP-US		TCGA-BQ-7051	male	alive	complete remission		74		78		C64.1					1533	unknown		unknown
+DO20772	KIRP-US		TCGA-BQ-5888	female	alive	complete remission		74		75		C64.1					403	unknown		unknown
+DO20774	KIRP-US		TCGA-B9-5156	male	alive	complete remission		51		51		C64.1					196	unknown		unknown
+DO20770	KIRP-US	PCAWG	TCGA-B9-4117	female	alive	complete remission		48		48		C64.1					14	unknown		unknown
+DO18462	KIRC-US		TCGA-A3-3347	female	alive			76		79		C64.9					1097	unknown		unknown
+DO19793	KIRC-US		TCGA-CW-5581	male	alive	complete remission		44		51		C64.9					2799	unknown		unknown
+DO20743	KIRC-US		TCGA-BP-4763	female	deceased			79		79		C64.9				1270		unknown		unknown
+DO19753	KIRC-US		TCGA-A3-3307	male	alive	progression		66		69		C64.9					1436	unknown		unknown
+DO18422	KIRC-US		TCGA-BP-4325	female	alive	complete remission		64		72		C64.9					2964	unknown		unknown
+DO20754	KIRP-US		TCGA-BQ-5880	male	deceased			79		79		C64.1				1314		unknown		unknown
+DO20753	KIRP-US		TCGA-DW-7839	female	alive	complete remission		58		59		C64.1					419	unknown		unknown
+DO20756	KIRP-US		TCGA-AL-7173	female	alive	progression		72		75		C64.1					1357	unknown		unknown
+DO19763	KIRC-US		TCGA-B0-4699	male	deceased			74		74		C64.9				110		unknown		unknown
+DO18432	KIRC-US		TCGA-B8-5165	male	alive	complete remission		43		43		C64.9					8	unknown		unknown
+DO20755	KIRP-US		TCGA-DW-7842	male	alive	progression		52		52		C64.1					92	unknown		unknown
+DO17104	KIRC-US		TCGA-BP-4982	male	alive	complete remission		42		44		C64.9					1014	unknown		unknown
+DO20758	KIRP-US		TCGA-BQ-5882	male	deceased			54		54		C64.1				658		unknown		unknown
+DO20757	KIRP-US		TCGA-A4-7585	male	deceased			67		67		C64.1				1070		unknown		unknown
+DO20759	KIRP-US		TCGA-BQ-5876	male	alive	complete remission		75		76		C64.1					586	unknown		unknown
+DO20723	KIRC-US		TCGA-BP-4165	female	alive	progression		64		72		C64.9					2946	unknown		unknown
+DO18402	KIRC-US		TCGA-DV-5568	male	alive			26		27		C64.9					370	unknown		unknown
+DO19733	KIRC-US	PCAWG	TCGA-CW-5585	male	alive	progression		51		58		C64.9					2609	unknown		unknown
+DO19743	KIRC-US		TCGA-CJ-4907	male	alive	complete remission		58		62		C64.9					1499	unknown		unknown
+DO18412	KIRC-US		TCGA-B0-5077	male	deceased			77		77		C64.9				1317		unknown		unknown
+DO20733	KIRC-US		TCGA-B0-5707	female	alive	complete remission		39		46		C64.9					2592	unknown		unknown
+DO17178	KIRC-US	PCAWG	TCGA-AK-3454	male	alive	complete remission		84		86		C64.9					874	unknown		unknown
+DO17188	KIRC-US		TCGA-B8-4154	female	alive	complete remission		73		73		C64.9					255	unknown		unknown
+DO17197	KIRC-US		TCGA-B8-5162	male	alive	complete remission		62		62		C64.9					22	unknown		unknown
+DO18492	KIRC-US		TCGA-B0-4823	male	deceased			88		88		C64.9				454		unknown		unknown
+DO17164	KIRC-US		TCGA-CZ-4857	male	deceased			56		56		C64.9				1432		unknown		unknown
+DO17174	KIRC-US		TCGA-B0-4814	male	deceased			58		58		C64.9				168		unknown		unknown
+DO19713	KIRC-US		TCGA-B0-5084	male	deceased			33		33		C64.9				222		unknown		unknown
+DO20703	KIRC-US		TCGA-AK-3465	female	alive	complete remission		71		72		C64.9					369	unknown		unknown
+DO19723	KIRC-US		TCGA-CJ-4890	male	alive	progression		72		77		C64.9					2085	unknown		unknown
+DO20713	KIRC-US		TCGA-B0-5694	male	deceased			71		71		C64.9				480		unknown		unknown
+DO19703	KIRC-US		TCGA-B0-4852	female	deceased			78		78		C64.9				1121		unknown		unknown
+DO17018	KIRC-US		TCGA-B8-5164	male	alive	complete remission		65		65		C64.9					23	unknown		unknown
+DO20663	KIRC-US		TCGA-B0-5092	female	deceased			53		53		C64.9				459		unknown		unknown
+DO18352	KIRC-US		TCGA-A3-3343	male	alive	complete remission		79		81		C64.9					945	unknown		unknown
+DO19683	KIRC-US		TCGA-A3-3362	female	alive	complete remission		60		64		C64.9					1559	unknown		unknown
+DO20673	KIRC-US		TCGA-B4-5844	female	alive	complete remission		61		61		C64.9					7	unknown		unknown
+DO17028	KIRC-US		TCGA-B0-4824	female	deceased			49		49		C64.9				1657		unknown		unknown
+DO18362	KIRC-US		TCGA-B8-5552	female	alive	complete remission		41		41		C64.9					219	unknown		unknown
+DO19693	KIRC-US		TCGA-DV-5565	male	alive	progression		59		62		C64.9					1329	unknown		unknown
+DO20643	KIRC-US		TCGA-BP-4776	male	alive	complete remission		52		53		C64.9					411	unknown		unknown
+DO18322	KIRC-US		TCGA-CZ-5989	male	alive	complete remission		60		64		C64.9					1599	unknown		unknown
+DO19653	KIRC-US		TCGA-BP-4782	female	alive	progression		55		55		C64.9					354	unknown		unknown
+DO18332	KIRC-US		TCGA-CZ-5468	male	deceased			84		84		C64.9				59		unknown		unknown
+DO19663	KIRC-US		TCGA-B8-4621	male	alive	complete remission		63		63		C64.9					215	unknown		unknown
+DO20653	KIRC-US		TCGA-BP-4963	male	alive	complete remission		63		68		C64.9					1834	unknown		unknown
+DO17009	KIRC-US		TCGA-BP-5000	male	alive	complete remission		40		41		C64.9					563	unknown		unknown
+DO18342	KIRC-US		TCGA-BP-4766	female	alive	complete remission		43		47		C64.9					1461	unknown		unknown
+DO19673	KIRC-US		TCGA-CZ-4861	male	deceased			63		63		C64.9				446		unknown		unknown
+DO18302	KIRC-US		TCGA-B0-4845	male	deceased			70		70		C64.9				1986		unknown		unknown
+DO19633	KIRC-US		TCGA-A3-3365	male	alive			46		48		C64.9					873	unknown		unknown
+DO20624	KIRC-US		TCGA-CJ-4873	female	alive	complete remission		85		90		C64.9					2259	unknown		unknown
+DO20633	KIRC-US		TCGA-B0-4710	female	alive	complete remission		75		75		C64.9					5	unknown		unknown
+DO18312	KIRC-US		TCGA-CJ-6027	male	alive	complete remission		77		82		C64.9					1855	unknown		unknown
+DO19643	KIRC-US		TCGA-AK-3461	male	alive	complete remission		72		74		C64.9					853	unknown		unknown
+DO19613	KIRC-US		TCGA-BP-4960	male	alive	complete remission		46		51		C64.9					2172	unknown		unknown
+DO20604	KIRC-US	PCAWG	TCGA-CJ-4878	female	alive	complete remission		71		76		C64.9					2186	unknown		unknown
+DO19623	KIRC-US		TCGA-CZ-5464	male	alive	progression		69		73		C64.9					1492	unknown		unknown
+DO20614	KIRC-US		TCGA-A3-3349	female	alive	complete remission		34		37		C64.9					1385	unknown		unknown
+DO17085	KIRC-US	PCAWG	TCGA-CZ-5454	male	deceased			63		63		C64.9				722		unknown		unknown
+DO17095	KIRC-US		TCGA-BP-5186	female	alive	complete remission		50		51		C64.9					693	unknown		unknown
+DO18392	KIRC-US	PCAWG	TCGA-BP-4781	male	alive	complete remission		78		83		C64.9					2080	unknown		unknown
+DO17064	KIRC-US		TCGA-BP-4170	female	deceased			72		72		C64.9				2343		unknown		unknown
+DO17074	KIRC-US	PCAWG	TCGA-BP-4807	male	alive	complete remission		42		42		C64.9					211	unknown		unknown
+DO17075	KIRC-US		TCGA-B0-4816	male	deceased			49		49		C64.9				1371		unknown		unknown
+DO17034	KIRC-US		TCGA-DV-5573	male	alive	progression		41		44		C64.9					1130	unknown		unknown
+DO20683	KIRC-US		TCGA-A3-3383	male	alive			52		54		C64.9					861	unknown		unknown
+DO17044	KIRC-US		TCGA-B0-4701	female	deceased			66		66		C64.9				238		unknown		unknown
+DO18372	KIRC-US		TCGA-B0-4848	male	deceased			54		54		C64.9				883		unknown		unknown
+DO20693	KIRC-US		TCGA-BP-4985	male	deceased			72		72		C64.9				952		unknown		unknown
+DO18382	KIRC-US		TCGA-BP-4341	male	deceased			67		67		C64.9				1589		unknown		unknown
+DO17054	KIRC-US	PCAWG	TCGA-B0-5695	female	alive	complete remission		61		63		C64.9					1042	unknown		unknown
+DO17410	KIRC-US		TCGA-B0-4714	male	deceased			81		81		C64.9				99		unknown		unknown
+DO18741	KIRC-US		TCGA-B0-4688	male	deceased			46		46		C64.9				101		unknown		unknown
+DO18751	KIRC-US		TCGA-BP-4765	male	alive	complete remission		43		48		C64.9					2184	unknown		unknown
+DO17420	KIRC-US		TCGA-B8-5550	male	alive	complete remission		71		71		C64.9					197	unknown		unknown
+DO17423	KIRC-US		TCGA-BP-4353	male	deceased			61		61		C64.9				375		unknown		unknown
+DO18721	KIRC-US		TCGA-B0-5119	female	alive	complete remission		61		61		C64.9					48	unknown		unknown
+DO18731	KIRC-US		TCGA-B0-5102	female	deceased			74		74		C64.9				2764		unknown		unknown
+DO17400	KIRC-US		TCGA-CW-6088	male	alive	complete remission		60		66		C64.9					2311	unknown		unknown
+DO18701	KIRC-US	PCAWG	TCGA-CZ-5987	male	deceased			60		60		C64.9				445		unknown		unknown
+DO18711	KIRC-US		TCGA-CJ-4900	female	deceased			69		69		C64.9				1714		unknown		unknown
+DO17382	KIRC-US		TCGA-CJ-4892	female	alive	complete remission		65		69		C64.9					1521	unknown		unknown
+DO17392	KIRC-US		TCGA-BP-5170	male	alive	complete remission		55		61		C64.9					2412	unknown		unknown
+DO17353	KIRC-US		TCGA-BP-5004	male	alive	complete remission		53		56		C64.9					1126	unknown		unknown
+DO17363	KIRC-US		TCGA-B8-5553	female	alive	complete remission		67		67		C64.9					14	unknown		unknown
+DO18691	KIRC-US		TCGA-CZ-4863	female	alive	complete remission		51		55		C64.9					1691	unknown		unknown
+DO17373	KIRC-US	PCAWG	TCGA-CJ-5681	female	deceased			44		45		C64.9				552		unknown		unknown
+DO17333	KIRC-US		TCGA-BP-4174	male	alive	complete remission		49		54		C64.9					1879	unknown		unknown
+DO18671	KIRC-US	PCAWG	TCGA-BP-5168	male	deceased			75		75		C64.9				1463		unknown		unknown
+DO17343	KIRC-US		TCGA-B0-5108	male	alive	complete remission		54		54		C64.9					162	unknown		unknown
+DO18681	KIRC-US		TCGA-CJ-4920	female	deceased			64		64		C64.9				139		unknown		unknown
+DO19972	KIRC-US		TCGA-BP-4761	male	alive	complete remission		57		57		C64.9					182	unknown		unknown
+DO18641	KIRC-US		TCGA-B0-5116	male	alive	complete remission		52		52		C64.9					103	unknown		unknown
+DO17313	KIRC-US		TCGA-BP-4989	male	alive	complete remission		58		58		C64.9					118	unknown		unknown
+DO17323	KIRC-US	PCAWG	TCGA-A3-3387	male	alive	complete remission		49		50		C64.9					617	unknown		unknown
+DO19982	KIRC-US		TCGA-BP-4331	male	deceased			52		52		C64.9				2454		unknown		unknown
+DO18651	KIRC-US	PCAWG	TCGA-DV-5566	female	alive	progression		67		70		C64.9					1398	unknown		unknown
+DO18661	KIRC-US		TCGA-B0-4815	male	deceased			65		65		C64.9				1588		unknown		unknown
+DO19992	KIRC-US		TCGA-BP-5006	male	alive	complete remission		61		63		C64.9					840	unknown		unknown
+DO20940	KIRP-US		TCGA-G7-6789	female	deceased			53		53		C64.1				122		unknown		unknown
+DO20942	KIRP-US		TCGA-BQ-7044	male	alive	complete remission		73		83		C64.1					3760	unknown		unknown
+DO18622	KIRC-US		TCGA-EU-5905	female	alive	complete remission		67		67		C64.9					119	unknown		unknown
+DO19953	KIRC-US		TCGA-A3-3359	female	alive	complete remission		82		85		C64.9					1286	unknown		unknown
+DO20944	KIRP-US		TCGA-DZ-6134	male	alive	complete remission		69		74		C64.1					1856	unknown		unknown
+DO20946	KIRP-US		TCGA-BQ-7053	female	alive	complete remission		57		61		C64.1					1516	unknown		unknown
+DO19963	KIRC-US		TCGA-CJ-4889	female	alive	complete remission		63		68		C64.9					1946	unknown		unknown
+DO18631	KIRC-US		TCGA-BP-4774	female	alive	complete remission		57		62		C64.9					1885	unknown		unknown
+DO17303	KIRC-US		TCGA-A3-3346	male	deceased			68		68		C64.9				137		unknown		unknown
+DO20921	KIRP-US		TCGA-BQ-5885	male	alive	complete remission		63		65		C64.1					921	unknown		unknown
+DO19933	KIRC-US		TCGA-BP-4787	female	deceased			59		59		C64.9				480		unknown		unknown
+DO18602	KIRC-US		TCGA-CZ-4859	female	alive	complete remission		59		63		C64.9					1787	unknown		unknown
+DO20926	KIRP-US		TCGA-DZ-6135	male	alive	complete remission		45		49		C64.1					1670	unknown		unknown
+DO20928	KIRP-US	PCAWG	TCGA-AL-3466	male	deceased			41		41		C64.1				293		unknown		unknown
+DO20923	KIRP-US	PCAWG	TCGA-AL-3472	male	alive	complete remission		57		59		C64.1					923	unknown		unknown
+DO20925	KIRP-US		TCGA-A4-7288	female	alive	complete remission		71		72		C64.1					493	unknown		unknown
+DO20930	KIRP-US		TCGA-B1-5398	male	alive	complete remission		73		73		C64.1					336	unknown		unknown
+DO20932	KIRP-US		TCGA-BQ-7059	male	alive	complete remission		71		71		C64.1					232	unknown		unknown
+DO18612	KIRC-US		TCGA-A3-3320	female	alive	complete remission		52		56		C64.9					1508	unknown		unknown
+DO19943	KIRC-US		TCGA-B0-5121	male	alive	complete remission		56		56		C64.9					186	unknown		unknown
+DO20938	KIRP-US		TCGA-BQ-7055	male	alive	complete remission		73		75		C64.1					799	unknown		unknown
+DO20934	KIRP-US		TCGA-B1-7332	female	alive	complete remission		60		60		C64.1					223	unknown		unknown
+DO20936	KIRP-US		TCGA-BQ-7048	male	alive	progression		64		71		C64.1					2839	unknown		unknown
+DO19913	KIRC-US		TCGA-B0-5705	female	alive	complete remission		65		74		C64.9					3335	unknown		unknown
+DO20909	KIRP-US		TCGA-G7-7501	female	alive	progression		55		56		C64.1					416	unknown		unknown
+DO20905	KIRP-US	PCAWG	TCGA-AL-3473	male	alive	complete remission		55		57		C64.1					763	unknown		unknown
+DO20907	KIRP-US		TCGA-B3-4103	male	alive	complete remission		56		56		C64.1					180	unknown		unknown
+DO20901	KIRP-US		TCGA-BQ-5886	male	alive	complete remission		75		77		C64.1					792	unknown		unknown
+DO20903	KIRP-US		TCGA-GL-7966	female	alive	progression		28		28		C64.1					112	unknown		unknown
+DO19923	KIRC-US		TCGA-BP-4970	male	alive	complete remission		44		45		C64.9					433	unknown		unknown
+DO20919	KIRP-US		TCGA-DZ-6132	male	alive	complete remission		69		75		C64.1					2460	unknown		unknown
+DO20915	KIRP-US	PCAWG	TCGA-B9-4114	male	alive			49		49		C64.1					21	unknown		unknown
+DO20917	KIRP-US		TCGA-G7-6797	male	alive	complete remission		46		47		C64.1					387	unknown		unknown
+DO20911	KIRP-US		TCGA-DZ-6131	male	alive	complete remission		31		37		C64.1					2429	unknown		unknown
+DO20913	KIRP-US		TCGA-AL-3467	female	alive	complete remission		54		58		C64.1					1778	unknown		unknown
+DO19903	KIRC-US		TCGA-B0-5692	female	alive	complete remission		66		70		C64.9					1487	unknown		unknown
+DO17263	KIRC-US		TCGA-BP-5181	female	alive	complete remission		58		62		C64.9					1495	unknown		unknown
+DO18592	KIRC-US		TCGA-B8-5158	male	alive	complete remission		56		56		C64.9					90	unknown		unknown
+DO17273	KIRC-US		TCGA-AK-3429	female	alive	complete remission		54		59		C64.9					2017	unknown		unknown
+DO20886	KIRP-US		TCGA-A4-7915	female	alive	complete remission		35		35		C64.1					7	unknown		unknown
+DO20885	KIRP-US		TCGA-BQ-7046	male	alive	complete remission		61		69		C64.1					2948	unknown		unknown
+DO20888	KIRP-US		TCGA-G7-6790	male	alive	complete remission		57		59		C64.1					978	unknown		unknown
+DO20881	KIRP-US		TCGA-A4-8098	male	alive	complete remission		73		73		C64.1					140	unknown		unknown
+DO17236	KIRC-US		TCGA-B4-5832	male	alive	complete remission		65		65		C64.9					7	unknown		unknown
+DO20883	KIRP-US		TCGA-BQ-7062	male	alive	complete remission		64		64		C64.1					116	unknown		unknown
+DO18572	KIRC-US	PCAWG	TCGA-AK-3455	female	deceased			71		71		C64.9				683		unknown		unknown
+DO20897	KIRP-US		TCGA-DW-7837	male	alive	progression		43		46		C64.1					1142	unknown		unknown
+DO20899	KIRP-US		TCGA-A4-7286	male	alive	complete remission		42		42		C64.1					1	unknown		unknown
+DO17243	KIRC-US		TCGA-AK-3458	male	alive	complete remission		48		51		C64.9					1168	unknown		unknown
+DO20893	KIRP-US		TCGA-A4-7734	female	alive	complete remission		53		53		C64.1					27	unknown		unknown
+DO20895	KIRP-US		TCGA-BQ-5893	male	deceased			61		61		C64.1				241		unknown		unknown
+DO20891	KIRP-US		TCGA-DW-7841	male	alive	complete remission		61		62		C64.1					445	unknown		unknown
+DO20890	KIRP-US		TCGA-EV-5903	male	alive	complete remission		57		59		C64.1					757	unknown		unknown
+DO17253	KIRC-US		TCGA-DV-5574	male	alive	progression		37		38		C64.9					723	unknown		unknown
+DO18582	KIRC-US		TCGA-BP-5178	male	deceased			71		71		C64.9				1912		unknown		unknown
+DO20863	KIRP-US	PCAWG	TCGA-B9-4617	male	alive	complete remission		41		41		C64.1					34	unknown		unknown
+DO18542	KIRC-US		TCGA-CJ-4642	male	alive	complete remission		47		51		C64.9					1618	unknown		unknown
+DO19873	KIRC-US		TCGA-BP-4338	male	alive	complete remission		43		50		C64.9					2746	unknown		unknown
+DO20865	KIRP-US		TCGA-BQ-5881	male	alive	complete remission		69		72		C64.1					1454	unknown		unknown
+DO17216	KIRC-US		TCGA-B0-5713	female	alive	complete remission		75		80		C64.9					1865	unknown		unknown
+DO20861	KIRP-US		TCGA-BQ-5883	female	alive			79		82		C64.1					1242	unknown		unknown
+DO20867	KIRP-US	PCAWG	TCGA-B3-3925	male	alive	complete remission		52		52		C64.1					110	unknown		unknown
+DO20869	KIRP-US		TCGA-A4-7584	male	alive	complete remission		59		59		C64.1					0	unknown		unknown
+DO20875	KIRP-US		TCGA-EV-5902	male	alive	complete remission		58		59		C64.1					578	unknown		unknown
+DO20877	KIRP-US		TCGA-BQ-7050	female	alive	complete remission		53		58		C64.1					1864	unknown		unknown
+DO18552	KIRC-US		TCGA-BP-5182	male	alive	complete remission		56		59		C64.9					1165	unknown		unknown
+DO19883	KIRC-US		TCGA-BP-4762	male	deceased			42		42		C64.9				1343		unknown		unknown
+DO20870	KIRP-US		TCGA-A4-7583	male	alive	complete remission		60		60		C64.1					3	unknown		unknown
+DO20873	KIRP-US		TCGA-G7-7502	male	alive	complete remission		83		84		C64.1					429	unknown		unknown
+DO20872	KIRP-US		TCGA-BQ-7056	female	alive	progression		75		76		C64.1					612	unknown		unknown
+DO17226	KIRC-US		TCGA-CZ-5460	male	alive	progression		55		58		C64.9					1430	unknown		unknown
+DO20879	KIRP-US		TCGA-BQ-5892	male	alive	complete remission		51		51		C64.1					364	unknown		unknown
+DO19893	KIRC-US		TCGA-B8-4620	female	alive	complete remission		70		70		C64.9					226	unknown		unknown
+DO18562	KIRC-US		TCGA-B8-4143	female	deceased			66		66		C64.9				709		unknown		unknown
+DO19853	KIRC-US		TCGA-CJ-5689	male	deceased			90		90		C64.9				1620		unknown		unknown
+DO18522	KIRC-US		TCGA-CJ-4876	male	alive	complete remission		57		62		C64.9					1955	unknown		unknown
+DO20841	KIRP-US		TCGA-BQ-5887	male	alive	complete remission		54		56		C64.1					771	unknown		unknown
+DO20843	KIRP-US		TCGA-B9-5155	male	alive	complete remission		71		71		C64.1					19	unknown		unknown
+DO20849	KIRP-US	PCAWG	TCGA-B9-4116	female	alive	complete remission		75		75		C64.1					93	unknown		unknown
+DO20845	KIRP-US		TCGA-A4-7996	female	alive	complete remission		61		61		C64.1					49	unknown		unknown
+DO20847	KIRP-US		TCGA-DW-7836	male	alive	complete remission		55		57		C64.1					1093	unknown		unknown
+DO20853	KIRP-US		TCGA-BQ-7049	female	deceased			45		45		C64.1				1364		unknown		unknown
+DO19863	KIRC-US		TCGA-CJ-4641	female	deceased			55		55		C64.9				1661		unknown		unknown
+DO18532	KIRC-US		TCGA-A3-3385	female	alive	complete remission		46		47		C64.9					726	unknown		unknown
+DO20855	KIRP-US		TCGA-J7-6720	male	alive			42		42		C64.1					0	unknown		unknown
+DO17206	KIRC-US		TCGA-BP-5201	male	alive	progression		63		65		C64.9					951	unknown		unknown
+DO20851	KIRP-US		TCGA-G7-6795	male	alive	complete remission		56		58		C64.1					928	unknown		unknown
+DO20857	KIRP-US		TCGA-BQ-5891	female	alive	complete remission		57		57		C64.1					29	unknown		unknown
+DO20859	KIRP-US		TCGA-BQ-5877	male	deceased			60		60		C64.1				270		unknown		unknown
+DO17283	KIRC-US		TCGA-CJ-4897	female	alive	progression		79		83		C64.9					1808	unknown		unknown
+DO17293	KIRC-US		TCGA-A3-3328	male	alive	complete remission		79		81		C64.9					785	unknown		unknown
+DO18094	KIRC-US		TCGA-BP-4969	female	alive	complete remission		63		67		C64.9					1794	unknown		unknown
+DO46933	RECA-EU	PCAWG	C0051	male	alive	complete remission		73	73	76		C64	TNM 2010 (7th edition)	T1N0M0	T1bNXMX	1170	1170	unknown		unknown
+DO19317	KIRC-US		TCGA-CZ-5458	male	alive	complete remission		43		47		C64.9					1558	unknown		unknown
+DO46937	RECA-EU	PCAWG	C0053	male	alive			57	57			C64	TNM 2010 (7th edition)	T2N1M1	T2aN1MX	2036	2036	unknown		unknown
+DO20309	KIRC-US		TCGA-CJ-4891	female	deceased			57		57		C64.9				819		unknown		unknown
+DO46925	RECA-EU	PCAWG	C0047	female	alive			66	66			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	2126	2126	unknown		unknown
+DO19327	KIRC-US		TCGA-B0-5711	male	alive	complete remission		50		56		C64.9					2553	unknown		unknown
+DO46921	RECA-EU	PCAWG	C0045	female	alive			65	65			C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	2006	2006	unknown		unknown
+DO20318	KIRC-US		TCGA-B0-5712	female	alive			68		74		C64.9					2438	unknown		unknown
+DO46929	RECA-EU	PCAWG	C0049	male	alive			49	49			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	1	1	unknown		unknown
+DO46913	RECA-EU	PCAWG	C0039	female	alive	relapse	distant recurrence/metastasis	54	54	57	324	C64	TNM 2010 (7th edition)	T2N0M0	T3aNXMX	1787	1787	unknown		unknown
+DO46917	RECA-EU	PCAWG	C0041	male	alive			58	58			C64	TNM 2010 (7th edition)	T2N0M0	T2aNXMX	2104	2104	unknown		unknown
+DO46901	RECA-EU	PCAWG	C0033	female	deceased	complete remission		68	68	71		C64	TNM 2010 (7th edition)	T1N0M0	T1bNXMX	1369	1369	unknown		unknown
+DO19308	KIRC-US		TCGA-B0-5400	female	alive	complete remission		59		60		C64.9					677	unknown		unknown
+DO46909	RECA-EU	PCAWG	C0037	male	alive	complete remission		78	78	81		C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	981	981	unknown		unknown
+DO46905	RECA-EU	PCAWG	C0035	male	alive			56	56			C64	TNM 2010 (7th edition)	T3N0M0	T3aN0M0	232	232	unknown		unknown
+DO20386	KIRC-US		TCGA-A3-3378	male	alive	complete remission		60		61		C64.9					630	unknown		unknown
+DO18075	KIRC-US		TCGA-BP-5169	male	alive	complete remission		70		70		C64.9					193	unknown		unknown
+DO20396	KIRC-US		TCGA-A3-3357	male	alive	complete remission		62		65		C64.9					1425	unknown		unknown
+DO18084	KIRC-US		TCGA-CJ-4923	female	deceased			63		63		C64.9				572		unknown		unknown
+DO20368	KIRC-US		TCGA-B0-4698	male	deceased			75		75		C64.9				42		unknown		unknown
+DO18046	KIRC-US		TCGA-CW-6090	male	alive	complete remission		68		74		C64.9					2308	unknown		unknown
+DO46996	RECA-EU	PCAWG	C0083	male	deceased			48	48			C64	TNM 2010 (7th edition)	T2N0M0	T2aNXMX	1860	1860	unknown		unknown
+DO46992	RECA-EU	PCAWG	C0081	female	alive			76	76			C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	1842	1842	unknown		unknown
+DO19380	KIRC-US	PCAWG	TCGA-CJ-4870	female	alive	complete remission		58		62		C64.9					1498	unknown		unknown
+DO18056	KIRC-US	PCAWG	TCGA-CJ-5682	male	alive	progression		60		65		C64.9					1883	unknown		unknown
+DO46988	RECA-EU	PCAWG	C0079	female	deceased	relapse	local recurrence	65	65	68	705	C64	TNM 2010 (7th edition)	T3N0M0	T3aNXMX	1130	1130	unknown		unknown
+DO46984	RECA-EU	PCAWG	C0077	male	alive			65	65			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	1957	1957	unknown		unknown
+DO20377	KIRC-US		TCGA-CJ-4913	female	deceased			45		45		C64.9				1173		unknown		unknown
+DO46980	RECA-EU	PCAWG	C0075	female	deceased			56	56			C64	TNM 2010 (7th edition)	T2N0M0	T2aN0M0	1029	1029	unknown		unknown
+DO19390	KIRC-US		TCGA-CJ-4869	male	alive	progression		49		55		C64.9					2554	unknown		unknown
+DO18066	KIRC-US		TCGA-BP-4801	male	alive	complete remission		57		60		C64.9					1124	unknown		unknown
+DO46977	RECA-EU	PCAWG	C0073	male	alive	complete remission		40	40	44		C64	TNM 2010 (7th edition)	T2N0M0	T3aNXMX	2245	2245	unknown		unknown
+DO18026	KIRC-US		TCGA-BP-5195	male	alive	complete remission		75		77		C64.9					749	unknown		unknown
+DO20348	KIRC-US		TCGA-B0-4838	female	deceased			69		69		C64.9				834		unknown		unknown
+DO46973	RECA-EU	PCAWG	C0071	male	alive			78	78			C64	TNM 2010 (7th edition)	T4N0M1	T1bNXMX	2160	2160	unknown		unknown
+DO19360	KIRC-US		TCGA-CZ-5451	male	alive	complete remission		74		78		C64.9					1668	unknown		unknown
+DO20358	KIRC-US		TCGA-B0-4839	female	deceased			80		80		C64.9				1639		unknown		unknown
+DO18036	KIRC-US		TCGA-CZ-5457	male	alive	progression		62		66		C64.9					1547	unknown		unknown
+DO46969	RECA-EU	PCAWG	C0069	male	alive			59	59			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	1813	1813	unknown		unknown
+DO46965	RECA-EU	PCAWG	C0067	male	alive	complete remission		39	39	42		C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	1658	1658	unknown		unknown
+DO46961	RECA-EU	PCAWG	C0065	male	alive			59	59			C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	1824	1824	unknown		unknown
+DO19370	KIRC-US		TCGA-B0-5097	female	alive	complete remission		59		59		C64.9					151	unknown		unknown
+DO19335	KIRC-US		TCGA-B8-5546	female	alive	complete remission		38		38		C64.9					14	unknown		unknown
+DO46957	RECA-EU	PCAWG	C0063	female	alive			75	75			C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	2156	2156	unknown		unknown
+DO46953	RECA-EU	PCAWG	C0061	male	alive	complete remission		50	50	53		C64	TNM 2010 (7th edition)	T1N0M0	T1bNXMX	1852	1852	unknown		unknown
+DO18006	KIRC-US		TCGA-CJ-4893	female	alive	complete remission		76		78		C64.9					750	unknown		unknown
+DO20328	KIRC-US		TCGA-B0-4713	female	deceased			76		76		C64.9				202		unknown		unknown
+DO18016	KIRC-US	PCAWG	TCGA-CZ-5453	male	alive			67		67		C64.9					25	unknown		unknown
+DO46945	RECA-EU	PCAWG	C0057	female	alive	complete remission		60	60	63		C64	TNM 2010 (7th edition)	T1N0M0	T3aNXMX	1922	1922	unknown		unknown
+DO20338	KIRC-US		TCGA-B8-4153	male	alive	progression		74		75		C64.9					405	unknown		unknown
+DO19345	KIRC-US		TCGA-CJ-4888	male	deceased			59		59		C64.9				1567		unknown		unknown
+DO46941	RECA-EU	PCAWG	C0055	male	alive			72	72			C64	TNM 2010 (7th edition)	T3N0M0	T3aN0M0	654	654	unknown		unknown
+DO19350	KIRC-US		TCGA-CJ-4894	male	deceased			58		60		C64.9				841		unknown		unknown
+DO46949	RECA-EU	PCAWG	C0059	female	deceased			76	76			C64	TNM 2010 (7th edition)	T4N0M1	T4N0M1	474	474	unknown		unknown
+DO20289	KIRC-US		TCGA-BP-5173	male	deceased			75		75		C64.9				54		unknown		unknown
+DO20299	KIRC-US		TCGA-BP-4335	female	deceased			65		65		C64.9				475		unknown		unknown
+DO46816	RECA-CN		China_0002_K1	male				32	32			C64	TNM	T1N0M0				unknown		unknown
+DO46817	RECA-CN		China_0002_K3	male				41	41			C64	TNM	T2N0M0				unknown		unknown
+DO46818	RECA-CN		China_0002_K20	male				54	54			C64	TNM	T1N0M0				unknown		unknown
+DO46819	RECA-CN		China_0002_K27	female				52	52			C64	TNM	T2N0M0				unknown		unknown
+DO19208	KIRC-US		TCGA-CW-5580	female	deceased			73		73		C64.9				1964		unknown		unknown
+DO20269	KIRC-US		TCGA-A3-3317	male	alive	complete remission		67		71		C64.9					1491	unknown		unknown
+DO19278	KIRC-US		TCGA-CJ-5677	female	deceased			54		54		C64.9				782		unknown		unknown
+DO46897	RECA-EU	PCAWG	C0031	female	alive			48	48			C64	TNM 2010 (7th edition)	T1N0M0	T1aN0M0	3	3	unknown		unknown
+DO46893	RECA-EU	PCAWG	C0029	female	deceased			62	62			C64	TNM 2010 (7th edition)	T3N0M1	T3bN0M1	146	146	unknown		unknown
+DO19288	KIRC-US		TCGA-B0-5690	female	alive	complete remission		53		58		C64.9					2180	unknown		unknown
+DO46889	RECA-EU	PCAWG	C0027	male	deceased	relapse	distant recurrence/metastasis	60	60	62	68	C64	TNM 2010 (7th edition)	T3N0M0	T3aNXMX	997	997	unknown		unknown
+DO46885	RECA-EU	PCAWG	C0025	male	deceased	complete remission		45	45	47		C64	TNM 2010 (7th edition)	T3N1M1	T3aN1MX	656	656	unknown		unknown
+DO20279	KIRC-US		TCGA-BP-4330	female	alive	complete remission		60		65		C64.9					1888	unknown		unknown
+DO46881	RECA-EU	PCAWG	C0023	female	alive			77	77			C64	TNM 2010 (7th edition)	T2N0M0	T2bNXMX	1927	1927	unknown		unknown
+DO19298	KIRC-US		TCGA-CJ-4636	male	alive	complete remission		51		56		C64.9					1924	unknown		unknown
+DO19258	KIRC-US		TCGA-BP-4164	female	deceased			51		51		C64.9				992		unknown		unknown
+DO20249	KIRC-US		TCGA-B4-5838	male	alive	progression		52		52		C64.9					166	unknown		unknown
+DO46877	RECA-EU	PCAWG	C0021	male	alive	complete remission		61	61	64		C64	TNM 2010 (7th edition)	T3N0M0	T3aN0MX	1576	1576	unknown		unknown
+DO46873	RECA-EU	PCAWG	C0020	male	deceased	relapse	distant recurrence/metastasis	69	69	73	620	C64	TNM 2010 (7th edition)	T1N0M0	T3aNXMX	1539	1539	unknown		unknown
+DO20259	KIRC-US		TCGA-AS-3777	male	alive	complete remission		63		63		C64.9					40	unknown		unknown
+DO46869	RECA-EU	PCAWG	C0019	female	alive			61	61			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	229	229	unknown		unknown
+DO19268	KIRC-US		TCGA-B0-5700	male	alive	complete remission		77		78		C64.9					375	unknown		unknown
+DO46865	RECA-EU	PCAWG	C0018	male	alive			67	67			C64	TNM 2010 (7th edition)	T1N0M0		2058	2058	unknown		unknown
+DO46862	RECA-EU	PCAWG	C0017	female	alive	complete remission		54	54	57		C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	1636	1636	unknown		unknown
+DO46856	RECA-EU	PCAWG	C0015	male	alive			73	73			C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	2042	2042	unknown		unknown
+DO46859	RECA-EU	PCAWG	C0016	female	deceased			59	59			C64	TNM 2010 (7th edition)	T2N0M0	T2aN0M0	1586	1586	unknown		unknown
+DO46853	RECA-EU	PCAWG	C0014	female	alive			62	62			C64	TNM 2010 (7th edition)	T1N0M0	T1bN0M0	2112	2112	unknown		unknown
+DO19238	KIRC-US		TCGA-B0-4842	female	deceased			73		73		C64.9				1724		unknown		unknown
+DO46850	RECA-EU	PCAWG	C0013	male	deceased			65	65			C64	TNM 2010 (7th edition)	T3N0M0	T3aNXMX	114	114	unknown		unknown
+DO20220	KIRC-US		TCGA-B0-4844	male	deceased			60		60		C64.9				313		unknown		unknown
+DO20229	KIRC-US		TCGA-B4-5377	female	alive	complete remission		68		68		C64.9					291	unknown		unknown
+DO19248	KIRC-US		TCGA-B0-5402	male	alive			64		64		C64.9					10	unknown		unknown
+DO46847	RECA-EU	PCAWG	C0012	female	alive			57	57			C64	TNM 2010 (7th edition)	T3NXM0	T3bN0M0	2062	2062	unknown		unknown
+DO20239	KIRC-US		TCGA-AK-3436	male	alive	complete remission		40		45		C64.9					2044	unknown		unknown
+DO46841	RECA-EU	PCAWG	C0010	female	deceased	relapse		60	60	63	827	C64	TNM 2010 (7th edition)	T3N0M0	T3aNXMX	1254	1254	unknown		unknown
+DO46844	RECA-EU	PCAWG	C0011	female	alive	complete remission		65	65	69		C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	2097	2097	unknown		unknown
+DO46834	RECA-EU	PCAWG	C0006	female	deceased			52	52			C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	978	978	unknown		unknown
+DO46836	RECA-EU	PCAWG	C0007	male	deceased			79	79			C64	TNM 2010 (7th edition)	T3N0M0	T3bNXMX	1804	1804	unknown		unknown
+DO46830	RECA-EU	PCAWG	C0004	female	alive	complete remission		77	77	81		C64	TNM 2010 (7th edition)	T1N0M0	T1aNXMX	2044	2044	unknown		unknown
+DO20200	KIRC-US		TCGA-B0-4813	male	deceased			68		68		C64.9				18		unknown		unknown
+DO19218	KIRC-US		TCGA-B0-5096	female	deceased			72		72		C64.9				68		unknown		unknown
+DO46832	RECA-EU	PCAWG	C0005	male	deceased			55	55			C64	TNM 2010 (7th edition)	T3N0M1		2	2	unknown		unknown
+DO46838	RECA-EU	PCAWG	C0009	male	alive			61	61			C64	TNM 2010 (7th edition)	T1N1M0	T1bN0MX	2189	2189	unknown		unknown
+DO46823	RECA-CN		China_0002_K38	female				40	40			C64	TNM	T1N0M0				unknown		unknown
+DO46824	RECA-CN		China_0002_K44	female				48	48			C64	TNM	T2N0M0				unknown		unknown
+DO46825	RECA-CN		China_0002_K48	female				73	73			C64	TNM	T2N0M0				unknown		unknown
+DO46826	RECA-EU	PCAWG	C0064	male	alive	complete remission		39	39	42		C64	TNM 2010 (7th edition)	T3N0M0	T3aNXMX	1964	1964	unknown		unknown
+DO20210	KIRC-US		TCGA-BP-4998	male	alive	complete remission		49		51		C64.9					932	unknown		unknown
+DO46820	RECA-CN		China_0002_K29	male				54	54			C64	TNM	T1N0M0				unknown		unknown
+DO19228	KIRC-US	PCAWG	TCGA-A3-3324	male	alive	complete remission		51		54		C64.9					1186	unknown		unknown
+DO46821	RECA-CN		China_0002_K31	male				43	43			C64	TNM	T2N0M0				unknown		unknown
+DO46822	RECA-CN		China_0002_K32	female				55	55			C64	TNM	T1N0M0				unknown		unknown
+DO46827	RECA-EU	PCAWG	C0001	male	deceased	complete remission		67	67	69		C64	TNM 2010 (7th edition)	T3N0M1	T3bNXMX	782	782	unknown		unknown
+DO46828	RECA-EU	PCAWG	C0002	male	deceased	complete remission		54	54	55		C64	TNM 2010 (7th edition)	T3N0M1	T3bNXM1	564	564	unknown		unknown
+DO221016	WT-US		TARGET-50-PAJNZK	female	alive			4	4	7	149	C64.9	National Wilms Tumor Study Group	II		1040	1040			
+DO221014	WT-US		TARGET-50-PAJNZI	female	alive			8	8	10		C64.9	National Wilms Tumor Study Group	II		929	929			
+DO221012	WT-US		TARGET-50-PAJNYT	male	deceased			2	2	3	338	C64.9	National Wilms Tumor Study Group	III		354	354			
+DO221010	WT-US		TARGET-50-PAJNVX	male	deceased			4	4	5	168	C64.9	National Wilms Tumor Study Group	I		427	427			
+DO221018	WT-US		TARGET-50-PAJNZS	female	alive			5	5	9		C64.9	National Wilms Tumor Study Group	III		1668	1668			
+DO221027	WT-US		TARGET-50-PAJPDC	female	alive			8	8	14	146	C64.9	National Wilms Tumor Study Group	II		2365	2365			
+DO221025	WT-US		TARGET-50-PAJPCM	female	alive			5	5	13		C64.9	National Wilms Tumor Study Group	II		3121	3121			
+DO221023	WT-US		TARGET-50-PAJPAU	male	alive			4	4	10	273	C64.9	National Wilms Tumor Study Group	I		2350	2350			
+DO221020	WT-US		TARGET-50-PAJNZU	female	alive			3	3	12	246	C64.9	National Wilms Tumor Study Group	I		3451	3451			
+DO221021	WT-US		TARGET-50-PAJPAR	female	deceased			5	5	7	410	C64.9	National Wilms Tumor Study Group	III		542	542			
+DO221028	WT-US		TARGET-50-PAJPDN	female	alive			3	3		1986	C64	'Children''s Oncology Group'	II						
+DO221030	WT-US		TARGET-50-PAJPEW	male	alive			14	14	23	238	C64.9	National Wilms Tumor Study Group	II		3241	3241			
+DO221038	WT-US		TARGET-50-PAKFME	female	alive			5	5	13	281	C64.9	National Wilms Tumor Study Group	III		3110	3110			
+DO221036	WT-US		TARGET-50-PAKECR	female	alive			3	3	12		C64.9	National Wilms Tumor Study Group	II		3458	3458			
+DO221034	WT-US		TARGET-50-PAJPHA	male	alive			3	3	8	302	C64.9	National Wilms Tumor Study Group	II		1895	1895			
+DO221032	WT-US		TARGET-50-PAJPGY	female	alive			6	6	14	432	C64.9	National Wilms Tumor Study Group	II		2910	2910			
+DO221040	WT-US		TARGET-50-PAKFYV	female	deceased			3	3	5		C64.9	National Wilms Tumor Study Group	IIIB		680	680			
+DO221041	WT-US		TARGET-50-PAKGED	female	alive			8	8	13		C64.9	National Wilms Tumor Study Group	III		1791	1791			
+DO221048	WT-US		TARGET-50-PAKMUB	male	alive			7	7	8	408	C64.9	National Wilms Tumor Study Group	II		477	477			
+DO221046	WT-US		TARGET-50-PAKMSV	male	deceased			5	5	7	301	C64.9	National Wilms Tumor Study Group	III		733	733			
+DO221044	WT-US		TARGET-50-PAKKNS	male	alive			1	1	6		C64.9	National Wilms Tumor Study Group	I		1795	1795			
+DO221045	WT-US		TARGET-50-PAKKSE	female	alive			2	2	8	367	C64.9	National Wilms Tumor Study Group	II		1925	1925			
+DO221042	WT-US		TARGET-50-PAKGZX	male	alive			6	6	11	158	C64.9	National Wilms Tumor Study Group	IIIB		1963	1963			
+DO221043	WT-US		TARGET-50-PAKJGM	male	deceased			3	3	4	201	C64.9	National Wilms Tumor Study Group	III		409	409			
+DO221050	WT-US		TARGET-50-PAKNAL	female	alive			6	6	10		C64.9	National Wilms Tumor Study Group	III		1492	1492			
+DO221058	WT-US		TARGET-50-PAKPDF	female	deceased			5	5	6	221	C64.9	National Wilms Tumor Study Group	III		345	345			
+DO221056	WT-US		TARGET-50-PAKNXS	male	deceased			3	3	4	320	C64.9	National Wilms Tumor Study Group	III		329	329			
+DO221053	WT-US		TARGET-50-PAKNRX	male	deceased			5	5	6	256	C64.9	National Wilms Tumor Study Group	II		586	586			
+DO221054	WT-US		TARGET-50-PAKNTW	male	alive			13	13	14		C64.9	National Wilms Tumor Study Group	III		290	290			
+DO221062	WT-US		TARGET-50-PAKRZW	female	alive			6	6	9	421	C64.9	National Wilms Tumor Study Group	II		954	954			
+DO221060	WT-US		TARGET-50-PAKRVH	male	alive			7	7	16	152	C64.9	National Wilms Tumor Study Group	II		3059	3059			
+DO221068	WT-US		TARGET-50-PAKUIT	female	deceased			3	3	4	157	C64.9	National Wilms Tumor Study Group	IV		228	228			
+DO221069	WT-US		TARGET-50-PAKULH	female	deceased			3	3	4		C64.9	National Wilms Tumor Study Group	IIIB		375	375			
+DO221066	WT-US		TARGET-50-PAKSDG	male		relapse		3	3		245	C64	'Children''s Oncology Group'	I			245			
+DO221064	WT-US		TARGET-50-PAKSCC	male	alive			2	2	6	260	C64.9	National Wilms Tumor Study Group	II		1628	1628			
+DO221073	WT-US		TARGET-50-PAKWPM	male	alive			5	5	13	179	C64.9	National Wilms Tumor Study Group	II		2888	2888			
+DO221071	WT-US		TARGET-50-PAKVET	female	alive			1	1	5		C64.9	National Wilms Tumor Study Group	I		1475	1475			
+DO221079	WT-US		TARGET-50-PAKYFC	female	alive			3	3	5	191	C64.9	National Wilms Tumor Study Group	II		631	631			
+DO221077	WT-US		TARGET-50-PAKXXF	male	deceased			5	5	6	333	C64.9	National Wilms Tumor Study Group	III		416	416			
+DO221075	WT-US		TARGET-50-PAKXWB	female	deceased			7	7	9		C64.9	National Wilms Tumor Study Group	III		458	458			
+DO221085	WT-US		TARGET-50-PAKZFK	female	alive			4	4	9	426	C64.9	National Wilms Tumor Study Group	II		2073	2073			
+DO221083	WT-US		TARGET-50-PAKZER	female	alive			6	6	14	274	C64.9	National Wilms Tumor Study Group	II		2829	2829			
+DO221081	WT-US		TARGET-50-PAKYLT	female	alive			6	6	14		C64.9	National Wilms Tumor Study Group	III		2812	2812			
+DO221089	WT-US		TARGET-50-PALDTE	male	alive			3	3	10	56	C64.9	National Wilms Tumor Study Group	II		2551	2551			
+DO221087	WT-US		TARGET-50-PAKZHF	male	alive			4	4	5	246	C64.9	National Wilms Tumor Study Group	II		519	519			
+DO19603	KIRC-US		TCGA-B2-5641	male	alive	complete remission		79		79		C64.9					168	unknown		unknown
+DO223601	CCSK-US		TARGET-51-PAEALX	male	alive			1	1			C64	'National Wilms'' Tumor Study'	III						
+DO221004	WT-US		TARGET-50-PAJNUP	female	deceased			6	6	8	357	C64.9	National Wilms Tumor Study Group	III		752	752			
+DO221002	WT-US		TARGET-50-PAJNTJ	male	deceased			2	2	5	152	C64.9	National Wilms Tumor Study Group	II		1013	1013			
+DO221000	WT-US		TARGET-50-PAJNSL	female	alive			0	0	6	372	C64.9	National Wilms Tumor Study Group	II		1990	1990			
+DO221008	WT-US		TARGET-50-PAJNVE	female	alive			2	2	11		C64.9	National Wilms Tumor Study Group	III		3382	3382			
+DO221006	WT-US		TARGET-50-PAJNUS	male	deceased			2	2	4	203	C64.9	National Wilms Tumor Study Group	IV		647	647			
+DO20545	KIRC-US		TCGA-BP-4162	female	alive	complete remission		65		73		C64.9					3074	unknown		unknown
+DO44511	KIRP-US		TCGA-B9-A5W9	male	alive	complete remission		40		40		C64.1					5	unknown		unknown
+DO18223	KIRC-US		TCGA-BP-4965	male	alive	complete remission		46		51		C64.9					1871	unknown		unknown
+DO19553	KIRC-US		TCGA-B0-5100	male	deceased			72		72		C64.9				1913		unknown		unknown
+DO44515	KIRP-US	PCAWG	TCGA-HE-A5NF	male	alive	complete remission		58		63		C64.1					2072	unknown		unknown
+DO44513	KIRP-US		TCGA-B9-A69E	male	alive	complete remission		71		71		C64.1					102	unknown		unknown
+DO44517	KIRP-US	PCAWG	TCGA-A4-A57E	male	alive			59		59		C64.1					0	unknown		unknown
+DO19563	KIRC-US		TCGA-CZ-5986	male	alive	complete remission		61		62		C64.9					373	unknown		unknown
+DO44501	KIRP-US		TCGA-IZ-A6M9	male	alive	complete remission		63		63		C64.1					2	unknown		unknown
+DO20555	KIRC-US		TCGA-A3-3376	male	alive	complete remission		51		53		C64.9					1070	unknown		unknown
+DO18233	KIRC-US		TCGA-A3-3382	male	alive	progression		69		70		C64.9					574	unknown		unknown
+DO44504	KIRP-US		TCGA-PJ-A5Z9	female	alive	complete remission		80		80		C64.1					174	unknown		unknown
+DO44509	KIRP-US		TCGA-A4-8310	male	alive	complete remission		58		58		C64.1					1	unknown		unknown
+DO44506	KIRP-US		TCGA-B9-A5W8	male	alive	complete remission		50		50		C64.1					207	unknown		unknown
+DO18243	KIRC-US		TCGA-CZ-4862	male	alive	complete remission		46		51		C64.9					1843	unknown		unknown
+DO19573	KIRC-US		TCGA-B2-4098	female	deceased			72		72		C64.9				51		unknown		unknown
+DO18202	KIRC-US		TCGA-CZ-5463	male	alive			76		77		C64.9					662	unknown		unknown
+DO19533	KIRC-US		TCGA-B0-4696	male	deceased			58		58		C64.9				866		unknown		unknown
+DO20525	KIRC-US		TCGA-CZ-5984	male	alive	complete remission		51		55		C64.9					1491	unknown		unknown
+DO18213	KIRC-US		TCGA-CJ-4904	female	alive	progression		60		64		C64.9					1792	unknown		unknown
+DO18212	KIRC-US		TCGA-BP-5174	female	alive	complete remission		45		51		C64.9					2257	unknown		unknown
+DO19543	KIRC-US		TCGA-BP-4790	male	deceased			76		76		C64.9				1111		unknown		unknown
+DO20535	KIRC-US		TCGA-B0-5083	male	deceased			63		63		C64.9				1045		unknown		unknown
+DO19510	KIRC-US		TCGA-CJ-4868	male	deceased			42		43		C64.9				646		unknown		unknown
+DO19513	KIRC-US		TCGA-BP-4789	male	alive	complete remission		48		52		C64.9					1489	unknown		unknown
+DO20506	KIRC-US		TCGA-A3-3322	male	alive	complete remission		51		55		C64.9					1478	unknown		unknown
+DO19523	KIRC-US		TCGA-B0-5399	male	alive	complete remission		46		46		C64.9					190	unknown		unknown
+DO20516	KIRC-US		TCGA-BP-5185	male	alive	complete remission		56		59		C64.9					1132	unknown		unknown
+DO19500	KIRC-US		TCGA-B0-5703	male	alive	complete remission		73		73		C64.9					263	unknown		unknown
+DO18292	KIRC-US		TCGA-CJ-4886	female	alive	complete remission		42		47		C64.9					1952	unknown		unknown
+DO20585	KIRC-US		TCGA-CZ-4858	male	alive	progression		39		44		C64.9					1943	unknown		unknown
+DO18273	KIRC-US		TCGA-B8-4622	male	alive	complete remission		57		57		C64.9					181	unknown		unknown
+DO20594	KIRC-US		TCGA-B0-4828	male	deceased			79		79		C64.9				307		unknown		unknown
+DO18282	KIRC-US		TCGA-B0-4836	male	deceased			61		61		C64.9				1238		unknown		unknown
+DO44531	KIRP-US		TCGA-KV-A6GD	male	alive	complete remission		85		85		C64.1					160	unknown		unknown
+DO20565	KIRC-US		TCGA-B0-4706	male	deceased			61		61		C64.9				65		unknown		unknown
+DO18253	KIRC-US		TCGA-CW-5588	female	alive			78		83		C64.9					2017	unknown		unknown
+DO19583	KIRC-US		TCGA-AK-3460	male	alive	complete remission		58		60		C64.9					951	unknown		unknown
+DO44523	KIRP-US		TCGA-A4-8311	male	alive	complete remission		60		60		C64.1					2	unknown		unknown
+DO44520	KIRP-US	PCAWG	TCGA-GL-A4EM	male	alive	complete remission		61		61		C64.1					32	unknown		unknown
+DO44525	KIRP-US	PCAWG	TCGA-GL-A59R	male	alive	complete remission		79		79		C64.1					203	unknown		unknown
+DO20575	KIRC-US		TCGA-B0-4707	male	deceased			63		63		C64.9				600		unknown		unknown
+DO44528	KIRP-US	PCAWG	TCGA-HE-A5NL	male	alive	complete remission		51		51		C64.1					167	unknown		unknown
+DO18263	KIRC-US		TCGA-CJ-4881	male	alive	progression		41		46		C64.9					2014	unknown		unknown
+DO19593	KIRC-US		TCGA-BP-4971	male	alive	complete remission		40		44		C64.9					1487	unknown		unknown
+DO44499	KIRP-US		TCGA-A4-A5XZ	female	alive	complete remission		65		65		C64.1					2	unknown		unknown
+DO44493	KIRP-US		TCGA-GL-8500	male	alive	complete remission		63		63		C64.1					236	unknown		unknown
+DO44492	KIRP-US		TCGA-A4-8516	male	alive			62		62		C64.1					23	unknown		unknown
+DO44496	KIRP-US	PCAWG	TCGA-B9-A44B	male	alive	progression		70		70		C64.1					64	unknown		unknown
+DO44489	KIRP-US		TCGA-A4-8630	female	alive	complete remission		59		59		C64.1					9	unknown		unknown
+DO44488	KIRP-US		TCGA-G7-A4TM	male	alive	complete remission		40		40		C64.1					194	unknown		unknown
+DO44482	KIRP-US		TCGA-IA-A40U	male	alive	complete remission		56		56		C64.1					140	unknown		unknown
+DO44480	KIRP-US		TCGA-PJ-A5Z8	female	alive	complete remission		60		60		C64.1					113	unknown		unknown
+DO44485	KIRP-US	PCAWG	TCGA-HE-A5NH	male	alive	complete remission		62		63		C64.1					408	unknown		unknown
+DO221104	WT-US		TARGET-50-PALGVY	female	alive			3	3	7	370	C64.9	National Wilms Tumor Study Group	III		1286	1286			
+DO221102	WT-US		TARGET-50-PALGLU	female	deceased			3	3	4	306	C64.9	National Wilms Tumor Study Group	III		326	326			
+DO221100	WT-US		TARGET-50-PALGAZ	female	deceased			1	1	2	152	C64.9	National Wilms Tumor Study Group	I		422	422			
+DO221108	WT-US		TARGET-50-PALKCW	male	alive			5	5	8	399	C64.9	National Wilms Tumor Study Group	II		1110	1110			
+DO221106	WT-US		TARGET-50-PALJIP	female	deceased			5	5	7	337	C64.9	National Wilms Tumor Study Group	II		770	770			
+DO221114	WT-US		TARGET-50-PALLFB	male	deceased			8	8	9		C64.9	National Wilms Tumor Study Group	III		343	343			
+DO221112	WT-US		TARGET-50-PALLCK	female	deceased			3	3	4	278	C64.9	National Wilms Tumor Study Group	III		534	534			
+DO221110	WT-US		TARGET-50-PALKRS	male	deceased			5	5	7	134	C64.9	National Wilms Tumor Study Group	III		384	384			
+DO18104	KIRC-US		TCGA-B0-5106	male	deceased			64		64		C64.9				1598		unknown		unknown
+DO20426	KIRC-US		TCGA-B0-5107	female	deceased			65		65		C64.9				927		unknown		unknown
+DO19440	KIRC-US		TCGA-BP-4758	male	alive	complete remission		40		46		C64.9					2208	unknown		unknown
+DO18114	KIRC-US		TCGA-BP-5194	male	alive	complete remission		39		40		C64.9					408	unknown		unknown
+DO20436	KIRC-US		TCGA-BP-4355	female	deceased			59		59		C64.9				953		unknown		unknown
+DO19450	KIRC-US		TCGA-DV-5569	female	alive	complete remission		29		29		C64.9					355	unknown		unknown
+DO19410	KIRC-US		TCGA-BP-4163	female	alive	complete remission		60		67		C64.9					2839	unknown		unknown
+DO20406	KIRC-US		TCGA-B0-5085	female	deceased			76		76		C64.9				770		unknown		unknown
+DO19420	KIRC-US		TCGA-BP-4334	male	alive	complete remission		56		57		C64.9					645	unknown		unknown
+DO19430	KIRC-US		TCGA-CW-5587	female	alive	complete remission		62		68		C64.9					2226	unknown		unknown
+DO20416	KIRC-US	PCAWG	TCGA-BP-4326	female	alive	complete remission		53		57		C64.9					1625	unknown		unknown
+DO19400	KIRC-US		TCGA-B8-4151	female	alive	complete remission		51		51		C64.9					280	unknown		unknown
+DO44478	KIRP-US	PCAWG	TCGA-IA-A40X	female	alive	complete remission		49		50		C64.1					430	unknown		unknown
+DO221096	WT-US		TARGET-50-PALFME	male	deceased			10	10	11	154	C64.9	National Wilms Tumor Study Group	II		267	267			
+DO221093	WT-US		TARGET-50-PALERC	female	alive			0	0	8	46	C64.9	National Wilms Tumor Study Group	II		2790	2790			
+DO221094	WT-US		TARGET-50-PALEZT	female	alive			12	12	13		C64.9	National Wilms Tumor Study Group	II		331	331			
+DO221091	WT-US		TARGET-50-PALDWP	male	deceased			6	6	7	287	C64.9	National Wilms Tumor Study Group	III		528	528			
+DO44471	KIRP-US		TCGA-IZ-8195	male	alive	complete remission		82		82		C64.1					34	unknown		unknown
+DO44475	KIRP-US		TCGA-DW-7963	male	alive	complete remission		43		45		C64.1					876	unknown		unknown
+DO44473	KIRP-US		TCGA-A4-8517	male	alive	complete remission		71		71		C64.1					1	unknown		unknown
+DO221098	WT-US		TARGET-50-PALFRD	female	alive	relapse		5	5		429	C64	'Children''s Oncology Group'	III			429			
+DO18192	KIRC-US		TCGA-B0-5702	male	alive	complete remission		71		74		C64.9					1158	unknown		unknown
+DO44467	KIRP-US		TCGA-A4-8518	male	alive	complete remission		48		48		C64.1					3	unknown		unknown
+DO44465	KIRP-US	PCAWG	TCGA-A4-A4ZT	female	alive	complete remission		71		71		C64.1					0	unknown		unknown
+DO44469	KIRP-US	PCAWG	TCGA-A4-A48D	male	alive	complete remission		84		84		C64.1					1	unknown		unknown
+DO44460	KIRP-US		TCGA-GL-A59T	male	alive	complete remission		46		46		C64.1					124	unknown		unknown
+DO44464	KIRP-US		TCGA-A4-8515	male	alive	complete remission		47		47		C64.1					21	unknown		unknown
+DO44463	KIRP-US		TCGA-A4-A5Y0	female	alive	complete remission		61		61		C64.1					118	unknown		unknown
+DO44462	KIRP-US	PCAWG	TCGA-IA-A40Y	female	alive	complete remission		60		60		C64.1					62	unknown		unknown
+DO44461	KIRP-US		TCGA-IZ-8196	male	alive	complete remission		50		50		C64.1					124	unknown		unknown
+DO44457	KIRC-US		TCGA-B8-A54I	male	alive	complete remission		48		48		C64.9					150	unknown		unknown
+DO20486	KIRC-US		TCGA-A3-3323	male	alive	complete remission		53		56		C64.9					1106	unknown		unknown
+DO44459	KIRC-US		TCGA-B2-A4SR	male	alive	complete remission		61		61		C64.9					343	unknown		unknown
+DO44458	KIRC-US		TCGA-B8-A54J	male	alive	complete remission		60		60		C64.9					66	unknown		unknown
+DO18174	KIRC-US		TCGA-BP-4784	female	alive	complete remission		67		72		C64.9					1854	unknown		unknown
+DO20496	KIRC-US		TCGA-B0-5691	female	alive	complete remission		66		73		C64.9					2781	unknown		unknown
+DO18184	KIRC-US		TCGA-CJ-5679	male	deceased			73		73		C64.9				679		unknown		unknown
+DO20466	KIRC-US		TCGA-BP-4981	female	deceased			75		75		C64.9				1097		unknown		unknown
+DO19480	KIRC-US		TCGA-BP-5189	male	deceased			60		62		C64.9				822		unknown		unknown
+DO18154	KIRC-US		TCGA-B0-5080	male	deceased			63		63		C64.9				342		unknown		unknown
+DO20476	KIRC-US		TCGA-B0-4841	male	deceased			63		63		C64.9				204		unknown		unknown
+DO19490	KIRC-US		TCGA-CJ-5686	female	alive	complete remission		59		64		C64.9					2038	unknown		unknown
+DO18164	KIRC-US	PCAWG	TCGA-BP-4756	female	alive	complete remission		62		63		C64.9					374	unknown		unknown
+DO20446	KIRC-US		TCGA-B8-5549	male	alive	complete remission		53		53		C64.9					194	unknown		unknown
+DO18124	KIRC-US		TCGA-CJ-4643	female	alive	complete remission		67		71		C64.9					1793	unknown		unknown
+DO19460	KIRC-US		TCGA-B0-4822	male	deceased			78		78		C64.9				1111		unknown		unknown
+DO20456	KIRC-US		TCGA-B0-4849	male	deceased			51		51		C64.9				69		unknown		unknown
+DO18134	KIRC-US		TCGA-A3-3351	male	alive	complete remission		42		44		C64.9					910	unknown		unknown
+DO19470	KIRC-US		TCGA-CW-5584	male	deceased			74		74		C64.9				164		unknown		unknown
+DO18144	KIRC-US		TCGA-B0-4945	female	deceased			75		75		C64.9				2145		unknown		unknown
+DO16725	KIRC-US		TCGA-CZ-5452	male	alive	complete remission		69		73		C64.9					1556	unknown		unknown
+DO16734	KIRC-US		TCGA-CJ-4905	female	alive	complete remission		62		66		C64.9					1496	unknown		unknown
+DO16705	KIRC-US		TCGA-BP-4983	female	alive	complete remission		67		70		C64.9					1413	unknown		unknown
+DO16715	KIRC-US		TCGA-EU-5906	male	alive	complete remission		55		55		C64.9					206	unknown		unknown
+DO223832	KIRC-US		TCGA-DV-A4VX	male	deceased			59		59		C64.9				1626		unknown		unknown
+DO223831	KIRC-US		TCGA-A3-A6NI	male	alive	complete remission		47		47		C64.9					20	unknown		unknown
+DO223834	KIRC-US		TCGA-T7-A92I	female	alive	complete remission		47		47		C64.9					-2	unknown		unknown
+DO223833	KIRC-US		TCGA-DV-A4VZ	male	alive	complete remission		53		54		C64.9					365	unknown		unknown
+DO16785	KIRC-US		TCGA-CZ-5985	male	alive	complete remission		58		62		C64.9					1629	unknown		unknown
+DO16795	KIRC-US		TCGA-BP-4967	male	alive	complete remission		76		76		C64.9					205	unknown		unknown
+DO16769	KIRC-US	PCAWG	TCGA-B0-5094	male	deceased			62		62		C64.9				333		unknown		unknown
+DO16779	KIRC-US		TCGA-BP-4342	male	deceased			79		79		C64.9				2256		unknown		unknown
+DO16741	KIRC-US		TCGA-CZ-4865	female	deceased			70		70		C64.9				166		unknown		unknown
+DO16750	KIRC-US		TCGA-BP-4351	female	alive	progression		51		53		C64.9					970	unknown		unknown
+DO16759	KIRC-US		TCGA-CJ-4872	male	alive	complete remission		51		54		C64.9					1435	unknown		unknown
+DO233359	RECA-EU		K2140210	male	alive			41				N/A	N/A	1	N/A	1575	1575		N/A	unknown
+DO17937	KIRC-US		TCGA-BP-5190	male	alive	complete remission		61		63		C64.9					1011	unknown		unknown
+DO16607	KIRC-US		TCGA-B0-5709	female	alive	complete remission		62		68		C64.9					2358	unknown		unknown
+DO233350	RECA-EU		K2140186	male	alive			68				N/A	N/A	1	N/A	1466	1466		N/A	unknown
+DO233356	RECA-EU		K2140200	male	alive			57				N/A	N/A	1	N/A	1430	1430		N/A	unknown
+DO233355	RECA-EU		K2140198	female	alive			64				N/A	N/A	4	N/A	1330	1330		N/A	unknown
+DO233358	RECA-EU		K2140208	male	alive			57				N/A	N/A	1	N/A	1531	1531		N/A	unknown
+DO233357	RECA-EU		K2140201	male	alive			54				N/A	N/A	1	N/A	1452	1452		N/A	unknown
+DO233352	RECA-EU		K2140192	female	deceased			52				N/A	N/A	4	N/A	466	466		N/A	unknown
+DO233351	RECA-EU		K2140188	female	alive			55				N/A	N/A	1	N/A	1455	1455		N/A	unknown
+DO233354	RECA-EU		K2140197	female	alive			68				N/A	N/A	1	N/A	1479	1479		N/A	unknown
+DO233353	RECA-EU		K2140193	male	alive			71				N/A	N/A	1	N/A	1686	1686		N/A	unknown
+DO17947	KIRC-US		TCGA-CJ-5672	male	deceased			84		84		C64.9				2190		unknown		unknown
+DO16614	KIRC-US		TCGA-BP-5177	female	alive	complete remission		46		46		C64.9					293	unknown		unknown
+DO233361	RECA-EU		K2140212	female	alive			60				N/A	N/A	1	N/A	1539	1539		N/A	unknown
+DO233360	RECA-EU		K2140211	female	alive			70				N/A	N/A	1	N/A	1666	1666		N/A	unknown
+DO233367	RECA-EU		K2140219	female	deceased			70				N/A	N/A	4	N/A	1064	1064		N/A	unknown
+DO233366	RECA-EU		K2140218	female	deceased			78				N/A	N/A	3	N/A	170	170		N/A	unknown
+DO233369	RECA-EU		K2140229	female	alive			61				N/A	N/A	1	N/A	1452	1452		N/A	unknown
+DO233368	RECA-EU		K2140225	female	alive			57				N/A	N/A	2	N/A	1476	1476		N/A	unknown
+DO233363	RECA-EU		K2140214	male	alive			62				N/A	N/A	1	N/A	1477	1477		N/A	unknown
+DO233362	RECA-EU		K2140213	male	alive			77				N/A	N/A	2	N/A	1476	1476		N/A	unknown
+DO233365	RECA-EU		K2140217	female	alive			77				N/A	N/A	1	N/A	1396	1396		N/A	unknown
+DO233364	RECA-EU		K2140216	female	alive			75				N/A	N/A	1	N/A	1460	1460		N/A	unknown
+DO17918	KIRC-US		TCGA-B0-4694	male	deceased			72		72		C64.9				106		unknown		unknown
+DO233370	RECA-EU		K2140230	male	alive			62				N/A	N/A	1	N/A	1469	1469		N/A	unknown
+DO233372	RECA-EU		K2140233	male	deceased			77				N/A	N/A	1	N/A	1342	1342		N/A	unknown
+DO233371	RECA-EU		K2140232	male	deceased			77				N/A	N/A	1	N/A	1553	1553		N/A	unknown
+DO233378	RECA-EU		K2140242	male	alive			72				N/A	N/A	2	N/A	1416	1416		N/A	unknown
+DO233377	RECA-EU		K2140241	female	alive			59				N/A	N/A	1	N/A	1496	1496		N/A	unknown
+DO233379	RECA-EU		K2140243	male	alive			59				N/A	N/A	1	N/A	1292	1292		N/A	unknown
+DO233374	RECA-EU		K2140236	male	alive			58				N/A	N/A	1	N/A	1460	1460		N/A	unknown
+DO233373	RECA-EU		K2140234	female	alive			46				N/A	N/A	1	N/A	1575	1575		N/A	unknown
+DO233376	RECA-EU		K2140240	male	alive			49				N/A	N/A	4	N/A	1293	1293		N/A	unknown
+DO233375	RECA-EU		K2140239	female	alive			63				N/A	N/A	2	N/A	1260	1260		N/A	unknown
+DO17927	KIRC-US		TCGA-CZ-5466	male	alive	complete remission		67		68		C64.9					685	unknown		unknown
+DO233381	RECA-EU		K2140246	male	alive			59				N/A	N/A	1	N/A	1526	1526		N/A	unknown
+DO233380	RECA-EU		K2140244	female	deceased			69				N/A	N/A	3	N/A	294	294		N/A	unknown
+DO233383	RECA-EU		K2140254	male	alive			48				N/A	N/A	1	N/A	1357	1357		N/A	unknown
+DO233382	RECA-EU		K2140247	male	deceased			62				N/A	N/A	4	N/A	1628	1628		N/A	unknown
+DO233389	RECA-EU		K2140261	female	alive			75				N/A	N/A	1	N/A	1367	1367		N/A	unknown
+DO233388	RECA-EU		K2140260	male	alive			65				N/A	N/A	1	N/A	1214	1214		N/A	unknown
+DO233385	RECA-EU		K2140257	male	alive			54				N/A	N/A	4	N/A	1219	1219		N/A	unknown
+DO233384	RECA-EU		K2140255	female	deceased			72				N/A	N/A	4	N/A	343	343		N/A	unknown
+DO233387	RECA-EU		K2140259	female	alive			56				N/A	N/A	2	N/A	1241	1241		N/A	unknown
+DO233386	RECA-EU		K2140258	male	alive			54				N/A	N/A	2	N/A	1468	1468		N/A	unknown
+DO233392	RECA-EU		K2140274	male	alive			64				N/A	N/A	1	N/A	1377	1377		N/A	unknown
+DO233391	RECA-EU		K2140272	male	alive			72				N/A	N/A	1	N/A	1107	1107		N/A	unknown
+DO233394	RECA-EU		K2150031	female	alive			67				N/A	N/A	1	N/A	1313	1313		N/A	unknown
+DO233393	RECA-EU		K2140276	female	alive			57				N/A	N/A	1	N/A	1360	1360		N/A	unknown
+DO233390	RECA-EU		K2140271	female	alive			72				N/A	N/A	3	N/A	1407	1407		N/A	unknown
+DO233399	RECA-EU		K2150079	male	alive			79				N/A	N/A	1	N/A	1834	1834		N/A	unknown
+DO233396	RECA-EU		K2150062	male	deceased			72				N/A	N/A	1	N/A	174	174		N/A	unknown
+DO233395	RECA-EU		K2150035	male	alive			53				N/A	N/A	3	N/A	2012	2012		N/A	unknown
+DO233398	RECA-EU		K2150070	female	deceased			67				N/A	N/A	4	N/A	1224	1224		N/A	unknown
+DO233397	RECA-EU		K2150063	male	alive			49				N/A	N/A	1	N/A	1919	1919		N/A	unknown
+DO17908	KIRC-US		TCGA-CZ-4854	male	deceased			68		71		C64.9				1404		unknown		unknown
+DO232074	RECA-EU		RS1141000	male	alive			53				N/A	N/A	3	N/A	1585	1585		N/A	unknown
+DO232079	RECA-EU		RS1141047	female	alive			77				N/A	N/A	1	N/A	1486	1486		N/A	unknown
+DO232075	RECA-EU		RS1141004	female	alive			53				N/A	N/A	2	N/A	1555	1555		N/A	unknown
+DO232076	RECA-EU		RS1141013	female	alive			65				N/A	N/A	1	N/A	1357	1357		N/A	unknown
+DO232077	RECA-EU		RS1141018	female	alive			53				N/A	N/A	1	N/A	1549	1549		N/A	unknown
+DO232078	RECA-EU		RS1141031	female	deceased			45				N/A	N/A	3	N/A	613	613		N/A	unknown
+DO232082	RECA-EU		RS1141063	male	alive			43				N/A	N/A	1	N/A	1470	1470		N/A	unknown
+DO232083	RECA-EU		RS1141066	female	alive			62				N/A	N/A	4	N/A	1467	1467		N/A	unknown
+DO232084	RECA-EU		RS1141067	male	alive			62				N/A	N/A	1	N/A	1513	1513		N/A	unknown
+DO232085	RECA-EU		RS1141069	female	deceased			64				N/A	N/A	1	N/A	545	545		N/A	unknown
+DO232080	RECA-EU		RS1141058	female	alive			64				N/A	N/A	1	N/A	1503	1503		N/A	unknown
+DO232081	RECA-EU		RS1141060	male	alive			65				N/A	N/A	1	N/A	1317	1317		N/A	unknown
+DO232086	RECA-EU		RS1141080	male	deceased			55				N/A	N/A	4	N/A	794	794		N/A	unknown
+DO232087	RECA-EU		RS1141084	male	deceased			47				N/A	N/A	2	N/A	993	993		N/A	unknown
+DO232088	RECA-EU		RS1141100	female	deceased			62				N/A	N/A	4	N/A	145	145		N/A	unknown
+DO232089	RECA-EU		RS1141103	female	deceased			70				N/A	N/A	4	N/A	226	226		N/A	unknown
+DO232093	RECA-EU		RS1141139	male	alive			58				N/A	N/A	1	N/A	1424	1424		N/A	unknown
+DO232094	RECA-EU		RS1141142	male	deceased			62				N/A	N/A	4	N/A	104	104		N/A	unknown
+DO232095	RECA-EU		RS1141146	female	alive			60				N/A	N/A	1	N/A	1536	1536		N/A	unknown
+DO232096	RECA-EU		RS1141157	female	alive			64				N/A	N/A	1	N/A	1366	1366		N/A	unknown
+DO232090	RECA-EU		RS1141121	male	alive			65				N/A	N/A	4	N/A	1552	1552		N/A	unknown
+DO232091	RECA-EU		RS1141123	female	alive			51				N/A	N/A	2	N/A	1434	1434		N/A	unknown
+DO232092	RECA-EU		RS1141137	female	deceased			56				N/A	N/A	1	N/A	1060	1060		N/A	unknown
+DO232097	RECA-EU		RS1141161	female	alive			23				N/A	N/A	1	N/A	1394	1394		N/A	unknown
+DO232098	RECA-EU		RS1141175	female	deceased			43				N/A	N/A	3	N/A	1088	1088		N/A	unknown
+DO232099	RECA-EU		RS1141185	male	alive			73				N/A	N/A	1	N/A	1175	1175		N/A	unknown
+DO16688	KIRC-US	PCAWG	TCGA-CZ-4856	female	alive			62		62		C64.9					18	unknown		unknown
+DO223953	KIRP-US		TCGA-5P-A9KA	male	alive	complete remission		61		61		C64.1					308	unknown		unknown
+DO223951	KIRP-US		TCGA-5P-A9K8	female	alive			51		54		C64.1					1302	unknown		unknown
+DO223950	KIRP-US		TCGA-5P-A9K6	male	alive			64		69		C64.1					1914	unknown		unknown
+DO223958	KIRP-US		TCGA-J7-A8I2	male	alive	complete remission		75		75		C64.1					0	unknown		unknown
+DO223957	KIRP-US		TCGA-5P-A9KH	male	alive	complete remission		77		82		C64.1					2051	unknown		unknown
+DO223955	KIRP-US		TCGA-5P-A9KE	male	alive	complete remission		70		72		C64.1					824	unknown		unknown
+DO223954	KIRP-US		TCGA-5P-A9KC	female	alive	complete remission		51		52		C64.1					377	unknown		unknown
+DO16696	KIRC-US		TCGA-BP-5183	male	alive	complete remission		57		60		C64.9					1102	unknown		unknown
+DO17997	KIRC-US		TCGA-BP-4169	female	deceased			76		76		C64.9				701		unknown		unknown
+DO16668	KIRC-US		TCGA-CJ-6031	male	alive	complete remission		54		59		C64.9					1906	unknown		unknown
+DO233309	RECA-EU		K2110122	male	alive			71				N/A	N/A	1	N/A	1926	1926		N/A	unknown
+DO233308	RECA-EU		K2110120	male	alive			67				N/A	N/A	1	N/A	1896	1896		N/A	unknown
+DO233305	RECA-EU		K2110107	male	alive			47				N/A	N/A	1	N/A	1959	1959		N/A	unknown
+DO233304	RECA-EU		K2110101	male	alive			57				N/A	N/A	1	N/A	2021	2021		N/A	unknown
+DO16678	KIRC-US		TCGA-B0-5696	male	alive	complete remission		69		71		C64.9					944	unknown		unknown
+DO233307	RECA-EU		K2110114	female	alive			75				N/A	N/A	1	N/A	1925	1925		N/A	unknown
+DO233306	RECA-EU		K2110108	male	alive			35				N/A	N/A	1	N/A	51	51		N/A	unknown
+DO233301	RECA-EU		K2110063	male	alive			44				N/A	N/A	1	N/A	2271	2271		N/A	unknown
+DO233300	RECA-EU		K2110046	male	deceased			60				N/A	N/A	2	N/A	1923	1923		N/A	unknown
+DO233303	RECA-EU		K2110095	male	deceased			75				N/A	N/A	1	N/A	1882	1882		N/A	unknown
+DO233302	RECA-EU		K2110076	male	alive			44				N/A	N/A	1	N/A	2128	2128		N/A	unknown
+DO233319	RECA-EU		K2110279	female	alive			75				N/A	N/A	3	N/A	1242	1242		N/A	unknown
+DO233316	RECA-EU		K2110184	male	alive			69				N/A	N/A	1	N/A	1567	1567		N/A	unknown
+DO233315	RECA-EU		K2110180	female	alive			65				N/A	N/A	1	N/A	1586	1586		N/A	unknown
+DO233318	RECA-EU		K2110247	male	alive			52				N/A	N/A	1	N/A	1365	1365		N/A	unknown
+DO16642	KIRC-US		TCGA-BP-4340	female	deceased			70		70		C64.9				562		unknown		unknown
+DO233317	RECA-EU		K2110239	male	alive			62				N/A	N/A	1	N/A	1320	1320		N/A	unknown
+DO16649	KIRC-US		TCGA-AK-3433	female	alive	complete remission		48		54		C64.9					2192	unknown		unknown
+DO17977	KIRC-US	PCAWG	TCGA-CJ-4918	male	deceased			64		64		C64.9				93		unknown		unknown
+DO233312	RECA-EU		K2110162	male	deceased			64				N/A	N/A	2	N/A	1564	1564		N/A	unknown
+DO233311	RECA-EU		K2110160	female	deceased			55				N/A	N/A	4	N/A	663	663		N/A	unknown
+DO233314	RECA-EU		K2110176	male	alive			59				N/A	N/A		N/A	1594	1594		N/A	unknown
+DO233313	RECA-EU		K2110163	male	alive			81				N/A	N/A	1	N/A	1664	1664		N/A	unknown
+DO233310	RECA-EU		K2110156	male	alive			73				N/A	N/A	1	N/A	1719	1719		N/A	unknown
+DO233327	RECA-EU		K2120158	male	deceased			72				N/A	N/A		N/A	684	684		N/A	unknown
+DO233326	RECA-EU		K2120150	female	alive			83				N/A	N/A		N/A	14	14		N/A	unknown
+DO17987	KIRC-US		TCGA-B0-5117	male	alive	complete remission		40		40		C64.9					0	unknown		unknown
+DO233329	RECA-EU		K2120167	female	alive			61				N/A	N/A	1	N/A	1470	1470		N/A	unknown
+DO233328	RECA-EU		K2120165	female	alive			65				N/A	N/A	4	N/A	1129	1129		N/A	unknown
+DO16658	KIRC-US		TCGA-BP-5176	female	deceased			78		78		C64.9				1590		unknown		unknown
+DO233323	RECA-EU		K2120140	female	alive			70				N/A	N/A	4	N/A	1415	1415		N/A	unknown
+DO233322	RECA-EU		K2120137	female	alive			79				N/A	N/A		N/A	1372	1372		N/A	unknown
+DO233325	RECA-EU		K2120149	male	alive			42				N/A	N/A		N/A	1346	1346		N/A	unknown
+DO233324	RECA-EU		K2120142	male	deceased			67				N/A	N/A		N/A	923	923		N/A	unknown
+DO233321	RECA-EU		K2120131	male	alive			55				N/A	N/A		N/A	1767	1767		N/A	unknown
+DO233320	RECA-EU		K2120130	male	alive			61				N/A	N/A		N/A	1367	1367		N/A	unknown
+DO233338	RECA-EU		K2140147	male	alive			84				N/A	N/A	1	N/A	1716	1716		N/A	unknown
+DO16622	KIRC-US		TCGA-BP-5192	male	alive	complete remission		59		60		C64.9					714	unknown		unknown
+DO233337	RECA-EU		K2140143	male	alive			55				N/A	N/A	1	N/A	1610	1610		N/A	unknown
+DO233339	RECA-EU		K2140150	male	alive			55				N/A	N/A	1	N/A	1833	1833		N/A	unknown
+DO17957	KIRC-US		TCGA-A3-3311	male	deceased			57		57		C64.9				1191		unknown		unknown
+DO233334	RECA-EU		K2140136	female	alive			69				N/A	N/A	2	N/A	1549	1549		N/A	unknown
+DO233333	RECA-EU		K2140131	female	alive			68				N/A	N/A	2	N/A	1953	1953		N/A	unknown
+DO233336	RECA-EU		K2140142	female	alive			70				N/A	N/A	1	N/A	1913	1913		N/A	unknown
+DO233335	RECA-EU		K2140140	male	alive			51				N/A	N/A	1	N/A	1617	1617		N/A	unknown
+DO233330	RECA-EU		K2120168	male	alive			32				N/A	N/A		N/A	755	755		N/A	unknown
+DO233332	RECA-EU		K2140125	female	deceased			77				N/A	N/A	4	N/A	574	574		N/A	unknown
+DO233331	RECA-EU		K2140117	female	deceased			64				N/A	N/A	2	N/A	1232	1232		N/A	unknown
+DO233349	RECA-EU		K2140181	male	alive			67				N/A	N/A	1	N/A	1784	1784		N/A	unknown
+DO233348	RECA-EU		K2140180	female	alive			61				N/A	N/A	1	N/A	1394	1394		N/A	unknown
+DO16632	KIRC-US		TCGA-B2-5633	male	alive	complete remission		56		56		C64.9					214	unknown		unknown
+DO17967	KIRC-US		TCGA-B0-4718	male	alive	complete remission		57		57		C64.9					215	unknown		unknown
+DO233345	RECA-EU		K2140176	male	alive			61				N/A	N/A	1	N/A	1777	1777		N/A	unknown
+DO233344	RECA-EU		K2140174	male	alive			47				N/A	N/A	1	N/A	1851	1851		N/A	unknown
+DO233347	RECA-EU		K2140179	male	alive			61				N/A	N/A	1	N/A	1672	1672		N/A	unknown
+DO233346	RECA-EU		K2140178	male	alive			53				N/A	N/A	1	N/A	1640	1640		N/A	unknown
+DO233341	RECA-EU		K2140169	male	alive			73				N/A	N/A	1	N/A	1749	1749		N/A	unknown
+DO233340	RECA-EU		K2140154	female	deceased			78				N/A	N/A	2	N/A	1337	1337		N/A	unknown
+DO233343	RECA-EU		K2140172	male	alive			61				N/A	N/A	1	N/A	1864	1864		N/A	unknown
+DO233342	RECA-EU		K2140170	male	alive			54				N/A	N/A	1	N/A	1660	1660		N/A	unknown
+DO16588	KIRC-US		TCGA-BP-4975	male	alive	complete remission		40		43		C64.9					1433	unknown		unknown
+DO16597	KIRC-US		TCGA-BP-4999	male	alive	complete remission		56		59		C64.9					1266	unknown		unknown
+DO223942	KIRP-US		TCGA-5P-A9JV	male	alive			49		54		C64.1					2043	unknown		unknown
+DO223941	KIRP-US		TCGA-5P-A9JU	male	alive	complete remission		81		82		C64.1					373	unknown		unknown
+DO223948	KIRP-US		TCGA-5P-A9K3	male	deceased			59		59		C64.1				471		unknown		unknown
+DO223947	KIRP-US		TCGA-5P-A9K2	male	alive			62		68		C64.1					2324	unknown		unknown
+DO223946	KIRP-US		TCGA-5P-A9K0	male	alive			75		76		C64.1					677	unknown		unknown
+DO223945	KIRP-US		TCGA-5P-A9JZ	female	alive			51		58		C64.1					2744	unknown		unknown
+DO223944	KIRP-US		TCGA-5P-A9JY	male	deceased			79		79		C64.1				1508		unknown		unknown
+DO223943	KIRP-US		TCGA-5P-A9JW	male	alive			64		72		C64.1					3241	unknown		unknown
+DO232149	RECA-EU		RS114771	female	alive			63				N/A	N/A	1	N/A	1881	1881		N/A	unknown
+DO16961	KIRC-US		TCGA-B0-4700	male	deceased			60		60		C64.9				1980		unknown		unknown
+DO16969	KIRC-US		TCGA-CJ-4874	female	alive	complete remission		73		79		C64.9					2283	unknown		unknown
+DO233471	RECA-EU		LR436	female	alive			74				N/A	N/A	1	N/A	1344	1344		N/A	unknown
+DO232140	RECA-EU		RS114704	male	alive			72				N/A	N/A	1	N/A	1919	1919		N/A	unknown
+DO232145	RECA-EU		RS114757	female	alive			58				N/A	N/A	1	N/A	1692	1692		N/A	unknown
+DO233477	RECA-EU		LR444	female	alive			84				N/A	N/A	2	N/A	116	116		N/A	unknown
+DO232146	RECA-EU		RS114759	male	alive			60				N/A	N/A	4	N/A	1889	1889		N/A	unknown
+DO232147	RECA-EU		RS114763	male	deceased			58				N/A	N/A	3	N/A	1301	1301		N/A	unknown
+DO233479	RECA-EU		LR445	female	alive			51				N/A	N/A	1	N/A	1518	1518		N/A	unknown
+DO232148	RECA-EU		RS114767	male	deceased			65				N/A	N/A	3	N/A	1233	1233		N/A	unknown
+DO233473	RECA-EU		LR437	female	alive			42				N/A	N/A	3	N/A	1380	1380		N/A	unknown
+DO232141	RECA-EU		RS114715	male	alive			48				N/A	N/A	1	N/A	1901	1901		N/A	unknown
+DO232142	RECA-EU		RS114731	male	alive			72				N/A	N/A	3	N/A	1855	1855		N/A	unknown
+DO233475	RECA-EU		LR441	female	deceased			63				N/A	N/A	4	N/A	133	133		N/A	unknown
+DO232143	RECA-EU		RS114737	female	deceased			67				N/A	N/A	3	N/A	126	126		N/A	unknown
+DO232144	RECA-EU		RS114739	female	alive			64				N/A	N/A	1	N/A	1791	1791		N/A	unknown
+DO16979	KIRC-US		TCGA-B0-4693	female	deceased			72		72		C64.9				77		unknown		unknown
+DO232150	RECA-EU		RS114775	male	alive			38				N/A	N/A	3	N/A	1822	1822		N/A	unknown
+DO232151	RECA-EU		RS114780	male	alive			46				N/A	N/A	1	N/A	1653	1653		N/A	unknown
+DO233481	RECA-EU		LR446	female	alive			49				N/A	N/A	2	N/A	195	195		N/A	unknown
+DO232156	RECA-EU		RS114839	female	alive			74				N/A	N/A	1	N/A	1711	1711		N/A	unknown
+DO233488	RECA-EU		LR462	male	alive			47				N/A	N/A	1	N/A	1460	1460		N/A	unknown
+DO232157	RECA-EU		RS114845	female	alive			61				N/A	N/A	1	N/A	1583	1583		N/A	unknown
+DO232158	RECA-EU		RS114847	female	alive			61				N/A	N/A	1	N/A	1743	1743		N/A	unknown
+DO232159	RECA-EU		RS114853	male	alive			55				N/A	N/A	1	N/A	1696	1696		N/A	unknown
+DO232152	RECA-EU		RS114792	female	alive			56				N/A	N/A	2	N/A	1580	1580		N/A	unknown
+DO233483	RECA-EU		LR453	female	alive			72				N/A	N/A	3	N/A	1304	1304		N/A	unknown
+DO232153	RECA-EU		RS114794	male	alive			48				N/A	N/A	1	N/A	1836	1836		N/A	unknown
+DO232154	RECA-EU		RS114822	male	alive			55				N/A	N/A	1	N/A	1766	1766		N/A	unknown
+DO233486	RECA-EU		LR458	female	alive			63				N/A	N/A	2	N/A	1204	1204		N/A	unknown
+DO232155	RECA-EU		RS114838	female	alive			59				N/A	N/A	1	N/A	1566	1566		N/A	unknown
+DO233485	RECA-EU		LR457	male	alive			56				N/A	N/A	3	N/A	1271	1271		N/A	unknown
+DO16940	KIRC-US		TCGA-A3-3325	male	alive	complete remission		52		54		C64.9					751	unknown		unknown
+DO16948	KIRC-US		TCGA-B0-5120	female	alive	complete remission		72		72		C64.9					55	unknown		unknown
+DO232160	RECA-EU		RS114861	male	alive			62				N/A	N/A	1	N/A	1664	1664		N/A	unknown
+DO233490	RECA-EU		LR466	male	alive			70				N/A	N/A	3	N/A	1162	1162		N/A	unknown
+DO232161	RECA-EU		RS114872	male	alive			46				N/A	N/A	1	N/A	1723	1723		N/A	unknown
+DO233493	RECA-EU		LR468	male	alive			64				N/A	N/A	2	N/A	1103	1103		N/A	unknown
+DO232162	RECA-EU		RS114886	male	alive			64				N/A	N/A	3	N/A	1661	1661		N/A	unknown
+DO232167	RECA-EU		RS114905	male	alive			55				N/A	N/A	3	N/A	1631	1631		N/A	unknown
+DO233499	RECA-EU		LR471	male	alive			66				N/A	N/A	3	N/A	1446	1446		N/A	unknown
+DO232168	RECA-EU		RS114906	female				48				N/A	N/A	3	N/A				N/A	unknown
+DO232169	RECA-EU		RS114907	male	alive			68				N/A	N/A	1	N/A	1498	1498		N/A	unknown
+DO233495	RECA-EU		LR469	male	alive			63				N/A	N/A	1	N/A	1103	1103		N/A	unknown
+DO232163	RECA-EU		RS114887	female	deceased			61				N/A	N/A	2	N/A	1371	1371		N/A	unknown
+DO232164	RECA-EU		RS114891	female	alive			45				N/A	N/A	1	N/A	1661	1661		N/A	unknown
+DO232165	RECA-EU		RS114893	female	alive			63				N/A	N/A	1	N/A	1638	1638		N/A	unknown
+DO233496	RECA-EU		LR470	male	deceased			65				N/A	N/A	3	N/A	950	950		N/A	unknown
+DO232166	RECA-EU		RS114895	male	alive			47				N/A	N/A	1	N/A	1662	1662		N/A	unknown
+DO16955	KIRC-US		TCGA-B0-5104	female	deceased			90		90		C64.9				2752		unknown		unknown
+DO232170	RECA-EU		RS114914	female	deceased			58				N/A	N/A	4	N/A	1619	1619		N/A	unknown
+DO232171	RECA-EU		RS114915	male	alive			57				N/A	N/A	3	N/A	1617	1617		N/A	unknown
+DO232172	RECA-EU		RS114922	male	alive			66				N/A	N/A	1	N/A	1619	1619		N/A	unknown
+DO232173	RECA-EU		RS114949	male	alive			54				N/A	N/A	3	N/A	1606	1606		N/A	unknown
+DO232178	RECA-EU		RS114973	male	alive			69				N/A	N/A	1	N/A	1604	1604		N/A	unknown
+DO232179	RECA-EU		RS114974	male	alive			42				N/A	N/A	2	N/A	1592	1592		N/A	unknown
+DO232174	RECA-EU		RS114957	male				60				N/A	N/A	3	N/A				N/A	unknown
+DO232175	RECA-EU		RS114960	male				52				N/A	N/A	3	N/A				N/A	unknown
+DO232176	RECA-EU		RS114965	male				37				N/A	N/A	1	N/A				N/A	unknown
+DO232177	RECA-EU		RS114969	female	alive			65				N/A	N/A	1	N/A	1603	1603		N/A	unknown
+DO16920	KIRC-US		TCGA-CJ-4884	female	alive	complete remission		72		74		C64.9					994	unknown		unknown
+DO232181	RT-US		TARGET-52-PADYZI	male	deceased			3	3	4	67	C64.9	National Wilms Tumor Study Group	III		286	286			
+DO232182	RT-US		TARGET-52-PAJLWM	male				1	1	1		C64.9	National Wilms Tumor Study Group	III/IV		0	0			
+DO232183	RT-US		TARGET-52-PAJMRB	female	deceased			1	1	2	72	C64.9	National Wilms Tumor Study Group	III		120	120			
+DO232184	RT-US		TARGET-52-PAJNER	female	deceased			0	0	0	56	C64.9	National Wilms Tumor Study Group	II		86	86			
+DO232180	RT-US		TARGET-52-PABKLN	male	deceased			1	1	2	189	C64.9	National Wilms Tumor Study Group	III		236	236			
+DO232189	RT-US		TARGET-52-PARGRN	male	alive			0	0	4		C64.9	National Wilms Tumor Study Group	III/IV		1322	1322			
+DO232185	RT-US		TARGET-52-PAJNFP	male	alive			1	1	11		C64.9	National Wilms Tumor Study Group	III		3584	3584			
+DO232186	RT-US		TARGET-52-PAJNFZ	male	deceased			2	2	2		C64.9	National Wilms Tumor Study Group	III/IV		48	48			
+DO232187	RT-US		TARGET-52-PAKHTL	male	deceased			3	3	4	184	C64.9	National Wilms Tumor Study Group	III		198	198			
+DO232188	RT-US		TARGET-52-PARECB	female	deceased			0	0	5	480	C64.9	National Wilms Tumor Study Group	III		1639	1639			
+DO16930	KIRC-US		TCGA-BP-4177	male	alive	complete remission		65		69		C64.9					1670	unknown		unknown
+DO232192	RT-US		TARGET-52-PARRCL	female	alive			1	1	8		C64.9	National Wilms Tumor Study Group	II		2577	2577			
+DO232193	RT-US		TARGET-52-PARUGK	male	alive			1	1	1		C64.9	National Wilms Tumor Study Group	III		1	1			
+DO232194	RT-US		TARGET-52-PARZBI	female	deceased			1	1	2	233	C64.9	National Wilms Tumor Study Group	III		252	252			
+DO232195	RT-US		TARGET-52-PASABD	female	deceased			0	0	2	175	C64.9	National Wilms Tumor Study Group	III		449	449			
+DO232190	RT-US		TARGET-52-PARIRN	female	deceased			4	4	5	35	C64.9	National Wilms Tumor Study Group	II/IV		386	386			
+DO232191	RT-US		TARGET-52-PARPFY	male	deceased			1	1	1		C64.9	National Wilms Tumor Study Group	III		102	102			
+DO232196	RT-US		TARGET-52-PASADZ	female	deceased			1	1	2	230	C64.9	National Wilms Tumor Study Group	III		397	397			
+DO232197	RT-US		TARGET-52-PASCDH	male	alive			1	1	1		C64.9	National Wilms Tumor Study Group	IIIB/IV		31	31			
+DO232198	RT-US		TARGET-52-PASDLA	female	alive			1	1	7		C64.9	National Wilms Tumor Study Group	II		2399	2399			
+DO232199	RT-US		TARGET-52-PASRHU	male	deceased			1	1	1	149	C64.9	National Wilms Tumor Study Group	III		233	233			
+DO16900	KIRC-US		TCGA-CJ-4635	male	alive	complete remission		48		51		C64.9					1416	unknown		unknown
+DO16910	KIRC-US		TCGA-AK-3456	male	alive			48		48		C64.9					47	unknown		unknown
+DO233408	RECA-EU		K2310132	male	alive			57				N/A	N/A	1	N/A	1201	1201		N/A	unknown
+DO233407	RECA-EU		K2310131	female	alive			60				N/A	N/A	3	N/A	1327	1327		N/A	unknown
+DO233409	RECA-EU		K2310140	male	alive			78				N/A	N/A	1	N/A	11	11		N/A	unknown
+DO233404	RECA-EU		K2150092	male	alive			67				N/A	N/A	1	N/A	1654	1654		N/A	unknown
+DO233403	RECA-EU		K2150089	female	alive			46				N/A	N/A	1	N/A	1619	1619		N/A	unknown
+DO233406	RECA-EU		K2310119	male	alive			55				N/A	N/A	1	N/A	1370	1370		N/A	unknown
+DO233405	RECA-EU		K2150097	male	alive			71				N/A	N/A	3	N/A	1368	1368		N/A	unknown
+DO233400	RECA-EU		K2150081	female	alive			64				N/A	N/A	1	N/A	1803	1803		N/A	unknown
+DO233402	RECA-EU		K2150088	male	alive			70				N/A	N/A	1	N/A	1763	1763		N/A	unknown
+DO233401	RECA-EU		K2150087	male	alive			75				N/A	N/A	1	N/A	289	289		N/A	unknown
+DO233419	RECA-EU		K2411010	female	alive			47				N/A	N/A	1	N/A	1179	1179		N/A	unknown
+DO233418	RECA-EU		K2411007	male	alive			75				N/A	N/A	2	N/A	1610	1610		N/A	unknown
+DO233415	RECA-EU		K2310213	male	alive			86				N/A	N/A	3	N/A	1385	1385		N/A	unknown
+DO233414	RECA-EU		K2310207	female	alive			64				N/A	N/A	1	N/A	1383	1383		N/A	unknown
+DO233417	RECA-EU		K2310221	male	alive			70				N/A	N/A	3	N/A	1359	1359		N/A	unknown
+DO233416	RECA-EU		K2310220	female	alive			61				N/A	N/A	2	N/A	583	583		N/A	unknown
+DO233411	RECA-EU		K2310188	female	alive			66				N/A	N/A	2	N/A	1396	1396		N/A	unknown
+DO233410	RECA-EU		K2310151	male	alive			67				N/A	N/A	1	N/A	1275	1275		N/A	unknown
+DO233413	RECA-EU		K2310193	female	alive			51				N/A	N/A	1	N/A	1035	1035		N/A	unknown
+DO233412	RECA-EU		K2310189	male	alive			64				N/A	N/A	2	N/A	1051	1051		N/A	unknown
+DO233429	RECA-EU		LR276	female	alive			49				N/A	N/A	3	N/A	3326	3326		N/A	unknown
+DO233426	RECA-EU		LR255	male	alive			82				N/A	N/A	2	N/A	3513	3513		N/A	unknown
+DO233425	RECA-EU		LR248	male	alive			60				N/A	N/A	1	N/A	3638	3638		N/A	unknown
+DO233428	RECA-EU		LR270	female	alive			67				N/A	N/A	3	N/A	3359	3359		N/A	unknown
+DO233427	RECA-EU		LR261	female	alive			81				N/A	N/A	3	N/A	3532	3532		N/A	unknown
+DO233422	RECA-EU		K2411021	female	alive			45				N/A	N/A		N/A	1082	1082		N/A	unknown
+DO233421	RECA-EU		K2411016	male	alive			46				N/A	N/A		N/A	1569	1569		N/A	unknown
+DO233424	RECA-EU		K2411036	female	alive			63				N/A	N/A	2	N/A	1503	1503		N/A	unknown
+DO233423	RECA-EU		K2411023	female	alive			60				N/A	N/A	4	N/A	1583	1583		N/A	unknown
+DO233420	RECA-EU		K2411015	female	alive			77				N/A	N/A		N/A	9	9		N/A	unknown
+DO232109	RECA-EU		RS1141272	male	deceased			55				N/A	N/A	3	N/A	185	185		N/A	unknown
+DO232105	RECA-EU		RS1141242	male	alive			58				N/A	N/A	3	N/A	1302	1302		N/A	unknown
+DO233437	RECA-EU		LR303	male	alive			76				N/A	N/A	3	N/A	2947	2947		N/A	unknown
+DO232106	RECA-EU		RS1141250	female	deceased			50				N/A	N/A	4	N/A	36	36		N/A	unknown
+DO233436	RECA-EU		LR302	male	alive			67				N/A	N/A	1	N/A	2932	2932		N/A	unknown
+DO233439	RECA-EU		LR304	male	alive			73				N/A	N/A	4	N/A	2919	2919		N/A	unknown
+DO232107	RECA-EU		RS1141253	male	alive			53				N/A	N/A	1	N/A	1267	1267		N/A	unknown
+DO232108	RECA-EU		RS1141267	female	alive			64				N/A	N/A	1	N/A	1234	1234		N/A	unknown
+DO233433	RECA-EU		LR296	male	alive			59				N/A	N/A	3	N/A	2986	2986		N/A	unknown
+DO232101	RECA-EU		RS1141201	female	alive			63				N/A	N/A		N/A	1334	1334		N/A	unknown
+DO233432	RECA-EU		LR288	male	alive			62				N/A	N/A	1	N/A	3308	3308		N/A	unknown
+DO232102	RECA-EU		RS1141223	male	alive			50				N/A	N/A	3	N/A	1318	1318		N/A	unknown
+DO232103	RECA-EU		RS1141230	male	alive			55				N/A	N/A	4	N/A	1330	1330		N/A	unknown
+DO233434	RECA-EU		LR298	male	alive			70				N/A	N/A	3	N/A	2955	2955		N/A	unknown
+DO232104	RECA-EU		RS1141233	female	alive			67				N/A	N/A	2	N/A	1309	1309		N/A	unknown
+DO233431	RECA-EU		LR284	female	alive			59				N/A	N/A	1	N/A	3409	3409		N/A	unknown
+DO232100	RECA-EU		RS1141187	female	alive			62				N/A	N/A	3	N/A	1357	1357		N/A	unknown
+DO233430	RECA-EU		LR278	female	alive			58				N/A	N/A	1	N/A	3171	3171		N/A	unknown
+DO232116	RECA-EU		RS1141291	male	deceased			58				N/A	N/A	4	N/A	319	319		N/A	unknown
+DO233447	RECA-EU		LR320	male	alive			46				N/A	N/A	2	N/A	2721	2721		N/A	unknown
+DO232117	RECA-EU		RS1141296	male	alive			65				N/A	N/A	4	N/A	1186	1186		N/A	unknown
+DO232118	RECA-EU		RS1141305	female	alive			65				N/A	N/A	1	N/A	1192	1192		N/A	unknown
+DO232119	RECA-EU		RS1141333	male	deceased			65				N/A	N/A	4	N/A	617	617		N/A	unknown
+DO233449	RECA-EU		LR323	female	deceased			53				N/A	N/A	3	N/A	1904	1904		N/A	unknown
+DO232112	RECA-EU		RS1141283	male	alive			60				N/A	N/A	1	N/A	846	846		N/A	unknown
+DO233443	RECA-EU		LR314	male	alive			59				N/A	N/A	1	N/A	2675	2675		N/A	unknown
+DO232113	RECA-EU		RS1141285	male	deceased			56				N/A	N/A	3	N/A	154	154		N/A	unknown
+DO232114	RECA-EU		RS1141288	male	alive			50				N/A	N/A	1	N/A	1275	1275		N/A	unknown
+DO232115	RECA-EU		RS1141290	female	alive			48				N/A	N/A	1	N/A	1259	1259		N/A	unknown
+DO233445	RECA-EU		LR319	male	alive			69				N/A	N/A	3	N/A	2704	2704		N/A	unknown
+DO232110	RECA-EU		RS1141273	male	deceased			53				N/A	N/A	4	N/A	582	582		N/A	unknown
+DO232111	RECA-EU		RS1141279	female	alive			49				N/A	N/A	1	N/A	1259	1259		N/A	unknown
+DO233441	RECA-EU		LR308	male	alive			75				N/A	N/A	1	N/A	3098	3098		N/A	unknown
+DO232127	RECA-EU		RS1141421	female	alive			60				N/A	N/A	1	N/A	937	937		N/A	unknown
+DO233459	RECA-EU		LR409	female	alive			62				N/A	N/A	2	N/A	1600	1600		N/A	unknown
+DO232128	RECA-EU		RS114489	male	alive			63				N/A	N/A	1	N/A	2156	2156		N/A	unknown
+DO232129	RECA-EU		RS114512	female	deceased			59				N/A	N/A	3	N/A	80	80		N/A	unknown
+DO16989	KIRC-US		TCGA-BP-4173	male	alive	complete remission		47		52		C64.9					1893	unknown		unknown
+DO232123	RECA-EU		RS1141392	male	deceased			68				N/A	N/A	4	N/A	704	704		N/A	unknown
+DO233455	RECA-EU		LR338	male	deceased			70				N/A	N/A	1	N/A	1244	1244		N/A	unknown
+DO232124	RECA-EU		RS1141395	male	deceased			77				N/A	N/A	4	N/A	208	208		N/A	unknown
+DO232125	RECA-EU		RS1141413	male	alive			64				N/A	N/A	1	N/A	1050	1050		N/A	unknown
+DO233457	RECA-EU		LR391	female	deceased			62				N/A	N/A	3	N/A	652	652		N/A	unknown
+DO232126	RECA-EU		RS1141419	female	alive			51				N/A	N/A	1	N/A	1095	1095		N/A	unknown
+DO233451	RECA-EU		LR329	male	alive			51				N/A	N/A	2	N/A	2452	2452		N/A	unknown
+DO232120	RECA-EU		RS1141362	male	alive			63				N/A	N/A	3	N/A	1176	1176		N/A	unknown
+DO232121	RECA-EU		RS1141370	male	alive			60				N/A	N/A	4	N/A	1169	1169		N/A	unknown
+DO233453	RECA-EU		LR336	female	alive			56				N/A	N/A	1	N/A	2248	2248		N/A	unknown
+DO232122	RECA-EU		RS1141375	male	alive			61				N/A	N/A	1	N/A	1117	1117		N/A	unknown
+DO232138	RECA-EU		RS114696	female	alive			56				N/A	N/A	3	N/A	1927	1927		N/A	unknown
+DO233469	RECA-EU		LR435	female	deceased			80				N/A	N/A	1	N/A	721	721		N/A	unknown
+DO232139	RECA-EU		RS114702	male	alive			76				N/A	N/A	1	N/A	1914	1914		N/A	unknown
+DO16999	KIRC-US	PCAWG	TCGA-BP-4327	female	deceased			75		75		C64.9				109		unknown		unknown
+DO232134	RECA-EU		RS114566	male	alive			61				N/A	N/A	3	N/A	2145	2145		N/A	unknown
+DO233465	RECA-EU		LR432	male	alive			69				N/A	N/A	1	N/A	1426	1426		N/A	unknown
+DO232135	RECA-EU		RS114570	male	alive			60				N/A	N/A	2	N/A	2099	2099		N/A	unknown
+DO232136	RECA-EU		RS114579	female	alive			50				N/A	N/A	3	N/A	1922	1922		N/A	unknown
+DO233467	RECA-EU		LR434	female	alive			44				N/A	N/A	2	N/A	1658	1658		N/A	unknown
+DO232137	RECA-EU		RS114689	female	alive			64				N/A	N/A	1	N/A	1926	1926		N/A	unknown
+DO232130	RECA-EU		RS114515	male	alive			44				N/A	N/A	3	N/A	2198	2198		N/A	unknown
+DO233461	RECA-EU		LR411	female	alive			59				N/A	N/A	1	N/A	1589	1589		N/A	unknown
+DO232131	RECA-EU		RS114519	female	alive			55				N/A	N/A	4	N/A	2156	2156		N/A	unknown
+DO232132	RECA-EU		RS114533	female				61				N/A	N/A	3	N/A				N/A	unknown
+DO232133	RECA-EU		RS114558	male	alive			65				N/A	N/A	4	N/A	2128	2128		N/A	unknown
+DO233463	RECA-EU		LR421	male	deceased			77				N/A	N/A	3	N/A	756	756		N/A	unknown
+DO16842	KIRC-US		TCGA-CJ-4885	male	alive	progression		64		69		C64.9					2125	unknown		unknown
+DO233590	RECA-EU		LRV239	male	deceased			65				N/A	N/A	3	N/A	561	561		N/A	unknown
+DO233592	RECA-EU		LRV247	male	deceased			76				N/A	N/A	3	N/A	3405	3405		N/A	unknown
+DO233591	RECA-EU		LRV245	male	deceased			57				N/A	N/A	4	N/A	470	470		N/A	unknown
+DO233598	RECA-EU		LRV283	male	deceased			60				N/A	N/A	3	N/A	202	202		N/A	unknown
+DO233597	RECA-EU		LRV267	female	alive			68				N/A	N/A	3	N/A	3715	3715		N/A	unknown
+DO233599	RECA-EU		LRV294	male	deceased			76				N/A	N/A	1	N/A	1196	1196		N/A	unknown
+DO233594	RECA-EU		LRV257	male	alive			39				N/A	N/A	1	N/A	2320	2320		N/A	unknown
+DO233593	RECA-EU		LRV254	female	alive			56				N/A	N/A	3	N/A	3563	3563		N/A	unknown
+DO233596	RECA-EU		LRV263	male	deceased			56				N/A	N/A	3	N/A	2827	2827		N/A	unknown
+DO233595	RECA-EU		LRV260	male	deceased			66				N/A	N/A	3	N/A	1993	1993		N/A	unknown
+DO16852	KIRC-US		TCGA-CJ-4644	female	deceased			48		48		C64.9				336		unknown		unknown
+DO16823	KIRC-US		TCGA-AK-3444	female	alive	complete remission		80		84		C64.9					1471	unknown		unknown
+DO16833	KIRC-US		TCGA-AK-3443	male	alive	complete remission		45		48		C64.9					1423	unknown		unknown
+DO16803	KIRC-US		TCGA-CJ-6028	male	deceased			58		58		C64.9				1625		unknown		unknown
+DO16813	KIRC-US		TCGA-A3-3380	male	alive	complete remission		54		55		C64.9					567	unknown		unknown
+DO219233	KIRC-US		TCGA-A3-A8OW	male	alive	complete remission		37		37		C64.9					1	unknown		unknown
+DO219232	KIRC-US		TCGA-A3-A8OV	male	alive	complete remission		75		75		C64.9					0	unknown		unknown
+DO219231	KIRC-US		TCGA-A3-A8OU	female	alive	complete remission		74		74		C64.9					0	unknown		unknown
+DO219230	KIRC-US		TCGA-A3-A6NN	male	alive	complete remission		78		78		C64.9					3	unknown		unknown
+DO219236	KIRC-US		TCGA-G6-A8L8	female	alive	complete remission		62		63		C64.9					474	unknown		unknown
+DO219235	KIRC-US		TCGA-DV-A4W0	male	alive	progression		55		60		C64.9					2008	unknown		unknown
+DO219234	KIRC-US		TCGA-B8-A54K	male	alive	complete remission		61		61		C64.9					18	unknown		unknown
+DO219229	KIRC-US		TCGA-3Z-A93Z	male	alive	complete remission		69		69		C64.9					4	unknown		unknown
+DO233518	RECA-EU		LRV008	male	deceased			63				N/A	N/A	3	N/A	1499	1499		N/A	unknown
+DO233516	RECA-EU		LRV006	male	deceased			74				N/A	N/A	3	N/A	10	10		N/A	unknown
+DO233515	RECA-EU		LRV005	male	deceased			65				N/A	N/A	4	N/A	490	490		N/A	unknown
+DO233510	RECA-EU		LR482	female	alive			64				N/A	N/A	1	N/A	1114	1114		N/A	unknown
+DO233512	RECA-EU		LR489	male	alive			54				N/A	N/A	3	N/A	1085	1085		N/A	unknown
+DO233529	RECA-EU		LRV047	female	deceased			62				N/A	N/A	4	N/A	976	976		N/A	unknown
+DO233527	RECA-EU		LRV038	male	deceased			73				N/A	N/A	1	N/A	1305	1305		N/A	unknown
+DO233526	RECA-EU		LRV031	female	deceased			71				N/A	N/A	4	N/A	1080	1080		N/A	unknown
+DO233521	RECA-EU		LRV009	male	deceased			61				N/A	N/A	4	N/A	4475	4475		N/A	unknown
+DO233523	RECA-EU		LRV022	male	deceased			63				N/A	N/A	3	N/A	225	225		N/A	unknown
+DO232208	RT-US		TARGET-52-PATENH	female	deceased			3	3	3	141	C64.9	National Wilms Tumor Study Group	III/IV		243	243			
+DO233539	RECA-EU		LRV070	male	deceased			72				N/A	N/A	3	N/A	1226	1226		N/A	unknown
+DO232209	RT-US		TARGET-52-PATFXW	male	alive			2	2	2		C64.9	National Wilms Tumor Study Group	II		173	173			
+DO233536	RECA-EU		LRV062	female	deceased			41				N/A	N/A	1	N/A	2673	2673		N/A	unknown
+DO232204	RT-US		TARGET-52-PASZYE	male	deceased			1	1	1	58	C64.9	National Wilms Tumor Study Group	III/IV		167	167			
+DO232205	RT-US		TARGET-52-PATAFT	female	deceased			1	1	1	113	C64.9	National Wilms Tumor Study Group	III		177	177			
+DO233538	RECA-EU		LRV069	male	deceased			68				N/A	N/A	3	N/A	988	988		N/A	unknown
+DO232206	RT-US		TARGET-52-PATBLF	female	alive			2	2	2		C64.9	National Wilms Tumor Study Group	IIIB		66	66			
+DO232207	RT-US		TARGET-52-PATDVL	male	alive			0	0	1		C64.9	National Wilms Tumor Study Group	II		247	247			
+DO233532	RECA-EU		LRV051	male	deceased			67				N/A	N/A	3	N/A	2867	2867		N/A	unknown
+DO232200	RT-US		TARGET-52-PASVDP	female	alive			0	0	0		C64.9	National Wilms Tumor Study Group	IIIB		1	1			
+DO232201	RT-US		TARGET-52-PASWZZ	female	deceased			0	0	1		C64.9	National Wilms Tumor Study Group	III		140	140			
+DO232202	RT-US		TARGET-52-PASXNA	male	deceased			1	1	1		C64.9	National Wilms Tumor Study Group	III/IV		187	187			
+DO233533	RECA-EU		LRV053	male	deceased			55				N/A	N/A	4	N/A	911	911		N/A	unknown
+DO232203	RT-US		TARGET-52-PASYNF	male	deceased			1	1	1	280	C64.9	National Wilms Tumor Study Group	III/IV		336	336			
+DO232219	RT-US		TARGET-52-PAUNPA	male	alive			3	3	4		C64.9	National Wilms Tumor Study Group	II		450	450			
+DO232215	RT-US		TARGET-52-PAUEKW	female	alive			15	15	16		C64.9	National Wilms Tumor Study Group	III		625	625			
+DO232216	RT-US		TARGET-52-PAUFVP	male	alive			2	2	2		C64.9	National Wilms Tumor Study Group	I		22	22			
+DO233549	RECA-EU		LRV123	female	alive			39				N/A	N/A	1	N/A	5150	5150		N/A	unknown
+DO232217	RT-US		TARGET-52-PAUGYZ	female	deceased			1	1	2		C64.9	National Wilms Tumor Study Group	II		232	232			
+DO233548	RECA-EU		LRV122	male	deceased			85				N/A	N/A	3	N/A	6	6		N/A	unknown
+DO232218	RT-US		TARGET-52-PAUHAZ	female	alive			1	1	1		C64.9	National Wilms Tumor Study Group	III		198	198			
+DO233543	RECA-EU		LRV101	female	alive			47				N/A	N/A	1	N/A	3404	3404		N/A	unknown
+DO232211	RT-US		TARGET-52-PATXEE	female	deceased			2	2	2		C64.9	National Wilms Tumor Study Group	III/IV		17	17			
+DO233542	RECA-EU		LRV077	male	deceased			62				N/A	N/A	4	N/A	1099	1099		N/A	unknown
+DO232212	RT-US		TARGET-52-PATXKA	female	deceased			0	0	0		C64.9	National Wilms Tumor Study Group	III/IV		53	53			
+DO233545	RECA-EU		LRV118	male	deceased			44				N/A	N/A	3	N/A	636	636		N/A	unknown
+DO232213	RT-US		TARGET-52-PAUCGJ	female	deceased			1	1	2		C64.9	National Wilms Tumor Study Group	II		524	524			
+DO232214	RT-US		TARGET-52-PAUDPV	female	deceased			0	0	0		C64.9	National Wilms Tumor Study Group	III/IV		80	80			
+DO232210	RT-US		TARGET-52-PATFZZ	female	deceased			1	1	2		C64.9	National Wilms Tumor Study Group	III/IV		233	233			
+DO16881	KIRC-US	PCAWG	TCGA-CJ-6033	female	deceased			54		54		C64.9				224		unknown		unknown
+DO233557	RECA-EU		LRV140	male	deceased			59				N/A	N/A	4	N/A	223	223		N/A	unknown
+DO233559	RECA-EU		LRV143	male	deceased			65				N/A	N/A	3	N/A	649	649		N/A	unknown
+DO233553	RECA-EU		LRV129	male	deceased			63				N/A	N/A	1	N/A	3534	3534		N/A	unknown
+DO233555	RECA-EU		LRV134	male	deceased			62				N/A	N/A	1	N/A	1303	1303		N/A	unknown
+DO233551	RECA-EU		LRV128	female	alive			57				N/A	N/A	3	N/A	5135	5135		N/A	unknown
+DO16891	KIRC-US		TCGA-CJ-5678	male	deceased			62		62		C64.9				574		unknown		unknown
+DO233569	RECA-EU		LRV166	female	alive			69				N/A	N/A	3	N/A	1805	1805		N/A	unknown
+DO233568	RECA-EU		LRV165	male	deceased			47				N/A	N/A	3	N/A	2861	2861		N/A	unknown
+DO233565	RECA-EU		LRV160	female	alive			56				N/A	N/A	1	N/A	4739	4739		N/A	unknown
+DO233567	RECA-EU		LRV164	female	alive			75				N/A	N/A	3	N/A	4745	4745		N/A	unknown
+DO233566	RECA-EU		LRV163	male	alive			64				N/A	N/A	2	N/A	4315	4315		N/A	unknown
+DO233561	RECA-EU		LRV146	male	deceased			70				N/A	N/A	4	N/A	2871	2871		N/A	unknown
+DO233563	RECA-EU		LRV155	female	alive			64				N/A	N/A	1	N/A	4846	4846		N/A	unknown
+DO16861	KIRC-US		TCGA-A3-3352	male	deceased			74		74		C64.9				561		unknown		unknown
+DO233579	RECA-EU		LRV205	female	alive			69				N/A	N/A	1	N/A	3976	3976		N/A	unknown
+DO233570	RECA-EU		LRV169	female	alive			70				N/A	N/A	1	N/A	3378	3378		N/A	unknown
+DO233576	RECA-EU		LRV199	male	deceased			65				N/A	N/A	4	N/A	3057	3057		N/A	unknown
+DO233575	RECA-EU		LRV195	male	deceased			58				N/A	N/A	4	N/A	3014	3014		N/A	unknown
+DO233578	RECA-EU		LRV202	male	deceased			53				N/A	N/A	4	N/A	2217	2217		N/A	unknown
+DO233577	RECA-EU		LRV201	male	deceased			80				N/A	N/A	1	N/A	1149	1149		N/A	unknown
+DO233572	RECA-EU		LRV177	female	deceased			71				N/A	N/A	3	N/A	1003	1003		N/A	unknown
+DO233571	RECA-EU		LRV171	male	alive			62				N/A	N/A	3	N/A	1818	1818		N/A	unknown
+DO233574	RECA-EU		LRV187	female	deceased			73				N/A	N/A	3	N/A	3009	3009		N/A	unknown
+DO233573	RECA-EU		LRV179	female	alive			41				N/A	N/A	1	N/A	4489	4489		N/A	unknown
+DO16871	KIRC-US		TCGA-A3-3367	male	alive	complete remission		72		74		C64.9					1054	unknown		unknown
+DO233581	RECA-EU		LRV214	female	deceased			72				N/A	N/A	1	N/A	2216	2216		N/A	unknown
+DO233580	RECA-EU		LRV212	female	alive			55				N/A	N/A	1	N/A	4187	4187		N/A	unknown
+DO233587	RECA-EU		LRV232	male	deceased			66				N/A	N/A	4	N/A	1114	1114		N/A	unknown
+DO233586	RECA-EU		LRV231	female	deceased			53				N/A	N/A	4	N/A	72	72		N/A	unknown
+DO233589	RECA-EU		LRV235	male	deceased			55				N/A	N/A	4	N/A	237	237		N/A	unknown
+DO233588	RECA-EU		LRV233	male	deceased			64				N/A	N/A	4	N/A	268	268		N/A	unknown
+DO233583	RECA-EU		LRV218	male	deceased			36				N/A	N/A	4	N/A	1950	1950		N/A	unknown
+DO233582	RECA-EU		LRV215	male	deceased			53				N/A	N/A	2	N/A	395	395		N/A	unknown
+DO233585	RECA-EU		LRV230	male	alive			58				N/A	N/A	3	N/A	2873	2873		N/A	unknown
+DO233584	RECA-EU		LRV224	male	alive			48				N/A	N/A	1	N/A	530	530		N/A	unknown
+DO233507	RECA-EU		LR479	male	alive			51				N/A	N/A	3	N/A	1166	1166		N/A	unknown
+DO233508	RECA-EU		LR481	male	deceased			62				N/A	N/A	4	N/A	1269	1269		N/A	unknown
+DO233503	RECA-EU		LR474	male	alive			59				N/A	N/A	1	N/A	29	29		N/A	unknown
+DO233505	RECA-EU		LR478	female	deceased			75				N/A	N/A	4	N/A	368	368		N/A	unknown
+DO233501	RECA-EU		LR473	male	deceased			75				N/A	N/A	3	N/A	313	313		N/A	unknown
+DO18908	KIRC-US		TCGA-BP-4332	male	alive	complete remission		36		39		C64.9					1133	unknown		unknown
+DO18918	KIRC-US		TCGA-BP-4352	female	deceased			74		74		C64.9				344		unknown		unknown
+DO17653	KIRC-US		TCGA-BP-4991	male	alive	complete remission		54		56		C64.9					1044	unknown		unknown
+DO18988	KIRC-US	PCAWG	TCGA-B2-4099	male	alive	complete remission		83		83		C64.9					111	unknown		unknown
+DO16326	KIRC-US		TCGA-B0-4847	male	deceased			60		60		C64.9				793		unknown		unknown
+DO17657	KIRC-US		TCGA-B0-5812	male	alive	complete remission		53		59		C64.9					2325	unknown		unknown
+DO17667	KIRC-US		TCGA-BP-4349	female	alive			68		69		C64.9					372	unknown		unknown
+DO18998	KIRC-US		TCGA-AK-3427	male	alive	complete remission		65		72		C64.9					2566	unknown		unknown
+DO16335	KIRC-US		TCGA-B0-5095	male	deceased			81		81		C64.9				245		unknown		unknown
+DO220332	KICH-US		TCGA-KL-8324	female	alive	complete remission		67		78		C64.9					4311	unknown		unknown
+DO220331	KICH-US	PCAWG	TCGA-KL-8323	female	deceased			57		57		C64.9				1158		unknown		unknown
+DO220334	KICH-US	PCAWG	TCGA-KL-8326	male	alive	complete remission		69		78		C64.9					3322	unknown		unknown
+DO220333	KICH-US	PCAWG	TCGA-KL-8325	female	deceased			56		56		C64.9				725		unknown		unknown
+DO220339	KICH-US	PCAWG	TCGA-KL-8331	female	alive	complete remission		48		56		C64.9					3010	unknown		unknown
+DO220336	KICH-US	PCAWG	TCGA-KL-8328	male	alive	complete remission		60		68		C64.9					3127	unknown		unknown
+DO220335	KICH-US	PCAWG	TCGA-KL-8327	female	alive	complete remission		46		55		C64.9					3553	unknown		unknown
+DO220338	KICH-US	PCAWG	TCGA-KL-8330	female	alive	complete remission		44		52		C64.9					3067	unknown		unknown
+DO220337	KICH-US		TCGA-KL-8329	female	alive	complete remission		57		60		C64.9					1345	unknown		unknown
+DO16300	KIRC-US		TCGA-BP-5202	male	alive	complete remission		75		75		C64.9					29	unknown		unknown
+DO17633	KIRC-US		TCGA-BP-5187	male	alive	complete remission		54		55		C64.9					406	unknown		unknown
+DO220343	KICH-US		TCGA-KL-8335	male	alive	complete remission		67		72		C64.9					1933	unknown		unknown
+DO16308	KIRC-US		TCGA-B0-5710	male	alive	progression		57		59		C64.9					957	unknown		unknown
+DO220342	KICH-US	PCAWG	TCGA-KL-8334	female	alive	complete remission		37		43		C64.9					2536	unknown		unknown
+DO18968	KIRC-US		TCGA-BP-4974	male	deceased			58		58		C64.9				220		unknown		unknown
+DO220345	KICH-US	PCAWG	TCGA-KL-8337	male	alive	complete remission		26		29		C64.9					1364	unknown		unknown
+DO220344	KICH-US		TCGA-KL-8336	female	deceased			51		51		C64.9				920		unknown		unknown
+DO220341	KICH-US	PCAWG	TCGA-KL-8333	male	alive	complete remission		69		76		C64.9					2648	unknown		unknown
+DO220340	KICH-US	PCAWG	TCGA-KL-8332	male	alive	complete remission		55		62		C64.9					2582	unknown		unknown
+DO220347	KICH-US		TCGA-KL-8339	male	deceased			67		67		C64.9				855		unknown		unknown
+DO220346	KICH-US		TCGA-KL-8338	male	alive	complete remission		51		57		C64.9					2262	unknown		unknown
+DO220349	KICH-US	PCAWG	TCGA-KL-8341	male	deceased			41		41		C64.9				754		unknown		unknown
+DO220348	KICH-US	PCAWG	TCGA-KL-8340	male	alive	complete remission		34		39		C64.9					2024	unknown		unknown
+DO17643	KIRC-US		TCGA-B0-4810	male	deceased			47		47		C64.9				478		unknown		unknown
+DO220354	KICH-US	PCAWG	TCGA-KL-8346	male	alive	complete remission		62		66		C64.9					1536	unknown		unknown
+DO220353	KICH-US		TCGA-KL-8345	male	alive	complete remission		75		78		C64.9					1383	unknown		unknown
+DO220356	KICH-US	PCAWG	TCGA-KM-8439	male	alive	progression		30		30		C64.9					247	unknown		unknown
+DO18978	KIRC-US		TCGA-B8-5163	female	alive			63		63		C64.9					4	unknown		unknown
+DO16317	KIRC-US		TCGA-B0-5099	female	deceased			88		88		C64.9				485		unknown		unknown
+DO220355	KICH-US	PCAWG	TCGA-KM-8438	female	alive	progression		45		56		C64.9					4335	unknown		unknown
+DO220350	KICH-US	PCAWG	TCGA-KL-8342	female	alive	complete remission		45		50		C64.9					1835	unknown		unknown
+DO220352	KICH-US	PCAWG	TCGA-KL-8344	male	alive	complete remission		51		53		C64.9					876	unknown		unknown
+DO220351	KICH-US	PCAWG	TCGA-KL-8343	male	alive	progression		72		76		C64.9					1815	unknown		unknown
+DO220358	KICH-US	PCAWG	TCGA-KM-8441	female	alive	complete remission		61		61		C64.9					114	unknown		unknown
+DO220357	KICH-US	PCAWG	TCGA-KM-8440	male	alive	complete remission		37		39		C64.9					994	unknown		unknown
+DO220359	KICH-US	PCAWG	TCGA-KM-8442	male	alive	progression		38		39		C64.9					674	unknown		unknown
+DO18948	KIRC-US		TCGA-CW-6097	male	deceased			32		32		C64.9				571		unknown		unknown
+DO17615	KIRC-US		TCGA-B0-4843	male	deceased			57		57		C64.9				320		unknown		unknown
+DO220361	KICH-US	PCAWG	TCGA-KM-8476	male	alive	complete remission		47		54		C64.9					2590	unknown		unknown
+DO220360	KICH-US	PCAWG	TCGA-KM-8443	male	alive	complete remission		57		60		C64.9					1128	unknown		unknown
+DO220363	KICH-US	PCAWG	TCGA-KM-8639	male	alive	complete remission		67		69		C64.9					953	unknown		unknown
+DO220362	KICH-US	PCAWG	TCGA-KM-8477	male	alive	complete remission		56		60		C64.9					1553	unknown		unknown
+DO18958	KIRC-US		TCGA-BP-4795	female	alive	complete remission		74		75		C64.9					620	unknown		unknown
+DO17625	KIRC-US		TCGA-B2-3924	male	alive	complete remission		73		73		C64.9					195	unknown		unknown
+DO18928	KIRC-US		TCGA-BP-4768	female	alive	complete remission		72		73		C64.9					400	unknown		unknown
+DO17607	KIRC-US		TCGA-CJ-5680	female	deceased			65		65		C64.9				768		unknown		unknown
+DO18938	KIRC-US		TCGA-B0-5098	female	deceased			53		53		C64.9				1584		unknown		unknown
+DO16291	KIRC-US		TCGA-B0-5110	female	alive	complete remission		71		72		C64.9					560	unknown		unknown
+DO17597	KIRC-US		TCGA-B8-5159	female	alive	complete remission		61		61		C64.9					133	unknown		unknown
+DO16269	KIRC-US	PCAWG	TCGA-BP-4968	male	alive	complete remission		40		44		C64.9					1746	unknown		unknown
+DO16276	KIRC-US		TCGA-CJ-4901	male	alive	complete remission		47		50		C64.9					1450	unknown		unknown
+DO16284	KIRC-US		TCGA-BP-4160	male	alive	complete remission		67		74		C64.9					2881	unknown		unknown
+DO16248	KIRC-US	PCAWG	TCGA-CW-6093	male	alive	complete remission		73		79		C64.9					2431	unknown		unknown
+DO17578	KIRC-US		TCGA-BP-4992	male	alive	complete remission		66		67		C64.9					501	unknown		unknown
+DO233606	RECA-EU		LRV318	female	alive			65				N/A	N/A	3	N/A	2791	2791		N/A	unknown
+DO233605	RECA-EU		LRV316	female	deceased			67				N/A	N/A	3	N/A	2679	2679		N/A	unknown
+DO16256	KIRC-US		TCGA-CZ-5467	female	deceased			86		86		C64.9				73		unknown		unknown
+DO17587	KIRC-US		TCGA-BP-4803	male	alive	complete remission		79		79		C64.9					204	unknown		unknown
+DO233608	RECA-EU		LRV341	female	deceased			62				N/A	N/A	1	N/A	459	459		N/A	unknown
+DO233607	RECA-EU		LRV327	male	deceased			56				N/A	N/A	4	N/A	841	841		N/A	unknown
+DO233602	RECA-EU		LRV311	female	deceased			69				N/A	N/A	3	N/A	799	799		N/A	unknown
+DO233601	RECA-EU		LRV300	male	alive			53				N/A	N/A	1	N/A	2962	2962		N/A	unknown
+DO233604	RECA-EU		LRV313	male	alive			81				N/A	N/A	3	N/A	3056	3056		N/A	unknown
+DO233603	RECA-EU		LRV312	male	alive			30				N/A	N/A	1	N/A	2230	2230		N/A	unknown
+DO233609	RECA-EU		LRV351	male	alive			55				N/A	N/A	1	N/A	1873	1873		N/A	unknown
+DO233600	RECA-EU		LRV297	male	alive			43				N/A	N/A	3	N/A	2989	2989		N/A	unknown
+DO16263	KIRC-US		TCGA-BP-4964	female	alive	complete remission		54		59		C64.9					1862	unknown		unknown
+DO17552	KIRC-US		TCGA-B0-4811	male	deceased			48		48		C64.9				1417		unknown		unknown
+DO18889	KIRC-US		TCGA-B2-3923	male	alive	complete remission		59		59		C64.9					179	unknown		unknown
+DO16225	KIRC-US		TCGA-CZ-5456	male	alive	progression		57		61		C64.9					1558	unknown		unknown
+DO233611	RECA-EU		LRV366	male	deceased			74				N/A	N/A	1	N/A	482	482		N/A	unknown
+DO233610	RECA-EU		LRV361	male	alive			60				N/A	N/A	3	N/A	2293	2293		N/A	unknown
+DO16233	KIRC-US	PCAWG	TCGA-CJ-4899	male	alive	complete remission		42		46		C64.9					1528	unknown		unknown
+DO17562	KIRC-US		TCGA-B4-5835	female	alive	complete remission		64		64		C64.9					16	unknown		unknown
+DO17568	KIRC-US		TCGA-B0-4846	male	deceased			52		52		C64.9				1200		unknown		unknown
+DO18899	KIRC-US		TCGA-AK-3451	male	alive	complete remission		48		52		C64.9					1481	unknown		unknown
+DO16240	KIRC-US		TCGA-B0-5701	male	alive	complete remission		65		68		C64.9					1276	unknown		unknown
+DO17532	KIRC-US		TCGA-A3-3306	male	alive			67		70		C64.9					1120	unknown		unknown
+DO16202	KIRC-US		TCGA-CJ-4640	male	alive	complete remission		49		54		C64.9					1998	unknown		unknown
+DO18869	KIRC-US		TCGA-AK-3434	male	alive	progression		72		77		C64.9					2087	unknown		unknown
+DO220449	KICH-US	PCAWG	TCGA-KN-8422	female	alive	complete remission		28		30		C64.9					775	unknown		unknown
+DO17542	KIRC-US		TCGA-BP-4988	male	deceased			72		72		C64.9				828		unknown		unknown
+DO16210	KIRC-US		TCGA-BP-4158	male	alive	complete remission		69		78		C64.9					3377	unknown		unknown
+DO16218	KIRC-US		TCGA-CZ-4866	female	alive	complete remission		79		83		C64.9					1768	unknown		unknown
+DO18879	KIRC-US		TCGA-B0-4697	female	deceased			46		46		C64.9				578		unknown		unknown
+DO220458	KICH-US		TCGA-KN-8423	male	alive	complete remission		44		46		C64.9					788	unknown		unknown
+DO17512	KIRC-US		TCGA-BP-4345	male	alive	complete remission		62		66		C64.9					1516	unknown		unknown
+DO18849	KIRC-US		TCGA-CJ-4895	male	deceased			62		62		C64.9				1200		unknown		unknown
+DO220468	KICH-US	PCAWG	TCGA-KN-8424	female	alive	complete remission		42		47		C64.9					1983	unknown		unknown
+DO17522	KIRC-US		TCGA-B2-5635	male	alive	complete remission		74		74		C64.9					315	unknown		unknown
+DO18859	KIRC-US		TCGA-BP-5184	male	alive	complete remission		54		57		C64.9					1133	unknown		unknown
+DO220474	KICH-US	PCAWG	TCGA-KN-8425	male	alive	complete remission		53		59		C64.9					2211	unknown		unknown
+DO220479	KICH-US	PCAWG	TCGA-KN-8427	male	alive	complete remission		54		54		C64.9					18	unknown		unknown
+DO220478	KICH-US	PCAWG	TCGA-KN-8426	male	alive	progression		50		50		C64.9					108	unknown		unknown
+DO18829	KIRC-US		TCGA-CZ-5461	male	deceased			52		52		C64.9				330		unknown		unknown
+DO220484	KICH-US	PCAWG	TCGA-KN-8428	male	deceased			71		71		C64.9				1590		unknown		unknown
+DO220490	KICH-US	PCAWG	TCGA-KN-8429	female	alive	progression		38		43		C64.9					2064	unknown		unknown
+DO17502	KIRC-US		TCGA-CZ-5465	female	alive	complete remission		76		79		C64.9					1377	unknown		unknown
+DO18839	KIRC-US	PCAWG	TCGA-B2-4102	male	alive	complete remission		61		61		C64.9					15	unknown		unknown
+DO18809	KIRC-US		TCGA-AK-3431	female	alive	complete remission		62		67		C64.9					1853	unknown		unknown
+DO18819	KIRC-US		TCGA-CJ-4903	male	alive	complete remission		50		54		C64.9					1560	unknown		unknown
+DO16170	KIRC-US		TCGA-BP-4994	male	alive	complete remission		54		57		C64.9					1308	unknown		unknown
+DO16178	KIRC-US		TCGA-CZ-4864	male	deceased			86		86		C64.9				2830		unknown		unknown
+DO16186	KIRC-US		TCGA-A3-3331	female	alive	complete remission		86		90		C64.9					1485	unknown		unknown
+DO16144	KIRC-US		TCGA-A3-3358	female	alive	complete remission		57		60		C64.9					1307	unknown		unknown
+DO16148	KIRC-US		TCGA-B0-4834	male	deceased			49		49		C64.9				2090		unknown		unknown
+DO16153	KIRC-US		TCGA-BP-5175	male	alive			60		62		C64.9					932	unknown		unknown
+DO17482	KIRC-US		TCGA-EU-5904	female	alive	complete remission		47		48		C64.9					551	unknown		unknown
+DO16158	KIRC-US		TCGA-B0-4827	female	deceased			77		77		C64.9				885		unknown		unknown
+DO16164	KIRC-US		TCGA-DV-5576	female	deceased			55		55		C64.9				727		unknown		unknown
+DO17492	KIRC-US		TCGA-BP-4976	male	alive	complete remission		77		81		C64.9					1632	unknown		unknown
+DO16124	KIRC-US		TCGA-B8-4619	male	alive	complete remission		58		58		C64.9					19	unknown		unknown
+DO17452	KIRC-US		TCGA-CZ-5459	male	alive	complete remission		63		67		C64.9					1515	unknown		unknown
+DO16122	KIRC-US		TCGA-BP-4804	male	alive	progression		59		62		C64.9					1459	unknown		unknown
+DO16128	KIRC-US		TCGA-CW-5583	female	alive	complete remission		51		57		C64.9					2489	unknown		unknown
+DO18789	KIRC-US		TCGA-CW-5591	male	alive	progression		56		62		C64.9					2271	unknown		unknown
+DO16126	KIRC-US		TCGA-CJ-4875	male	alive	progression		67		73		C64.9					2353	unknown		unknown
+DO17462	KIRC-US		TCGA-CZ-5988	male	alive	complete remission		38		39		C64.9					693	unknown		unknown
+DO16132	KIRC-US		TCGA-B0-4703	male	deceased			51		51		C64.9				182		unknown		unknown
+DO16136	KIRC-US	PCAWG	TCGA-AK-3428	male	alive	complete remission		62		68		C64.9					2223	unknown		unknown
+DO18799	KIRC-US		TCGA-BP-4167	male	alive	complete remission		59		66		C64.9					2718	unknown		unknown
+DO17472	KIRC-US		TCGA-B0-4819	female	deceased			60		60		C64.9				183		unknown		unknown
+DO16140	KIRC-US		TCGA-BP-4771	male	deceased			62		62		C64.9				162		unknown		unknown
+DO17432	KIRC-US		TCGA-AK-3440	male	alive	complete remission		58		62		C64.9					1745	unknown		unknown
+DO18761	KIRC-US		TCGA-B0-5115	male	alive	progression		43		43		C64.9					91	unknown		unknown
+DO16109	KIRC-US		TCGA-BP-4973	male	alive	complete remission		47		50		C64.9					1384	unknown		unknown
+DO18769	KIRC-US		TCGA-B0-5109	male	deceased			69		69		C64.9				587		unknown		unknown
+DO220423	KICH-US	PCAWG	TCGA-KN-8418	female	alive	complete remission		41		50		C64.9					3474	unknown		unknown
+DO16112	KIRC-US		TCGA-CW-6096	female	alive	complete remission		44		49		C64.9					2127	unknown		unknown
+DO16113	KIRC-US	PCAWG	TCGA-B2-4101	male	alive	complete remission		52		52		C64.9					90	unknown		unknown
+DO16110	KIRC-US	PCAWG	TCGA-A3-3308	female	alive	complete remission		77		77		C64.9					16	unknown		unknown
+DO16111	KIRC-US		TCGA-CZ-4853	male	alive	complete remission		82		84		C64.9					774	unknown		unknown
+DO17442	KIRC-US		TCGA-CJ-4916	female	alive	complete remission		69		72		C64.9					1373	unknown		unknown
+DO18779	KIRC-US		TCGA-CW-5589	male	alive	complete remission		52		58		C64.9					2378	unknown		unknown
+DO16117	KIRC-US		TCGA-B0-4837	male	deceased			63		63		C64.9				1378		unknown		unknown
+DO16114	KIRC-US		TCGA-B4-5834	male	alive	complete remission		59		59		C64.9					38	unknown		unknown
+DO16115	KIRC-US		TCGA-B0-5697	male	alive	complete remission		50		53		C64.9					1135	unknown		unknown
+DO220433	KICH-US	PCAWG	TCGA-KN-8419	male	alive	complete remission		43		44		C64.9					714	unknown		unknown
+DO220439	KICH-US	PCAWG	TCGA-KN-8421	female	alive	complete remission		47		54		C64.9					2674	unknown		unknown
+DO16120	KIRC-US		TCGA-CJ-4871	male	alive	complete remission		63		69		C64.9					2423	unknown		unknown
+DO16194	KIRC-US		TCGA-BP-4972	female	alive	complete remission		43		47		C64.9					1502	unknown		unknown
+DO17811	KIRC-US		TCGA-BP-4961	male	alive	complete remission		47		52		C64.9					1935	unknown		unknown
+DO17820	KIRC-US		TCGA-EU-5907	male	alive	complete remission		81		81		C64.9					127	unknown		unknown
+DO17829	KIRC-US		TCGA-BP-4760	male	alive	progression		69		75		C64.9					2249	unknown		unknown
+DO17801	KIRC-US		TCGA-B8-4146	female	alive	complete remission		41		42		C64.9					511	unknown		unknown
+DO17898	KIRC-US		TCGA-AK-3430	male	deceased			61		61		C64.9				480		unknown		unknown
+DO220562	KICH-US		TCGA-KO-8408	male	deceased			47		47		C64.9				507		unknown		unknown
+DO220568	KICH-US	PCAWG	TCGA-KO-8409	male	alive	complete remission		69		75		C64.9					2445	unknown		unknown
+DO16570	KIRC-US		TCGA-AS-3778	male	alive	complete remission		35		35		C64.9					0	unknown		unknown
+DO220572	KICH-US	PCAWG	TCGA-KO-8410	female	alive	complete remission		74		81		C64.9					2670	unknown		unknown
+DO220577	KICH-US	PCAWG	TCGA-KO-8411	male	alive	complete remission		58		66		C64.9					3141	unknown		unknown
+DO16580	KIRC-US		TCGA-CZ-5469	male	deceased			41		41		C64.9				946		unknown		unknown
+DO16540	KIRC-US		TCGA-AK-3426	male	deceased			37		37		C64.9				885		unknown		unknown
+DO17878	KIRC-US		TCGA-B4-5836	female	alive	complete remission		61		61		C64.9					141	unknown		unknown
+DO220587	KICH-US		TCGA-KO-8413	male	alive	complete remission		46		53		C64.9					2619	unknown		unknown
+DO16550	KIRC-US		TCGA-CZ-5982	female	alive	complete remission		59		64		C64.9					2042	unknown		unknown
+DO17888	KIRC-US		TCGA-B2-5636	male	alive	complete remission		79		79		C64.9					258	unknown		unknown
+DO220595	KICH-US		TCGA-KO-8415	female	alive	complete remission		44		48		C64.9					1739	unknown		unknown
+DO220594	KICH-US		TCGA-KO-8414	female	alive	complete remission		50		56		C64.9					2368	unknown		unknown
+DO220599	KICH-US	PCAWG	TCGA-KO-8416	male	alive	complete remission		41		46		C64.9					1873	unknown		unknown
+DO16560	KIRC-US		TCGA-CJ-5671	male	alive	complete remission		51		56		C64.9					1943	unknown		unknown
+DO16520	KIRC-US		TCGA-B0-4690	male	deceased			65		65		C64.9				43		unknown		unknown
+DO17858	KIRC-US		TCGA-B0-5113	female	alive	complete remission		69		69		C64.9					22	unknown		unknown
+DO16530	KIRC-US		TCGA-B0-4712	male	deceased			76		76		C64.9				1337		unknown		unknown
+DO17868	KIRC-US		TCGA-A3-3319	male	alive	complete remission		70		73		C64.9					1130	unknown		unknown
+DO16504	KIRC-US		TCGA-BP-4346	male	deceased			57		57		C64.9				1493		unknown		unknown
+DO17839	KIRC-US		TCGA-AK-3453	female	alive			58		61		C64.9					1397	unknown		unknown
+DO16511	KIRC-US		TCGA-BP-4959	male	alive	complete remission		49		56		C64.9					2660	unknown		unknown
+DO17848	KIRC-US	PCAWG	TCGA-BP-4977	male	alive	complete remission		57		58		C64.9					454	unknown		unknown
+DO220500	KICH-US		TCGA-KN-8430	male	deceased			75		75		C64.9				0		unknown		unknown
+DO220509	KICH-US	PCAWG	TCGA-KN-8431	female	alive	complete remission		35		35		C64.9					-2	unknown		unknown
+DO220510	KICH-US	PCAWG	TCGA-KN-8432	female	alive			86		86		C64.9					76	unknown		unknown
+DO220512	KICH-US		TCGA-KN-8433	female	alive	complete remission		46		46		C64.9					341	unknown		unknown
+DO220519	KICH-US	PCAWG	TCGA-KN-8434	female	alive	complete remission		65		68		C64.9					1125	unknown		unknown
+DO16486	KIRC-US		TCGA-B0-5699	male	alive	complete remission		53		59		C64.9					2426	unknown		unknown
+DO220527	KICH-US		TCGA-KN-8436	male	alive	complete remission		62		63		C64.9					637	unknown		unknown
+DO220525	KICH-US	PCAWG	TCGA-KN-8435	male	alive	complete remission		59		66		C64.9					2727	unknown		unknown
+DO16495	KIRC-US		TCGA-CJ-4637	female	deceased			52		52		C64.9				2227		unknown		unknown
+DO220537	KICH-US		TCGA-KO-8403	male	alive	complete remission		49		55		C64.9					2339	unknown		unknown
+DO220535	KICH-US	PCAWG	TCGA-KN-8437	female	alive	complete remission		42		48		C64.9					2304	unknown		unknown
+DO16468	KIRC-US		TCGA-A3-3326	male	alive	complete remission		47		50		C64.9					1137	unknown		unknown
+DO220549	KICH-US	PCAWG	TCGA-KO-8405	male	alive	complete remission		29		35		C64.9					2279	unknown		unknown
+DO220545	KICH-US		TCGA-KO-8404	male	deceased			78		78		C64.9				325		unknown		unknown
+DO16477	KIRC-US		TCGA-BP-4176	male	alive	complete remission		64		69		C64.9					1955	unknown		unknown
+DO220554	KICH-US	PCAWG	TCGA-KO-8406	female	alive	complete remission		17		23		C64.9					2404	unknown		unknown
+DO220556	KICH-US	PCAWG	TCGA-KO-8407	male	alive	complete remission		42		49		C64.9					2820	unknown		unknown
+DO17703	KIRC-US		TCGA-B8-5545	male	alive	complete remission		42		42		C64.9					248	unknown		unknown
+DO219695	KIRP-US		TCGA-P4-AAVM	male	alive	complete remission		69		73		C64.1					1539	unknown		unknown
+DO219694	KIRP-US		TCGA-P4-AAVL	male	deceased			85		85		C64.1				487		unknown		unknown
+DO219692	KIRP-US		TCGA-IA-A83V	male	deceased			63		63		C64.1				2941		unknown		unknown
+DO219699	KIRP-US		TCGA-UZ-A9PK	male	alive	progression		71		76		C64.1					1826	unknown		unknown
+DO219698	KIRP-US		TCGA-UZ-A9PJ	male	alive			78		78		C64.1					0	unknown		unknown
+DO219697	KIRP-US		TCGA-UN-AAZ9	female	alive	complete remission		76		77		C64.1					365	unknown		unknown
+DO16441	KIRC-US		TCGA-AK-3425	male	alive			68		77		C64.9					3343	unknown		unknown
+DO17779	KIRC-US		TCGA-BP-4770	female	deceased			73		73		C64.9				329		unknown		unknown
+DO17781	KIRC-US		TCGA-B4-5843	male	alive	complete remission		45		45		C64.9					11	unknown		unknown
+DO16450	KIRC-US		TCGA-BP-5001	female	alive	complete remission		43		46		C64.9					1177	unknown		unknown
+DO16459	KIRC-US		TCGA-CJ-4912	male	alive	complete remission		61		65		C64.9					1657	unknown		unknown
+DO17791	KIRC-US	PCAWG	TCGA-CJ-4639	female	alive	complete remission		49		55		C64.9					2308	unknown		unknown
+DO17751	KIRC-US	PCAWG	TCGA-BP-5010	male	deceased			63		63		C64.9				878		unknown		unknown
+DO16423	KIRC-US		TCGA-BP-5007	male	alive	complete remission		45		48		C64.9					1140	unknown		unknown
+DO16432	KIRC-US		TCGA-A3-3335	male	alive	complete remission		41		42		C64.9					665	unknown		unknown
+DO17761	KIRC-US		TCGA-CJ-5676	male	alive	progression		47		54		C64.9					2575	unknown		unknown
+DO17769	KIRC-US		TCGA-BP-4161	male	alive	progression		74		81		C64.9					2746	unknown		unknown
+DO17732	KIRC-US		TCGA-BP-5196	male	alive	complete remission		53		55		C64.9					1018	unknown		unknown
+DO16406	KIRC-US		TCGA-B0-5075	female	deceased			77		77		C64.9				637		unknown		unknown
+DO16414	KIRC-US		TCGA-CJ-4908	male	alive	complete remission		38		42		C64.9					1531	unknown		unknown
+DO17742	KIRC-US		TCGA-B0-5088	male	deceased			53		53		C64.9				563		unknown		unknown
+DO17712	KIRC-US		TCGA-DV-5567	female	alive	progression		40		42		C64.9					910	unknown		unknown
+DO17722	KIRC-US	PCAWG	TCGA-B0-5693	female	alive	complete remission		47		52		C64.9					1852	unknown		unknown
+DO220608	KICH-US	PCAWG	TCGA-KO-8417	female	alive	complete remission		30		35		C64.9					1945	unknown		unknown
+DO16388	KIRC-US		TCGA-CJ-5683	male	alive	complete remission		78		83		C64.9					1889	unknown		unknown
+DO16397	KIRC-US		TCGA-CJ-4882	male	alive	complete remission		57		62		C64.9					1883	unknown		unknown
+DO16370	KIRC-US		TCGA-BP-4995	male	alive	complete remission		68		71		C64.9					1371	unknown		unknown
+DO16379	KIRC-US		TCGA-BP-4343	male	deceased			64		64		C64.9				1912		unknown		unknown
+DO16344	KIRC-US		TCGA-BP-4329	male	alive	complete remission		75		77		C64.9					845	unknown		unknown
+DO17673	KIRC-US		TCGA-BP-5200	male	alive	complete remission		44		46		C64.9					881	unknown		unknown
+DO16352	KIRC-US		TCGA-CJ-4634	female	alive	complete remission		60		64		C64.9					1820	unknown		unknown
+DO17683	KIRC-US		TCGA-BP-5008	male	alive	complete remission		46		48		C64.9					1071	unknown		unknown
+DO16361	KIRC-US		TCGA-A3-3336	female	alive	progression		75		77		C64.9					1043	unknown		unknown
+DO17693	KIRC-US		TCGA-CJ-4902	male	alive	complete remission		61		65		C64.9					1520	unknown		unknown
+DO219691	KIRP-US		TCGA-A4-A7UZ	male	alive			71		71		C64.1					0	unknown		unknown
+DO219690	KIRP-US		TCGA-4A-A93Y	female	alive	complete remission		63		63		C64.1					2	unknown		unknown
+DO219689	KIRP-US		TCGA-4A-A93X	male	alive	progression		58		58		C64.1					4	unknown		unknown
+DO219684	KIRP-US		TCGA-2Z-A9JQ	male	alive			66		66		C64.1					141	unknown		unknown
+DO219683	KIRP-US		TCGA-2Z-A9JP	male	alive	complete remission		63		65		C64.1					893	unknown		unknown
+DO219681	KIRP-US		TCGA-2Z-A9JO	female	alive	complete remission		56		57		C64.1					581	unknown		unknown
+DO219688	KIRP-US		TCGA-4A-A93W	female	alive	complete remission		66		66		C64.1					4	unknown		unknown
+DO219687	KIRP-US		TCGA-2Z-A9JT	male	alive	complete remission		71		72		C64.1					504	unknown		unknown
+DO219686	KIRP-US		TCGA-2Z-A9JS	male	deceased			74		74		C64.1				492		unknown		unknown
+DO219685	KIRP-US		TCGA-2Z-A9JR	male	alive	complete remission		57		57		C64.1					161	unknown		unknown
+DO219679	KIRP-US		TCGA-2Z-A9JN	female	alive	complete remission		50		52		C64.1					740	unknown		unknown
+DO219673	KIRP-US		TCGA-2Z-A9JK	male	alive	progression		50		52		C64.1					1010	unknown		unknown
+DO219671	KIRP-US		TCGA-2Z-A9JJ	female	alive	complete remission		69		71		C64.1					1085	unknown		unknown
+DO219677	KIRP-US		TCGA-2Z-A9JM	male	alive	complete remission		28		28		C64.1					204	unknown		unknown
+DO219675	KIRP-US		TCGA-2Z-A9JL	male	alive	complete remission		47		49		C64.1					804	unknown		unknown
+DO219669	KIRP-US		TCGA-2Z-A9JI	male	alive	complete remission		38		41		C64.1					1276	unknown		unknown
+DO219667	KIRP-US		TCGA-2Z-A9JG	male	alive	complete remission		64		68		C64.1					1469	unknown		unknown
+DO219660	KIRP-US		TCGA-2Z-A9J8	male	alive	complete remission		50		55		C64.1					2047	unknown		unknown
+DO219665	KIRP-US		TCGA-2Z-A9JE	male	alive	complete remission		59		63		C64.1					1496	unknown		unknown
+DO219663	KIRP-US		TCGA-2Z-A9JD	male	alive	complete remission		66		68		C64.1					1060	unknown		unknown
+DO219658	KIRP-US		TCGA-2Z-A9J7	male	deceased			63		63		C64.1				139		unknown		unknown
+DO219656	KIRP-US		TCGA-2Z-A9J6	male	alive	complete remission		60		64		C64.1					1731	unknown		unknown
+DO219650	KIRP-US		TCGA-2Z-A9J2	female	alive	complete remission		71		75		C64.1					1795	unknown		unknown
+DO219654	KIRP-US		TCGA-2Z-A9J5	male	alive	complete remission		80		87		C64.1					2861	unknown		unknown
+DO219652	KIRP-US		TCGA-2Z-A9J3	male	deceased			67		67		C64.1				1771		unknown		unknown
+DO219648	KIRP-US		TCGA-2Z-A9J1	male	alive	complete remission		71		77		C64.1					2298	unknown		unknown

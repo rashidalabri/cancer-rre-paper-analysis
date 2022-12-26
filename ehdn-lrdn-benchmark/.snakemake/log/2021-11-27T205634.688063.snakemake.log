@@ -1,0 +1,23 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+make_chr_ref        1              1              1
+total               1              1              1
+
+Select jobs to execute...
+
+[Sat Nov 27 20:56:36 2021]
+rule make_chr_ref:
+    input: data/input/chr1.fa, data/input/repeats.csv
+    output: data/input/fasta/chr1_new.fasta
+    jobid: 0
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28714892
+
+[Sat Nov 27 20:56:47 2021]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/log/2021-11-27T205634.688063.snakemake.log

@@ -1,0 +1,12 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules align and sort_bam are ambiguous for the file data/input/bam/0.sorted.bam.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+	align: n=0.sorted
+	sort_bam: n=0
+Expected input files:
+	align: data/input/chr1.fa data/input/chr1.fa.amb data/input/chr1.fa.ann data/input/chr1.fa.pac data/input/chr1.fa.bwt data/input/chr1.fa.sa data/input/fastq_merged/0.sorted.read1.fastq data/input/fastq_merged/0.sorted.read2.fastq
+	sort_bam: data/input/bam/0.bamExpected output files:
+	align: data/input/bam/0.sorted.bam
+	sort_bam: data/input/bam/0.sorted.bam

@@ -1,0 +1,255 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 48
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+align                      7              8              8
+ehdn_profile              11              1              1
+ehdn_profile_target        1              1              1
+total                     19              1              8
+
+Select jobs to execute...
+
+[Tue Nov 30 00:27:55 2021]
+rule align:
+    input: data/input/fasta/chr1_new.fasta, data/input/fasta/chr1_new.fasta.amb, data/input/fasta/chr1_new.fasta.ann, data/input/fasta/chr1_new.fasta.pac, data/input/fasta/chr1_new.fasta.bwt, data/input/fasta/chr1_new.fasta.sa, data/input/fastq_merged/3.read1.fastq, data/input/fastq_merged/3.read2.fastq
+    output: data/input/bam/3.bam
+    jobid: 55
+    wildcards: n=3
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+
+[Tue Nov 30 00:27:55 2021]
+rule align:
+    input: data/input/fasta/chr1_new.fasta, data/input/fasta/chr1_new.fasta.amb, data/input/fasta/chr1_new.fasta.ann, data/input/fasta/chr1_new.fasta.pac, data/input/fasta/chr1_new.fasta.bwt, data/input/fasta/chr1_new.fasta.sa, data/input/fastq_merged/0.read1.fastq, data/input/fastq_merged/0.read2.fastq
+    output: data/input/bam/0.bam
+    jobid: 2
+    wildcards: n=0
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+
+[Tue Nov 30 00:27:55 2021]
+rule align:
+    input: data/input/fasta/chr1_new.fasta, data/input/fasta/chr1_new.fasta.amb, data/input/fasta/chr1_new.fasta.ann, data/input/fasta/chr1_new.fasta.pac, data/input/fasta/chr1_new.fasta.bwt, data/input/fasta/chr1_new.fasta.sa, data/input/fastq_merged/5.read1.fastq, data/input/fastq_merged/5.read2.fastq
+    output: data/input/bam/5.bam
+    jobid: 81
+    wildcards: n=5
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+
+[Tue Nov 30 00:27:55 2021]
+rule align:
+    input: data/input/fasta/chr1_new.fasta, data/input/fasta/chr1_new.fasta.amb, data/input/fasta/chr1_new.fasta.ann, data/input/fasta/chr1_new.fasta.pac, data/input/fasta/chr1_new.fasta.bwt, data/input/fasta/chr1_new.fasta.sa, data/input/fastq_merged/4.read1.fastq, data/input/fastq_merged/4.read2.fastq
+    output: data/input/bam/4.bam
+    jobid: 68
+    wildcards: n=4
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+
+[Tue Nov 30 00:27:55 2021]
+rule align:
+    input: data/input/fasta/chr1_new.fasta, data/input/fasta/chr1_new.fasta.amb, data/input/fasta/chr1_new.fasta.ann, data/input/fasta/chr1_new.fasta.pac, data/input/fasta/chr1_new.fasta.bwt, data/input/fasta/chr1_new.fasta.sa, data/input/fastq_merged/8.read1.fastq, data/input/fastq_merged/8.read2.fastq
+    output: data/input/bam/8.bam
+    jobid: 120
+    wildcards: n=8
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+
+[Tue Nov 30 00:27:55 2021]
+rule align:
+    input: data/input/fasta/chr1_new.fasta, data/input/fasta/chr1_new.fasta.amb, data/input/fasta/chr1_new.fasta.ann, data/input/fasta/chr1_new.fasta.pac, data/input/fasta/chr1_new.fasta.bwt, data/input/fasta/chr1_new.fasta.sa, data/input/fastq_merged/7.read1.fastq, data/input/fastq_merged/7.read2.fastq
+    output: data/input/bam/7.bam
+    jobid: 107
+    wildcards: n=7
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+[Tue Nov 30 09:27:09 2021]
+Finished job 120.
+1 of 19 steps (5%) done
+Select jobs to execute...
+
+[Tue Nov 30 09:27:13 2021]
+rule align:
+    input: data/input/fasta/chr1_new.fasta, data/input/fasta/chr1_new.fasta.amb, data/input/fasta/chr1_new.fasta.ann, data/input/fasta/chr1_new.fasta.pac, data/input/fasta/chr1_new.fasta.bwt, data/input/fasta/chr1_new.fasta.sa, data/input/fastq_merged/10.read1.fastq, data/input/fastq_merged/10.read2.fastq
+    output: data/input/bam/10.bam
+    jobid: 146
+    wildcards: n=10
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+[Tue Nov 30 09:51:14 2021]
+Finished job 81.
+2 of 19 steps (11%) done
+Select jobs to execute...
+
+[Tue Nov 30 09:51:15 2021]
+rule ehdn_profile:
+    input: data/input/bam/9.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/9.str_profile.json
+    jobid: 132
+    wildcards: n=9
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+
+[Tue Nov 30 09:51:15 2021]
+rule ehdn_profile:
+    input: data/input/bam/6.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/6.str_profile.json
+    jobid: 93
+    wildcards: n=6
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+
+[Tue Nov 30 09:51:15 2021]
+rule ehdn_profile:
+    input: data/input/bam/8.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/8.str_profile.json
+    jobid: 119
+    wildcards: n=8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+
+[Tue Nov 30 09:51:15 2021]
+rule ehdn_profile:
+    input: data/input/bam/2.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/2.str_profile.json
+    jobid: 41
+    wildcards: n=2
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+
+[Tue Nov 30 09:51:15 2021]
+rule ehdn_profile:
+    input: data/input/bam/1.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/1.str_profile.json
+    jobid: 28
+    wildcards: n=1
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+
+[Tue Nov 30 09:51:15 2021]
+rule ehdn_profile:
+    input: data/input/bam/5.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/5.str_profile.json
+    jobid: 80
+    wildcards: n=5
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+[Tue Nov 30 10:13:56 2021]
+Finished job 41.
+3 of 19 steps (16%) done
+[Tue Nov 30 10:13:58 2021]
+Finished job 28.
+4 of 19 steps (21%) done
+[Tue Nov 30 10:14:11 2021]
+Finished job 80.
+5 of 19 steps (26%) done
+[Tue Nov 30 10:15:35 2021]
+Finished job 68.
+6 of 19 steps (32%) done
+Select jobs to execute...
+
+[Tue Nov 30 10:15:35 2021]
+rule ehdn_profile:
+    input: data/input/bam/4.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/4.str_profile.json
+    jobid: 67
+    wildcards: n=4
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+[Tue Nov 30 10:19:52 2021]
+Finished job 132.
+7 of 19 steps (37%) done
+[Tue Nov 30 10:20:26 2021]
+Finished job 93.
+8 of 19 steps (42%) done
+[Tue Nov 30 10:20:35 2021]
+Finished job 119.
+9 of 19 steps (47%) done
+[Tue Nov 30 10:37:40 2021]
+Finished job 2.
+10 of 19 steps (53%) done
+Select jobs to execute...
+
+[Tue Nov 30 10:37:40 2021]
+rule ehdn_profile:
+    input: data/input/bam/0.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/0.str_profile.json
+    jobid: 1
+    wildcards: n=0
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+[Tue Nov 30 10:37:48 2021]
+Finished job 67.
+11 of 19 steps (58%) done
+[Tue Nov 30 10:53:03 2021]
+Finished job 107.
+12 of 19 steps (63%) done
+Select jobs to execute...
+
+[Tue Nov 30 10:53:03 2021]
+rule ehdn_profile:
+    input: data/input/bam/7.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/7.str_profile.json
+    jobid: 106
+    wildcards: n=7
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+[Tue Nov 30 10:54:36 2021]
+Finished job 55.
+13 of 19 steps (68%) done
+Select jobs to execute...
+
+[Tue Nov 30 10:54:36 2021]
+rule ehdn_profile:
+    input: data/input/bam/3.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/3.str_profile.json
+    jobid: 54
+    wildcards: n=3
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+[Tue Nov 30 10:59:29 2021]
+Finished job 1.
+14 of 19 steps (74%) done
+[Tue Nov 30 11:14:54 2021]
+Finished job 106.
+15 of 19 steps (79%) done
+[Tue Nov 30 11:16:26 2021]
+Finished job 54.
+16 of 19 steps (84%) done
+[Tue Nov 30 19:06:02 2021]
+Finished job 146.
+17 of 19 steps (89%) done
+Select jobs to execute...
+
+[Tue Nov 30 19:06:03 2021]
+rule ehdn_profile:
+    input: data/input/bam/10.bam, data/input/fasta/chr1_new.fasta
+    output: data/output/10.str_profile.json
+    jobid: 145
+    wildcards: n=10
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+[Tue Nov 30 19:27:42 2021]
+Finished job 145.
+18 of 19 steps (95%) done
+Select jobs to execute...
+
+[Tue Nov 30 19:27:42 2021]
+localrule ehdn_profile_target:
+    input: data/output/0.str_profile.json, data/output/1.str_profile.json, data/output/2.str_profile.json, data/output/3.str_profile.json, data/output/4.str_profile.json, data/output/5.str_profile.json, data/output/6.str_profile.json, data/output/7.str_profile.json, data/output/8.str_profile.json, data/output/9.str_profile.json, data/output/10.str_profile.json
+    jobid: 0
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28727744
+
+[Tue Nov 30 19:27:42 2021]
+Finished job 0.
+19 of 19 steps (100%) done
+Complete log: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/log/2021-11-30T002642.155131.snakemake.log

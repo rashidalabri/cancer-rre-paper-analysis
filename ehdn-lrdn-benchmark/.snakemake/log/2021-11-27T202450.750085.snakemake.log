@@ -1,0 +1,23 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+sample_repeats        1              1              1
+total                 1              1              1
+
+Select jobs to execute...
+
+[Sat Nov 27 20:24:52 2021]
+rule sample_repeats:
+    input: data/input/variant_catalog.json
+    output: data/input/repeats.csv
+    jobid: 0
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28714892
+
+[Sat Nov 27 20:24:57 2021]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/log/2021-11-27T202450.750085.snakemake.log

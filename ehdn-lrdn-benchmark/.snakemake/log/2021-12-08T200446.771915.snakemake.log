@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 50
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+align                      1              8              8
+ehdn_profile               1              1              1
+ehdn_profile_target        1              1              1
+index_bam                  1              8              8
+sort_bam                   1              4              4
+total                      5              1              8
+
+Select jobs to execute...
+
+[Wed Dec  8 20:04:50 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/7.read1.fastq, data/input/fastq_merged/7.read2.fastq
+    output: data/input/bam/7.bam
+    jobid: 122
+    wildcards: n=7
+    threads: 8
+    resources: tmpdir=/tmp, mem=16
+
+Resuming incomplete job 122 with external jobid '28882269'.
+Terminating processes on user request, this might take some time.
+Will exit after finishing currently running jobs.
+Complete log: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/log/2021-12-08T200446.771915.snakemake.log

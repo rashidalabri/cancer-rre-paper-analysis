@@ -1,0 +1,127 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 48
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+align                     11              8              8
+ehdn_profile              11              1              1
+ehdn_profile_target        1              1              1
+index_bam                 11              8              8
+index_ref                  1              1              1
+total                     35              1              8
+
+Select jobs to execute...
+
+[Sun Dec  5 22:02:52 2021]
+rule index_ref:
+    input: data/input/chr1.fa
+    output: data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa
+    jobid: 3
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28853798
+
+[Sun Dec  5 22:06:38 2021]
+Finished job 3.
+1 of 35 steps (3%) done
+Select jobs to execute...
+
+[Sun Dec  5 22:06:39 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/4.read1.fastq, data/input/fastq_merged/4.read2.fastq
+    output: data/input/bam/4.bam
+    jobid: 72
+    wildcards: n=4
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28853798
+
+
+[Sun Dec  5 22:06:39 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/2.read1.fastq, data/input/fastq_merged/2.read2.fastq
+    output: data/input/bam/2.bam
+    jobid: 44
+    wildcards: n=2
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28853798
+
+
+[Sun Dec  5 22:06:39 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/0.read1.fastq, data/input/fastq_merged/0.read2.fastq
+    output: data/input/bam/0.bam
+    jobid: 2
+    wildcards: n=0
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28853798
+
+
+[Sun Dec  5 22:06:39 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/6.read1.fastq, data/input/fastq_merged/6.read2.fastq
+    output: data/input/bam/6.bam
+    jobid: 100
+    wildcards: n=6
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28853798
+
+
+[Sun Dec  5 22:06:39 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/8.read1.fastq, data/input/fastq_merged/8.read2.fastq
+    output: data/input/bam/8.bam
+    jobid: 128
+    wildcards: n=8
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28853798
+
+
+[Sun Dec  5 22:06:39 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/9.read1.fastq, data/input/fastq_merged/9.read2.fastq
+    output: data/input/bam/9.bam
+    jobid: 142
+    wildcards: n=9
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28853798
+
+[Mon Dec  6 03:04:28 2021]
+Finished job 44.
+2 of 35 steps (6%) done
+Select jobs to execute...
+
+[Mon Dec  6 03:04:30 2021]
+rule index_bam:
+    input: data/input/bam/2.bam
+    output: data/input/bam/2.bam.bai
+    jobid: 56
+    wildcards: n=2
+    threads: 8
+    resources: tmpdir=/local/scratch/rashid/slrmtmp.28853798
+
+[Mon Dec  6 03:04:31 2021]
+Error in rule index_bam:
+    jobid: 56
+    output: data/input/bam/2.bam.bai
+    shell:
+        samtools index --threads 8 data/input/bam/2.bam data/input/bam/2.bam.bai
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon Dec  6 03:07:55 2021]
+Finished job 72.
+3 of 35 steps (9%) done
+[Mon Dec  6 03:10:04 2021]
+Finished job 2.
+4 of 35 steps (11%) done
+[Mon Dec  6 03:13:36 2021]
+Finished job 142.
+5 of 35 steps (14%) done
+[Mon Dec  6 03:20:46 2021]
+Finished job 128.
+6 of 35 steps (17%) done
+[Mon Dec  6 03:22:06 2021]
+Finished job 100.
+7 of 35 steps (20%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/log/2021-12-05T220225.172469.snakemake.log

@@ -1,0 +1,877 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+align                      5              8              8
+ehdn_profile              11              1              1
+ehdn_profile_target        1              1              1
+index_bam                 11              8              8
+sort_bam                  11              4              4
+total                     39              1              8
+
+Select jobs to execute...
+
+[Mon Dec  6 21:36:01 2021]
+rule sort_bam:
+    input: data/input/bam/6.bam
+    output: data/input/sorted/6.bam
+    jobid: 106
+    wildcards: n=6
+    threads: 4
+    resources: tmpdir=/tmp
+
+Submitted job 106 with external jobid '28882208'.
+
+[Mon Dec  6 21:36:02 2021]
+rule sort_bam:
+    input: data/input/bam/8.bam
+    output: data/input/sorted/8.bam
+    jobid: 136
+    wildcards: n=8
+    threads: 4
+    resources: tmpdir=/tmp
+
+Submitted job 136 with external jobid '28882209'.
+
+[Mon Dec  6 21:36:03 2021]
+rule sort_bam:
+    input: data/input/bam/0.bam
+    output: data/input/sorted/0.bam
+    jobid: 2
+    wildcards: n=0
+    threads: 4
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid '28882210'.
+
+[Mon Dec  6 21:36:04 2021]
+rule sort_bam:
+    input: data/input/bam/4.bam
+    output: data/input/sorted/4.bam
+    jobid: 76
+    wildcards: n=4
+    threads: 4
+    resources: tmpdir=/tmp
+
+Submitted job 76 with external jobid '28882211'.
+
+[Mon Dec  6 21:36:04 2021]
+rule sort_bam:
+    input: data/input/bam/2.bam
+    output: data/input/sorted/2.bam
+    jobid: 46
+    wildcards: n=2
+    threads: 4
+    resources: tmpdir=/tmp
+
+Submitted job 46 with external jobid '28882212'.
+
+[Mon Dec  6 21:36:05 2021]
+rule sort_bam:
+    input: data/input/bam/9.bam
+    output: data/input/sorted/9.bam
+    jobid: 151
+    wildcards: n=9
+    threads: 4
+    resources: tmpdir=/tmp
+
+Submitted job 151 with external jobid '28882213'.
+
+[Mon Dec  6 21:36:06 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/1.read1.fastq, data/input/fastq_merged/1.read2.fastq
+    output: data/input/bam/1.bam
+    jobid: 32
+    wildcards: n=1
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid '28882214'.
+
+[Mon Dec  6 21:36:06 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/3.read1.fastq, data/input/fastq_merged/3.read2.fastq
+    output: data/input/bam/3.bam
+    jobid: 62
+    wildcards: n=3
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 62 with external jobid '28882215'.
+
+[Mon Dec  6 21:36:07 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/5.read1.fastq, data/input/fastq_merged/5.read2.fastq
+    output: data/input/bam/5.bam
+    jobid: 92
+    wildcards: n=5
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 92 with external jobid '28882216'.
+
+[Mon Dec  6 21:36:08 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/7.read1.fastq, data/input/fastq_merged/7.read2.fastq
+    output: data/input/bam/7.bam
+    jobid: 122
+    wildcards: n=7
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 122 with external jobid '28882217'.
+
+[Mon Dec  6 21:36:09 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/10.read1.fastq, data/input/fastq_merged/10.read2.fastq
+    output: data/input/bam/10.bam
+    jobid: 167
+    wildcards: n=10
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 167 with external jobid '28882218'.
+[Mon Dec  6 21:37:10 2021]
+Error in rule sort_bam:
+    jobid: 106
+    output: data/input/sorted/6.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/6.bam > data/input/sorted/6.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882208
+
+Error executing rule sort_bam on cluster (jobid: 106, external: 28882208, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.106.sh). For error details see the cluster log and the log files of the involved rule(s).
+Trying to restart job 106.
+Select jobs to execute...
+
+[Mon Dec  6 21:37:10 2021]
+rule sort_bam:
+    input: data/input/bam/6.bam
+    output: data/input/sorted/6.bam
+    jobid: 106
+    wildcards: n=6
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:37:10 2021]
+Error in rule sort_bam:
+    jobid: 136
+    output: data/input/sorted/8.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/8.bam > data/input/sorted/8.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882209
+
+Error executing rule sort_bam on cluster (jobid: 136, external: 28882209, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.136.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:37:11 2021]
+Error in rule sort_bam:
+    jobid: 2
+    output: data/input/sorted/0.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/0.bam > data/input/sorted/0.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882210
+
+Error executing rule sort_bam on cluster (jobid: 2, external: 28882210, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.2.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 106 with external jobid '28882228'.
+Trying to restart job 136.
+Trying to restart job 2.
+Select jobs to execute...
+
+[Mon Dec  6 21:37:11 2021]
+rule sort_bam:
+    input: data/input/bam/0.bam
+    output: data/input/sorted/0.bam
+    jobid: 2
+    wildcards: n=0
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:37:11 2021]
+Error in rule sort_bam:
+    jobid: 76
+    output: data/input/sorted/4.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/4.bam > data/input/sorted/4.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882211
+
+Error executing rule sort_bam on cluster (jobid: 76, external: 28882211, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.76.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 2 with external jobid '28882230'.
+
+[Mon Dec  6 21:37:11 2021]
+rule sort_bam:
+    input: data/input/bam/8.bam
+    output: data/input/sorted/8.bam
+    jobid: 136
+    wildcards: n=8
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:37:11 2021]
+Error in rule sort_bam:
+    jobid: 46
+    output: data/input/sorted/2.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/2.bam > data/input/sorted/2.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882212
+
+Error executing rule sort_bam on cluster (jobid: 46, external: 28882212, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.46.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:37:12 2021]
+Error in rule sort_bam:
+    jobid: 151
+    output: data/input/sorted/9.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/9.bam > data/input/sorted/9.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882213
+
+Error executing rule sort_bam on cluster (jobid: 151, external: 28882213, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.151.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:37:12 2021]
+Error in rule align:
+    jobid: 32
+    output: data/input/bam/1.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/1.read1.fastq data/input/fastq_merged/1.read2.fastq | samtools view -b - > data/input/bam/1.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882214
+
+Error executing rule align on cluster (jobid: 32, external: 28882214, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.32.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 136 with external jobid '28882231'.
+Trying to restart job 76.
+Trying to restart job 46.
+Trying to restart job 151.
+Trying to restart job 32.
+Select jobs to execute...
+
+[Mon Dec  6 21:37:12 2021]
+rule sort_bam:
+    input: data/input/bam/9.bam
+    output: data/input/sorted/9.bam
+    jobid: 151
+    wildcards: n=9
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:37:12 2021]
+Error in rule align:
+    jobid: 62
+    output: data/input/bam/3.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/3.read1.fastq data/input/fastq_merged/3.read2.fastq | samtools view -b - > data/input/bam/3.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882215
+
+Error executing rule align on cluster (jobid: 62, external: 28882215, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.62.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:37:12 2021]
+Error in rule align:
+    jobid: 92
+    output: data/input/bam/5.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/5.read1.fastq data/input/fastq_merged/5.read2.fastq | samtools view -b - > data/input/bam/5.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882216
+
+Error executing rule align on cluster (jobid: 92, external: 28882216, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.92.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 151 with external jobid '28882232'.
+
+[Mon Dec  6 21:37:13 2021]
+rule sort_bam:
+    input: data/input/bam/4.bam
+    output: data/input/sorted/4.bam
+    jobid: 76
+    wildcards: n=4
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:37:13 2021]
+Error in rule align:
+    jobid: 122
+    output: data/input/bam/7.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/7.read1.fastq data/input/fastq_merged/7.read2.fastq | samtools view -b - > data/input/bam/7.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882217
+
+Error executing rule align on cluster (jobid: 122, external: 28882217, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.122.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:37:13 2021]
+Error in rule align:
+    jobid: 167
+    output: data/input/bam/10.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/10.read1.fastq data/input/fastq_merged/10.read2.fastq | samtools view -b - > data/input/bam/10.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882218
+
+Error executing rule align on cluster (jobid: 167, external: 28882218, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.167.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 76 with external jobid '28882233'.
+
+[Mon Dec  6 21:37:13 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/1.read1.fastq, data/input/fastq_merged/1.read2.fastq
+    output: data/input/bam/1.bam
+    jobid: 32
+    wildcards: n=1
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid '28882234'.
+
+[Mon Dec  6 21:37:14 2021]
+rule sort_bam:
+    input: data/input/bam/2.bam
+    output: data/input/sorted/2.bam
+    jobid: 46
+    wildcards: n=2
+    threads: 4
+    resources: tmpdir=/tmp
+
+Submitted job 46 with external jobid '28882235'.
+Trying to restart job 62.
+Trying to restart job 92.
+Trying to restart job 122.
+Trying to restart job 167.
+Select jobs to execute...
+
+[Mon Dec  6 21:37:15 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/7.read1.fastq, data/input/fastq_merged/7.read2.fastq
+    output: data/input/bam/7.bam
+    jobid: 122
+    wildcards: n=7
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 122 with external jobid '28882236'.
+
+[Mon Dec  6 21:37:16 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/10.read1.fastq, data/input/fastq_merged/10.read2.fastq
+    output: data/input/bam/10.bam
+    jobid: 167
+    wildcards: n=10
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 167 with external jobid '28882237'.
+
+[Mon Dec  6 21:37:16 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/3.read1.fastq, data/input/fastq_merged/3.read2.fastq
+    output: data/input/bam/3.bam
+    jobid: 62
+    wildcards: n=3
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 62 with external jobid '28882238'.
+
+[Mon Dec  6 21:37:17 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/5.read1.fastq, data/input/fastq_merged/5.read2.fastq
+    output: data/input/bam/5.bam
+    jobid: 92
+    wildcards: n=5
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 92 with external jobid '28882239'.
+[Mon Dec  6 21:37:42 2021]
+Error in rule align:
+    jobid: 167
+    output: data/input/bam/10.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/10.read1.fastq data/input/fastq_merged/10.read2.fastq | samtools view -b - > data/input/bam/10.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882237
+
+Error executing rule align on cluster (jobid: 167, external: 28882237, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.167.sh). For error details see the cluster log and the log files of the involved rule(s).
+Trying to restart job 167.
+Select jobs to execute...
+
+[Mon Dec  6 21:37:42 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/10.read1.fastq, data/input/fastq_merged/10.read2.fastq
+    output: data/input/bam/10.bam
+    jobid: 167
+    wildcards: n=10
+    threads: 8
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:37:42 2021]
+Error in rule align:
+    jobid: 62
+    output: data/input/bam/3.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/3.read1.fastq data/input/fastq_merged/3.read2.fastq | samtools view -b - > data/input/bam/3.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882238
+
+Error executing rule align on cluster (jobid: 62, external: 28882238, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.62.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:37:42 2021]
+Error in rule align:
+    jobid: 92
+    output: data/input/bam/5.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/5.read1.fastq data/input/fastq_merged/5.read2.fastq | samtools view -b - > data/input/bam/5.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882239
+
+Error executing rule align on cluster (jobid: 92, external: 28882239, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.92.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 167 with external jobid '28882245'.
+Trying to restart job 62.
+Trying to restart job 92.
+Select jobs to execute...
+
+[Mon Dec  6 21:37:43 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/5.read1.fastq, data/input/fastq_merged/5.read2.fastq
+    output: data/input/bam/5.bam
+    jobid: 92
+    wildcards: n=5
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 92 with external jobid '28882246'.
+
+[Mon Dec  6 21:37:43 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/3.read1.fastq, data/input/fastq_merged/3.read2.fastq
+    output: data/input/bam/3.bam
+    jobid: 62
+    wildcards: n=3
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 62 with external jobid '28882247'.
+[Mon Dec  6 21:37:53 2021]
+Error in rule sort_bam:
+    jobid: 106
+    output: data/input/sorted/6.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/6.bam > data/input/sorted/6.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882228
+
+Error executing rule sort_bam on cluster (jobid: 106, external: 28882228, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.106.sh). For error details see the cluster log and the log files of the involved rule(s).
+Trying to restart job 106.
+Select jobs to execute...
+
+[Mon Dec  6 21:37:53 2021]
+rule sort_bam:
+    input: data/input/bam/6.bam
+    output: data/input/sorted/6.bam
+    jobid: 106
+    wildcards: n=6
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:37:53 2021]
+Error in rule sort_bam:
+    jobid: 2
+    output: data/input/sorted/0.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/0.bam > data/input/sorted/0.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882230
+
+Error executing rule sort_bam on cluster (jobid: 2, external: 28882230, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.2.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:37:54 2021]
+Error in rule sort_bam:
+    jobid: 136
+    output: data/input/sorted/8.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/8.bam > data/input/sorted/8.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882231
+
+Error executing rule sort_bam on cluster (jobid: 136, external: 28882231, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.136.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 106 with external jobid '28882249'.
+Trying to restart job 2.
+Trying to restart job 136.
+Select jobs to execute...
+
+[Mon Dec  6 21:37:54 2021]
+rule sort_bam:
+    input: data/input/bam/8.bam
+    output: data/input/sorted/8.bam
+    jobid: 136
+    wildcards: n=8
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:37:54 2021]
+Error in rule sort_bam:
+    jobid: 151
+    output: data/input/sorted/9.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/9.bam > data/input/sorted/9.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882232
+
+Error executing rule sort_bam on cluster (jobid: 151, external: 28882232, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.151.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:37:54 2021]
+Error in rule sort_bam:
+    jobid: 76
+    output: data/input/sorted/4.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/4.bam > data/input/sorted/4.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882233
+
+Error executing rule sort_bam on cluster (jobid: 76, external: 28882233, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.76.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 136 with external jobid '28882250'.
+
+[Mon Dec  6 21:37:54 2021]
+rule sort_bam:
+    input: data/input/bam/0.bam
+    output: data/input/sorted/0.bam
+    jobid: 2
+    wildcards: n=0
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:37:55 2021]
+Error in rule align:
+    jobid: 32
+    output: data/input/bam/1.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/1.read1.fastq data/input/fastq_merged/1.read2.fastq | samtools view -b - > data/input/bam/1.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882234
+
+Error executing rule align on cluster (jobid: 32, external: 28882234, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.32.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 2 with external jobid '28882251'.
+Trying to restart job 151.
+Trying to restart job 76.
+Trying to restart job 32.
+Select jobs to execute...
+[Mon Dec  6 21:37:55 2021]
+Error in rule sort_bam:
+    jobid: 46
+    output: data/input/sorted/2.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/2.bam > data/input/sorted/2.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882235
+
+Error executing rule sort_bam on cluster (jobid: 46, external: 28882235, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.46.sh). For error details see the cluster log and the log files of the involved rule(s).
+
+[Mon Dec  6 21:37:55 2021]
+rule sort_bam:
+    input: data/input/bam/9.bam
+    output: data/input/sorted/9.bam
+    jobid: 151
+    wildcards: n=9
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:37:55 2021]
+Error in rule align:
+    jobid: 122
+    output: data/input/bam/7.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/7.read1.fastq data/input/fastq_merged/7.read2.fastq | samtools view -b - > data/input/bam/7.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882236
+
+Error executing rule align on cluster (jobid: 122, external: 28882236, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.122.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 151 with external jobid '28882252'.
+
+[Mon Dec  6 21:37:56 2021]
+rule sort_bam:
+    input: data/input/bam/4.bam
+    output: data/input/sorted/4.bam
+    jobid: 76
+    wildcards: n=4
+    threads: 4
+    resources: tmpdir=/tmp
+
+Submitted job 76 with external jobid '28882253'.
+
+[Mon Dec  6 21:37:56 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/1.read1.fastq, data/input/fastq_merged/1.read2.fastq
+    output: data/input/bam/1.bam
+    jobid: 32
+    wildcards: n=1
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid '28882254'.
+Trying to restart job 46.
+Trying to restart job 122.
+Select jobs to execute...
+
+[Mon Dec  6 21:37:57 2021]
+rule sort_bam:
+    input: data/input/bam/2.bam
+    output: data/input/sorted/2.bam
+    jobid: 46
+    wildcards: n=2
+    threads: 4
+    resources: tmpdir=/tmp
+
+Submitted job 46 with external jobid '28882255'.
+
+[Mon Dec  6 21:37:58 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/7.read1.fastq, data/input/fastq_merged/7.read2.fastq
+    output: data/input/bam/7.bam
+    jobid: 122
+    wildcards: n=7
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 122 with external jobid '28882256'.
+[Mon Dec  6 21:38:23 2021]
+Error in rule sort_bam:
+    jobid: 106
+    output: data/input/sorted/6.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/6.bam > data/input/sorted/6.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882249
+
+Error executing rule sort_bam on cluster (jobid: 106, external: 28882249, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.106.sh). For error details see the cluster log and the log files of the involved rule(s).
+Trying to restart job 106.
+Select jobs to execute...
+
+[Mon Dec  6 21:38:23 2021]
+rule sort_bam:
+    input: data/input/bam/6.bam
+    output: data/input/sorted/6.bam
+    jobid: 106
+    wildcards: n=6
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:38:23 2021]
+Error in rule sort_bam:
+    jobid: 136
+    output: data/input/sorted/8.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/8.bam > data/input/sorted/8.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882250
+
+Error executing rule sort_bam on cluster (jobid: 136, external: 28882250, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.136.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:38:24 2021]
+Error in rule sort_bam:
+    jobid: 2
+    output: data/input/sorted/0.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/0.bam > data/input/sorted/0.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882251
+
+Error executing rule sort_bam on cluster (jobid: 2, external: 28882251, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.2.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 106 with external jobid '28882260'.
+Trying to restart job 136.
+Trying to restart job 2.
+Select jobs to execute...
+
+[Mon Dec  6 21:38:24 2021]
+rule sort_bam:
+    input: data/input/bam/0.bam
+    output: data/input/sorted/0.bam
+    jobid: 2
+    wildcards: n=0
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:38:24 2021]
+Error in rule sort_bam:
+    jobid: 151
+    output: data/input/sorted/9.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/9.bam > data/input/sorted/9.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882252
+
+Error executing rule sort_bam on cluster (jobid: 151, external: 28882252, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.151.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:38:24 2021]
+Error in rule align:
+    jobid: 167
+    output: data/input/bam/10.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/10.read1.fastq data/input/fastq_merged/10.read2.fastq | samtools view -b - > data/input/bam/10.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882245
+
+Error executing rule align on cluster (jobid: 167, external: 28882245, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.167.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:38:24 2021]
+Error in rule align:
+    jobid: 92
+    output: data/input/bam/5.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/5.read1.fastq data/input/fastq_merged/5.read2.fastq | samtools view -b - > data/input/bam/5.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882246
+
+Error executing rule align on cluster (jobid: 92, external: 28882246, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.92.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 2 with external jobid '28882261'.
+
+[Mon Dec  6 21:38:25 2021]
+rule sort_bam:
+    input: data/input/bam/8.bam
+    output: data/input/sorted/8.bam
+    jobid: 136
+    wildcards: n=8
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:38:25 2021]
+Error in rule align:
+    jobid: 62
+    output: data/input/bam/3.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/3.read1.fastq data/input/fastq_merged/3.read2.fastq | samtools view -b - > data/input/bam/3.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882247
+
+Error executing rule align on cluster (jobid: 62, external: 28882247, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.62.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:38:25 2021]
+Error in rule sort_bam:
+    jobid: 76
+    output: data/input/sorted/4.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/4.bam > data/input/sorted/4.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882253
+
+Error executing rule sort_bam on cluster (jobid: 76, external: 28882253, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.76.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 136 with external jobid '28882262'.
+Trying to restart job 151.
+Trying to restart job 167.
+Trying to restart job 92.
+Trying to restart job 62.
+Trying to restart job 76.
+Select jobs to execute...
+[Mon Dec  6 21:38:25 2021]
+Error in rule align:
+    jobid: 32
+    output: data/input/bam/1.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/1.read1.fastq data/input/fastq_merged/1.read2.fastq | samtools view -b - > data/input/bam/1.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882254
+
+Error executing rule align on cluster (jobid: 32, external: 28882254, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.32.sh). For error details see the cluster log and the log files of the involved rule(s).
+
+[Mon Dec  6 21:38:25 2021]
+rule sort_bam:
+    input: data/input/bam/4.bam
+    output: data/input/sorted/4.bam
+    jobid: 76
+    wildcards: n=4
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 21:38:26 2021]
+Error in rule sort_bam:
+    jobid: 46
+    output: data/input/sorted/2.bam
+    shell:
+        samtools sort -@ 4 data/input/bam/2.bam > data/input/sorted/2.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882255
+
+Error executing rule sort_bam on cluster (jobid: 46, external: 28882255, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.sort_bam.46.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Dec  6 21:38:27 2021]
+Error in rule align:
+    jobid: 122
+    output: data/input/bam/7.bam
+    shell:
+        bwa mem -t 8 data/input/chr1.fa data/input/fastq_merged/7.read1.fastq data/input/fastq_merged/7.read2.fastq | samtools view -b - > data/input/bam/7.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: 28882256
+
+Error executing rule align on cluster (jobid: 122, external: 28882256, jobscript: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/tmp.45cqdivy/snakejob.align.122.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 76 with external jobid '28882263'.
+
+[Mon Dec  6 21:38:27 2021]
+rule sort_bam:
+    input: data/input/bam/9.bam
+    output: data/input/sorted/9.bam
+    jobid: 151
+    wildcards: n=9
+    threads: 4
+    resources: tmpdir=/tmp
+
+Submitted job 151 with external jobid '28882264'.
+
+[Mon Dec  6 21:38:28 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/3.read1.fastq, data/input/fastq_merged/3.read2.fastq
+    output: data/input/bam/3.bam
+    jobid: 62
+    wildcards: n=3
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 62 with external jobid '28882265'.
+
+[Mon Dec  6 21:38:28 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/5.read1.fastq, data/input/fastq_merged/5.read2.fastq
+    output: data/input/bam/5.bam
+    jobid: 92
+    wildcards: n=5
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 92 with external jobid '28882266'.
+
+[Mon Dec  6 21:38:29 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/10.read1.fastq, data/input/fastq_merged/10.read2.fastq
+    output: data/input/bam/10.bam
+    jobid: 167
+    wildcards: n=10
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 167 with external jobid '28882267'.
+Trying to restart job 32.
+Trying to restart job 46.
+Trying to restart job 122.
+Select jobs to execute...
+
+[Mon Dec  6 21:38:30 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/1.read1.fastq, data/input/fastq_merged/1.read2.fastq
+    output: data/input/bam/1.bam
+    jobid: 32
+    wildcards: n=1
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid '28882268'.
+
+[Mon Dec  6 21:38:30 2021]
+rule align:
+    input: data/input/chr1.fa, data/input/chr1.fa.amb, data/input/chr1.fa.ann, data/input/chr1.fa.pac, data/input/chr1.fa.bwt, data/input/chr1.fa.sa, data/input/fastq_merged/7.read1.fastq, data/input/fastq_merged/7.read2.fastq
+    output: data/input/bam/7.bam
+    jobid: 122
+    wildcards: n=7
+    threads: 8
+    resources: tmpdir=/tmp
+
+Submitted job 122 with external jobid '28882269'.
+
+[Mon Dec  6 21:38:31 2021]
+rule sort_bam:
+    input: data/input/bam/2.bam
+    output: data/input/sorted/2.bam
+    jobid: 46
+    wildcards: n=2
+    threads: 4
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+Will exit after finishing currently running jobs.
+Complete log: /oak/stanford/scg/lab_mpsnyder/gerwin/TR_analysis/rashid/lrdn-benchmark/.snakemake/log/2021-12-06T213558.711465.snakemake.log
